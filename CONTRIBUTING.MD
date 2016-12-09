@@ -1,8 +1,5 @@
 # Contributing to Nirn
 
-## Contents
-...
-
 ## Contributing to Nirn
 To contribute to the project, you simply have to follow these simple steps, and then you will have contributed and helped make the project better.
 
