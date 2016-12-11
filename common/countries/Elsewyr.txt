@@ -1,0 +1,24 @@
+# Elsewyr
+graphical_culture = easterngfx
+
+color = { 214 204 159 }
+
+army_names = {
+	"Army"
+}
+
+fleet_names = {
+	"Navy"
+}
+
+leader_names = {
+	"Jeff"
+}
+monarch_names = {
+	"Monarch #0" = 20
+}
+
+ship_names = {
+	Ship
+}
+

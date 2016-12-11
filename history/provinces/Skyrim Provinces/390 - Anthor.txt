@@ -1,0 +1,17 @@
+# Anthor
+owner = S51
+controller = S51
+add_core = S51
+
+culture = nordic
+religion = nordic_r
+
+base_tax = 5
+base_production = 4
+base_manpower = 4
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

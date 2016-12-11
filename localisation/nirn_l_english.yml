@@ -1,0 +1,159 @@
+﻿l_english:
+  # Cultures
+  atmoran_group:0 "Atmoran"
+  atmoran:0 "Atmoran"
+  skaal:0 "Skaal"
+  nordic:0 "Nordic"
+  
+  nedic_group:0 "Nedic"
+  nedic:0 "Nedic"
+  imperial:0 "Imperial"
+  colovian:0 "Colovian"
+  nibenese:0 "Nibenese"
+  breton:0 "Breton"
+  kothringi:0 "Kothringi"
+  ket_keptu:0 "Ket Keptu"
+  reachman:0 "Reachman"
+  
+  yokudan_group:0 "Yokudan"
+  yokudan:0 "Yokudan"
+  crown:0 "Crown"
+  forebear:0 "Forebear"
+  
+  akaviri_group:0 "Akaviri"
+  akaviri:0 "Akaviri"
+  islander:0 "Islander"
+  
+  aldmeri:0 "Aldmeri"
+  aldmer:0 "Aldmer"
+  falmer:0 "Falmer"
+  ayleid:0 "Ayleid"
+  altmer:0 "Altmer"
+  bosmer:0 "Bosmer"
+  maormer:0 "Maormer"
+  direnni:0 "Direnni"
+  
+  velothi:0 "Velothi"
+  chimer:0 "Chimer"
+  dunmer:0 "Dunmer"
+  ashlander:0 "Ashlander"
+  dwemer:0 "Dwemer"
+  
+  orcish:0 "Orcish"
+  wood_orc:0 "Wood Orc"
+  orsimer:0 "Orsimer"
+  
+  saxheel:0 "Argonian"
+  agaceph:0 "Agaceph"
+  archein:0 "Archein"
+  gee_rusleel:0 "Gee-Rusleel"
+  kota_vimleel:0 "Kota-Vimleel"
+  paatru:0 "Paatru"
+  sarpa:0 "Sarpa"
+  tum_taleel:0 "Tum-Taleel"
+  naga:0 "Naga"
+  veskhleel_tzel:0 "Veskhleel-Tzel"
+  wasseek_haleel:0 "Wasseek-Haleel"
+  
+  khajiit:0 "Kha'Jiit"
+  anequinan:0 "Anequinan"
+  pelletinian:0 "Pelletinian"
+  
+  po_tun_group:0 "Po' Tun"
+  po_tun:0 "Po' Tun"
+  ka_po_tun:0 "Ka Po' Tun"
+  
+  tsaesci_group:0 "Tsaesci"
+  tsaesci:0 "Tsaesci"
+  
+  tang_mo_group:0 "Tang Mo"
+  tang_mo:0 "Tang Mo"
+  
+  kamal_group:0 "Kamal"
+  kamal:0 "Kamal"
+  
+  daedra_group:0 "Daedric"
+  daedric:0 "Daedric"
+  
+  lilmothiit_group:0 "Lilmothiit"
+  lilmothiit:0 "Lilmothiit"
+  
+  imga_group:0 "Imga"
+  imga:0 "Imga"
+  
+  sload_group:0 "Sload"
+  sload:0 "Sload"
+  
+  # Religions
+  nordic_rg:0 "Nordic"
+  nordic_r:0 "Nordic"
+  animism_r:0 "Animism"
+  dragon_cult_r:0 "Dragon Cult"
+  way_of_the_voice_r:0 "Way of the Voice"
+  all_maker_r:0 "All Maker"
+  
+  nedic_rg:0 "Nedic"
+  eight_divines_r:0 "Eight Divines"
+  nine_divines_r:0 "Nine Divines"
+  maruhkati_r:0 "Maruhkati"
+  
+  yokudan_rg:0 "Yokudan"
+  alikr_r:0 "Alik'r"
+  satakal_r:0 "Cult of Satakal"
+  
+  aldmeri_rg:0 "Aldmeri"
+  auri_el_r:0 "Auri-El"
+  green_pact_r:0 "Green Pact"
+  pyandonean_r:0 "Pyandonean"
+  
+  tribunal_rg:0 "Tribunal"
+  almsivi_r:0 "Almsivi"
+  nerevarine_r:0 "Nerevarine"
+  
+  khajiit_rg:0 "Kha'Jiit"
+  alkosh_r:0 "Alkosh"
+  riddle_thar_r:0 "Riddle-Thar"
+  
+  daedric_rg:0 "Daedric Cults"
+  azura_r:0 "Cult of Azura"
+  boethiah_r:0 "Cult of Boethiah"
+  clavicus_vile_r:0 "Cult of Clavicus Vile"
+  hermaeus_mora_r:0 "Cult of Hermaeus Mora"
+  hircine_r:0 "Cult of Hircine"
+  jyggalag_r:0 "Cult of Jyggalag"
+  malacath_r:0 "Cult of Malacath"
+  mehrunes_dagon_r:0 "Cult of Mehrunes Dagon"
+  mephala_r:0 "Cult of Mephala"
+  meridia_r:0 "Cult of Meridia"
+  molag_bal_r:0 "Cult of Molag Bal"
+  namira_r:0 "Cult of Namira"
+  nocturnal_r:0 "Cult of Nocturnal"
+  peryite_r:0 "Cult of Peryite"
+  sanguine_r:0 "Cult of Sanguine"
+  sheogorath_r:0 "Cult of Sheogorath"
+  vaermina_r:0 "Cult of Vaermina"
+  ideal_masters_r:0 "Ideal Masters"
+  velothi_r:0 "Velothi"
+  the_old_gods_r:0 "The Old Gods"
+  ayleidon_r:0 "Ayleidon"
+  hagraven_r:0 "Hagraven Cult"
+  
+  void_rg:0 "Void Cults"
+  hist_r:0 "Hist"
+  sithis_r:0 "Sithis Cult"
+  
+  akaviri_rg:0 "Akaviri"
+  islanders_r:0 "Lost Islanders"
+  dark_whispers_r:0 "The Dark Whisperers"
+  kiai_r:0 "Kiai Warriors"
+  
+  tsaesci_rg:0 "Tsaesci"
+  storm_caller_r:0 "Storm Caller"
+  temporal_magic_r:0 "Temporal Magic"
+  
+  kamal_rg:0 "Kamal"
+  ice_lords_r:0 "Ice Lords"
+  
+  tang_mo_rg:0 "Tang Mo"
+  monkey_isles_r:0 "Monkey Isles"
+  

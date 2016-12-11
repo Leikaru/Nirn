@@ -1,0 +1,824 @@
+country_decisions = {
+
+	form_solitude = {
+		is_major = yes
+		
+		potential = {
+			government = monarchy
+			primary_culture = nordic
+			
+			capital_scope = {
+				region = haafingar_region
+			}
+			
+			NOT = {
+				exists = S01
+				tag = S02
+				tag = S03
+				tag = S04
+				tag = S05
+				tag = S06
+				tag = S07
+				tag = S08
+				tag = S09
+				tag = S10
+				tag = S11
+				tag = S12
+				tag = S13
+				tag = S14
+				tag = HRO
+				tag = SKY
+			}
+		}
+		
+		allow = {
+			is_subject = no
+			owns_core_province = 232 # Solitude
+		}
+		
+		effect = {
+			change_tag = S01
+			set_capital = 232
+			
+			if = {
+				limit = {
+					NOT = { government_rank = 3 }
+				}
+				set_government_rank = 3
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	form_markarth = {
+		is_major = yes
+		
+		potential = {
+			government = monarchy
+			primary_culture = reachman
+			
+			capital_scope = {
+				region = the_reach_region
+			}
+			
+			NOT = {
+				tag = S01
+				exists = S02
+				tag = S03
+				tag = S04
+				tag = S05
+				tag = S06
+				tag = S07
+				tag = S08
+				tag = S09
+				tag = S10
+				tag = S11
+				tag = S12
+				tag = S13
+				tag = S14
+				tag = HRO
+				tag = SKY
+			}
+		}
+		
+		allow = {
+			is_subject = no
+			owns_core_province = 247 # Markarth
+		}
+		
+		effect = {
+			change_tag = S02
+			set_capital = 247
+			
+			if = {
+				limit = {
+					NOT = { government_rank = 3 }
+				}
+				set_government_rank = 3
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	form_morthal = {
+		is_major = yes
+		
+		potential = {
+			government = monarchy
+			primary_culture = nordic
+			
+			capital_scope = {
+				region = hjaalmarch_region
+			}
+			
+			NOT = {
+				tag = S01
+				tag = S02
+				exists = S03
+				tag = S04
+				tag = S05
+				tag = S06
+				tag = S07
+				tag = S08
+				tag = S09
+				tag = S10
+				tag = S11
+				tag = S12
+				tag = S13
+				tag = S14
+				tag = HRO
+				tag = SKY
+			}
+		}
+		
+		allow = {
+			is_subject = no
+			owns_core_province = 276 # Morthal
+		}
+		
+		effect = {
+			change_tag = S03
+			set_capital = 276
+			
+			if = {
+				limit = {
+					NOT = { government_rank = 3 }
+				}
+				set_government_rank = 3
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	form_whiterun = {
+		is_major = yes
+		
+		potential = {
+			government = monarchy
+			primary_culture = nordic
+			
+			capital_scope = {
+				region = whiterun_region
+			}
+			
+			NOT = {
+				tag = S01
+				tag = S02
+				tag = S03
+				exists = S04
+				tag = S05
+				tag = S06
+				tag = S07
+				tag = S08
+				tag = S09
+				tag = S10
+				tag = S11
+				tag = S12
+				tag = S13
+				tag = S14
+				tag = HRO
+				tag = SKY
+			}
+		}
+		
+		allow = {
+			is_subject = no
+			owns_core_province = 289 # Whiterun
+		}
+		
+		effect = {
+			change_tag = S04
+			set_capital = 289
+			
+			if = {
+				limit = {
+					NOT = { government_rank = 3 }
+				}
+				set_government_rank = 3
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	form_falkreath = {
+		is_major = yes
+		
+		potential = {
+			government = monarchy
+			primary_culture = nordic
+			
+			capital_scope = {
+				region = falkreath_region
+			}
+			
+			NOT = {
+				tag = S01
+				tag = S02
+				tag = S03
+				tag = S04
+				exists = S05
+				tag = S06
+				tag = S07
+				tag = S08
+				tag = S09
+				tag = S10
+				tag = S11
+				tag = S12
+				tag = S13
+				tag = S14
+				tag = HRO
+				tag = SKY
+			}
+		}
+		
+		allow = {
+			is_subject = no
+			owns_core_province = 310 # Falkreath
+		}
+		
+		effect = {
+			change_tag = S05
+			set_capital = 310
+			
+			if = {
+				limit = {
+					NOT = { government_rank = 3 }
+				}
+				set_government_rank = 3
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	form_riften = {
+		is_major = yes
+		
+		potential = {
+			government = monarchy
+			primary_culture = nordic
+			
+			capital_scope = {
+				region = the_rift_region
+			}
+			
+			NOT = {
+				tag = S01
+				tag = S02
+				tag = S03
+				tag = S04
+				tag = S05
+				exists = S06
+				tag = S07
+				tag = S08
+				tag = S09
+				tag = S10
+				tag = S11
+				tag = S12
+				tag = S13
+				tag = S14
+				tag = HRO
+				tag = SKY
+			}
+		}
+		
+		allow = {
+			is_subject = no
+			owns_core_province = 331 # Riften
+		}
+		
+		effect = {
+			change_tag = S06
+			set_capital = 331
+			
+			if = {
+				limit = {
+					NOT = { government_rank = 3 }
+				}
+				set_government_rank = 3
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	form_windhelm = {
+		is_major = yes
+		
+		potential = {
+			government = monarchy
+			primary_culture = nordic
+			
+			capital_scope = {
+				region = eastmarch_region
+			}
+			
+			NOT = {
+				tag = S01
+				tag = S02
+				tag = S03
+				tag = S04
+				tag = S05
+				tag = S06
+				exists = S07
+				tag = S08
+				tag = S09
+				tag = S10
+				tag = S11
+				tag = S12
+				tag = S13
+				tag = S14
+				tag = HRO
+				tag = SKY
+			}
+		}
+		
+		allow = {
+			is_subject = no
+			owns_core_province = 358 # Windhelm
+		}
+		
+		effect = {
+			change_tag = S07
+			set_capital = 358
+			
+			if = {
+				limit = {
+					NOT = { government_rank = 3 }
+				}
+				set_government_rank = 3
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	form_winterhold = {
+		is_major = yes
+		
+		potential = {
+			government = monarchy
+			primary_culture = nordic
+			
+			capital_scope = {
+				region = winterhold_region
+			}
+			
+			NOT = {
+				tag = S01
+				tag = S02
+				tag = S03
+				tag = S04
+				tag = S05
+				tag = S06
+				tag = S07
+				exists = S08
+				tag = S09
+				tag = S10
+				tag = S11
+				tag = S12
+				tag = S13
+				tag = S14
+				tag = HRO
+				tag = SKY
+			}
+		}
+		
+		allow = {
+			is_subject = no
+			owns_core_province = 382 # Winterhold
+		}
+		
+		effect = {
+			change_tag = S08
+			set_capital = 382
+			
+			if = {
+				limit = {
+					NOT = { government_rank = 3 }
+				}
+				set_government_rank = 3
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	form_dawnstar = {
+		is_major = yes
+		
+		potential = {
+			government = monarchy
+			primary_culture = nordic
+			
+			capital_scope = {
+				region = haafingar_region
+			}
+			
+			NOT = {
+				tag = S01
+				tag = S02
+				tag = S03
+				tag = S04
+				tag = S05
+				tag = S06
+				tag = S07
+				tag = S08
+				exists = S09
+				tag = S10
+				tag = S11
+				tag = S12
+				tag = S13
+				tag = S14
+				tag = HRO
+				tag = SKY
+			}
+		}
+		
+		allow = {
+			is_subject = no
+			owns_core_province = 402 # Dawnstar
+		}
+		
+		effect = {
+			change_tag = S09
+			set_capital = 402
+			
+			if = {
+				limit = {
+					NOT = { government_rank = 3 }
+				}
+				set_government_rank = 3
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	unite_haafingar = {
+		is_major = yes
+		
+		potential = {
+			tag = S01
+			government = monarchy
+			NOT = { exists = S10 }
+			NOT = { has_country_flag = haafingar_united }
+		}
+		
+		allow = {
+			is_subject = no
+			capital = 232 # Solitude
+			haafingar_region = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+		
+		effect = {
+			change_tag = S10 # Become Haafingar
+			set_government_rank = 4
+			add_stability = 1
+			add_prestige = 20
+			
+			232 = {
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
+			}
+			
+			set_country_flag = haafingar_united
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	unite_the_reach = {
+		is_major = yes
+		
+		potential = {
+			tag = S02
+			government = monarchy
+			NOT = { exists = S11 }
+			NOT = { has_country_flag = the_reach_united }
+		}
+		
+		allow = {
+			is_subject = no
+			capital = 247 # Markarth
+			the_reach_region = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+		
+		effect = {
+			change_tag = S11 # Become The Reach
+			set_government_rank = 4
+			add_stability = 1
+			add_prestige = 20
+			
+			247 = {
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
+			}
+			
+			set_country_flag = the_reach_united
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	unite_hjaalmarch = {
+		is_major = yes
+		
+		potential = {
+			tag = S03
+			government = monarchy
+			NOT = { exists = S12 }
+			NOT = { has_country_flag = hjaalmarch_united }
+		}
+		
+		allow = {
+			is_subject = no
+			capital = 276 # Morthal
+			haafingar_region = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+		
+		effect = {
+			change_tag = S12 # Become Hjaalmarch
+			set_government_rank = 4
+			add_stability = 1
+			add_prestige = 20
+			
+			276 = {
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
+			}
+			
+			set_country_flag = hjaalmarch_united
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	unite_whiterun = {
+		is_major = yes
+		
+		potential = {
+			tag = S04
+			government = monarchy
+			NOT = { has_country_flag = whiterun_united }
+		}
+		
+		allow = {
+			is_subject = no
+			capital = 289 # Whiterun
+			haafingar_region = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+		
+		effect = {
+			set_government_rank = 4
+			add_stability = 1
+			add_prestige = 20
+			
+			289 = {
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
+			}
+			
+			set_country_flag = whiterun_united
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	unite_falkreath = {
+		is_major = yes
+		
+		potential = {
+			tag = S05
+			government = monarchy
+			NOT = { has_country_flag = falkreath_united }
+		}
+		
+		allow = {
+			is_subject = no
+			capital = 310 # Falkreath
+			haafingar_region = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+		
+		effect = {
+			set_government_rank = 4
+			add_stability = 1
+			add_prestige = 20
+			
+			310 = {
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
+			}
+			
+			set_country_flag = falkreath_united
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	unite_the_rift = {
+		is_major = yes
+		
+		potential = {
+			tag = S06
+			government = monarchy
+			NOT = { exists = S13 }
+			NOT = { has_country_flag = the_rift_united }
+		}
+		
+		allow = {
+			is_subject = no
+			capital = 331 # Riften
+			the_rift_region = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+		
+		effect = {
+			change_tag = S13 # Become The Rift
+			set_government_rank = 4
+			add_stability = 1
+			add_prestige = 20
+			
+			331 = {
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
+			}
+			
+			set_country_flag = haafingar_united
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	unite_eastmarch = {
+		is_major = yes
+		
+		potential = {
+			tag = S07
+			government = monarchy
+			NOT = { exists = S14 }
+			NOT = { has_country_flag = eastmarch_united }
+		}
+		
+		allow = {
+			is_subject = no
+			capital = 358 # Windhelm
+			eastmarch_region = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+		
+		effect = {
+			change_tag = S14 # Become Eastmarch
+			set_government_rank = 4
+			add_stability = 1
+			add_prestige = 20
+			
+			358 = {
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
+			}
+			
+			set_country_flag = eastmarch_united
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	unite_winterhold = {
+		is_major = yes
+		
+		potential = {
+			tag = S08
+			government = monarchy
+			NOT = { has_country_flag = winterhold_united }
+		}
+		
+		allow = {
+			is_subject = no
+			capital = 382 # Winterhold
+			winterhold_region = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+		
+		effect = {
+			set_government_rank = 4
+			add_stability = 1
+			add_prestige = 20
+			
+			382 = {
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
+			}
+			
+			set_country_flag = winterhold_united
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	unite_the_pale = {
+		is_major = yes
+		
+		potential = {
+			tag = S09
+			government = monarchy
+			NOT = { exists = S15 }
+			NOT = { has_country_flag = the_pale_united }
+		}
+		
+		allow = {
+			is_subject = no
+			capital = 402 # Dawnstar
+			haafingar_region = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+		
+		effect = {
+			change_tag = S15 # Become The Pale
+			set_government_rank = 4
+			add_stability = 1
+			add_prestige = 20
+			
+			402 = {
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
+			}
+			
+			set_country_flag = the_pale_united
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

@@ -1,0 +1,126 @@
+# Fallback defaults
+# Will pick the first valid one it finds in list
+
+default_monarchy = {
+	rank = {
+		1 = COUNTY
+		2 = MINOR_DUCHY
+		3 = DUCHY
+		4 = PETTY_KINGDOM
+		5 = HIGH_KINGDOM
+		6 = EMPIRE
+		7 = GRAND_EMPIRE
+	}	
+	
+	ruler_male = {
+		1 = COUNT
+		2 = DUKE
+		3 = DUKE
+		4 = KING
+		5 = HIGH_KING
+		6 = EMPEROR
+		7 = EMPEROR
+	}
+	
+	ruler_female = {
+		1 = COUNTESS
+		2 = DUCHESS
+		3 = DUCHESS
+		4 = QUEEN	
+		5 = HIGH_QUEEN
+		6 = EMPRESS
+		7 = EMPRESS
+	}
+	
+	consort_male  = {
+		1 = PRINCE_CONSORT
+		2 = PRINCE_CONSORT
+		3 = PRINCE_CONSORT
+		4 = PRINCE_CONSORT
+		5 = PRINCE_CONSORT
+		6 = PRINCE_CONSORT
+		7 = PRINCE_CONSORT
+	}
+	
+	consort_female = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = QUEEN_CONSORT
+		5 = QUEEN_CONSORT
+		6 = EMPRESS_CONSORT
+		7 = EMPRESS_CONSORT
+	}
+	
+	heir_male = {
+		1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+	}
+	
+	heir_female = {
+		1 = HEIR
+		2 = HEIR	
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+	}
+	
+	trigger = {
+		government = monarchy
+	}
+}
+
+default_republic = {
+	rank = {
+		1 = REPUBLIC
+		2 = GRAND_REPUBLIC
+		3 = GREAT_REPUBLIC
+	}
+	
+	ruler_male = {
+		1 = CONSUL
+		2 = GRAND_CONSUL
+		3 = GREAT_CONSUL
+	}
+	
+	ruler_female = {
+		1 = CONSULESS
+		2 = GRAND_CONSULESS
+		3 = GREAT_CONSULESS
+	}
+	
+	trigger = {
+		government = republic
+	}
+}
+
+default_theocracy = {
+	rank = {
+		1 = BISHOPRIC
+		2 = ARCHBISHOPRIC
+		3 = PATRIARCHATE
+	}
+	
+	ruler_male = {
+		1 = BISHOP
+		2 = ARCHBISHOP
+		3 = PATRIARCH
+	}
+	
+	ruler_female = {
+		1 = BISHOP_fem
+		2 = ARCHBISHOP_fem
+		3 = MATRIARCH
+	}
+	
+	trigger = {
+		government = theocracy
+	}
+}

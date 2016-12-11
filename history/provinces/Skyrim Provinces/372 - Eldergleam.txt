@@ -1,0 +1,17 @@
+# Eldergleam
+owner = S44
+controller = S44
+add_core = S44
+
+culture = nordic
+religion = eight_divines_r
+
+base_tax = 2
+base_production = 1
+base_manpower = 2
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

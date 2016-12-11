@@ -1,0 +1,32 @@
+bookmark =
+{
+	name = "INTERREGNUM_NAME"
+	desc = "INTERREGNUM_DESC"
+	date = 3360.1.1
+	
+	center = 1
+	default = yes
+	
+	# =====================
+	# Interesting Nations
+	# =====================
+	# Skyrim: Solitude, Windhelm
+	# High Rock: Daggerfall
+	# Cyrodiil: Nibenay, Colovian Estates
+	# Valenwood: Falinesti
+	# Elsewyr: Elsewyr
+	# country = S01
+
+	
+#	effect = {
+#		#Country 1
+#		SWE = {
+#			add_stability = 4
+#		}
+#		
+#		#Province 1
+#		1 = {
+#			add_base_tax = 5
+#		}
+#	}
+}

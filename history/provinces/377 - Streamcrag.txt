@@ -1,0 +1,17 @@
+# Streamcrag
+owner = S45
+controller = S45
+add_core = S45
+
+culture = nordic
+religion = eight_divines_r
+
+base_tax = 2
+base_production = 1
+base_manpower = 1
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

@@ -1,0 +1,17 @@
+# Crowhaven
+owner = I20
+controller = I20
+add_core = I20
+
+culture = colovian
+religion = eight_divines_r
+
+base_tax = 5
+base_production = 5
+base_manpower = 5
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

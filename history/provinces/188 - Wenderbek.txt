@@ -1,0 +1,17 @@
+# Wenderbek
+owner = I39
+controller = I39
+add_core = I39
+
+culture = nibenese
+religion = eight_divines_r
+
+base_tax = 2
+base_production = 1
+base_manpower = 2
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

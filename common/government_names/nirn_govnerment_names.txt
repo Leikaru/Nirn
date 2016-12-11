@@ -1,0 +1,76 @@
+nordic_monarchy = {
+	rank = {
+		1 = COUNTY
+		2 = PETTY_JARLDOM
+		3 = MINOR_JARLDOM
+		4 = JARLDOM
+		5 = HIGH_KINGDOM
+		6 = EMPIRE
+		7 = GRAND_EMPIRE
+	}
+	
+	ruler_male = {
+		1 = COUNT
+		2 = JARL
+		3 = JARL
+		4 = JARL
+		5 = HIGH_KING
+		6 = EMPEROR
+		7 = EMPEROR
+	}
+	
+	ruler_female = {
+		1 = COUNTESS
+		2 = JARL
+		3 = JARL
+		4 = JARL
+		5 = HIGH_QUEEN
+		6 = EMPRESS
+		7 = EMPRESS
+	}
+	
+	consort_male = {
+		1 = PRINCE_CONSORT
+		2 = PRINCE_CONSORT
+		3 = PRINCE_CONSORT
+		4 = PRINCE_CONSORT
+		5 = PRINCE_CONSORT
+		6 = PRINCE_CONSORT
+		7 = PRINCE_CONSORT
+	}
+	
+	consort_female = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = QUEEN_CONSORT
+		6 = EMPRESS_CONSORT
+		7 = EMPRESS_CONSORT
+	}
+	
+	heir_male = {
+		1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+	}
+	
+	heir_female = {
+		1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+	}
+	
+	trigger = {
+		government = monarchy
+		primary_culture = nordic
+	}
+}

@@ -1,0 +1,17 @@
+# Anvil
+owner = I02
+controller = I02
+add_core = I02
+
+culture = colovian
+religion = eight_divines_r
+
+base_tax = 10
+base_production = 7
+base_manpower = 8
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

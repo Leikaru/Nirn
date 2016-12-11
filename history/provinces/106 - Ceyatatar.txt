@@ -1,0 +1,17 @@
+# Ceyatatar
+owner = I30
+controller = I30
+add_core = I30
+
+culture = colovian
+religion = eight_divines_r
+
+base_tax = 3
+base_production = 3
+base_manpower = 2
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

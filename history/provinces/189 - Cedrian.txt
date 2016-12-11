@@ -1,0 +1,17 @@
+# Cedrian
+owner = I40
+controller = I40
+add_core = I40
+
+culture = nibenese
+religion = eight_divines_r
+
+base_tax = 5
+base_production = 4
+base_manpower = 6
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

@@ -1,0 +1,17 @@
+# Haemar
+owner = S33
+controller = S33
+add_core = S33
+
+culture = nordic
+religion = eight_divines_r
+
+base_tax = 1
+base_production = 2
+base_manpower = 1
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

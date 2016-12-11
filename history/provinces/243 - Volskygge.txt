@@ -1,0 +1,17 @@
+# Volskygge
+owner = S18
+controller = S18
+add_core = S18
+
+culture = nordic
+religion = eight_divines_r
+
+base_tax = 4
+base_production = 3
+base_manpower = 5
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

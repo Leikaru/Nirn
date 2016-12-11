@@ -1,0 +1,17 @@
+# Shearpoint
+owner = S54
+controller = S54
+add_core = S54
+
+culture = nordic
+religion = nordic_r
+
+base_tax = 4
+base_production = 3
+base_manpower = 5
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

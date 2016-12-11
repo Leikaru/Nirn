@@ -1,0 +1,17 @@
+# Muck Valley
+owner = I16
+controller = I16
+add_core = I16
+
+culture = imperial
+religion = eight_divines_r
+
+base_tax = 2
+base_production = 1
+base_manpower = 1
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

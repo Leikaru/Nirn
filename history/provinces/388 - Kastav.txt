@@ -1,0 +1,17 @@
+# Kastav
+owner = S51
+controller = S51
+add_core = S51
+
+culture = nordic
+religion = nordic_r
+
+base_tax = 4
+base_production = 3
+base_manpower = 3
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

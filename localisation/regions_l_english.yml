@@ -1,0 +1,180 @@
+﻿l_english:
+  # Continents
+  tamriel:0 "Tamriel"
+  atmora:0 "Atmora"
+  yokuda:0 "Yokuda"
+  akavir:0 "Akavir"
+  
+  # CYRODIIL
+  cyrodiil_superregion:0 "Cyrodiil"
+  skyrim_superregion:0 "Skyrim"
+  
+  # Rumare (Central Cyrodiil)
+  rumare_region:0 "Rumare"
+  rumare_area:0 "Rumare"
+  chalman_area:0 "Chalman"
+  bleakers_way_area:0 "Bleaker's Way"
+  urasek_area:0 "Urasek"
+  magia_area:0 "Magia"
+  sejanus_area:0 "Sejanus"
+  nikel_area:0 "Nikel"
+  virtue_area:0 "Virtue"
+  pells_gate_area:0 "Pell's Gate"
+  alessia_area:0 "Alessia"
+  
+  # Anvil
+  anvil_region:0 "Anvil"
+  anvil_area:0 "Anvil"
+  crowhaven_area:0 "Crowhaven"
+  sutch_area:0 "Sutch"
+  wariel_area:0 "Wariel"
+  strand_area:0 "Strand"
+  hastrel_area:0 "Hastrel"
+  
+  # Kvatch
+  kvatch_region:0 "Kvatch"
+  kvatch_area:0 "Kvatch"
+  istirus_area:0 "Istirus"
+  linchal_area:0 "Linchal"
+  shardrock_area:0 "Shardrock"
+  varondo_area:0 "Varondo"
+  dirich_area:0 "Dirich"
+  ontus_area:0 "Ontus"
+  
+  # Skingrad
+  skingrad_region:0 "Skingrad"
+  skingrad_area:0 "Skingrad"
+  blackboot_area:0 "Blackboot"
+  elengylnn_area:0 "Elengylnn"
+  woodhand_area:0 "Woodhand"
+  vlastarus_area:0 "Vlastarus"
+  roebeck_area:0 "Roebeck"
+  
+  # Niben
+  niben_region:0 "Niben"
+  bravil_area:0 "Bravil"
+  harcane_area:0 "Harcane"
+  irony_area:0 "Irony"
+  waters_edge_area:0 "Water's Edge"
+  leyawiin_area:0 "Leyawiin"
+  
+  # Chorrol
+  chorrol_region:0 "Chorrol"
+  chorrol_area:0 "Chorrol"
+  ash_area:0 "Ash"
+  hrotanda_area:0 "Hrotanda"
+  colovian_highlands_area:0 "Colovian Highlands"
+  sancre_tor_area:0 "Sancre Tor"
+  
+  # Bruma
+  bruma_region:0 "Bruma"
+  bruma_area:0 "Bruma"
+  applewatch_area:0 "Applewatch"
+  frostfire_area:0 "Frostfire"
+  frostcrag_area:0 "Frostcrag"
+  
+  # Cheydinhal
+  cheydinhal_region:0 "Cheydinhal"
+  cheydinhal_area:0 "Cheydinhal"
+  arrius_area:0 "Arrius"
+  kings_crest_area:0 "King's Crest"
+  scinia_area:0 "Scinia"
+  
+  # Nibenay
+  nibenay_region:0 "Nibenay"
+  facian_area:0 "Facian"
+  drakelowe_area:0 "Drakelowe"
+  aurus_area:0 "Aurus"
+  flecia_area:0 "Flecia"
+  sundercliff_area:0 "Sundercliff"
+  gold_throat_area:0 "Gold-Throat"
+  redwater_area:0 "Redwater"
+  blackdog_area:0 "Blackdog"
+  
+  # Blackwood
+  blackwood_region:0 "Blackwood"
+  blankenmarch_area:0 "Blankenmarch"
+  blackwood_area:0 "Blackwood"
+  deepscorn_area:0 "Deepscorn"
+  
+  # Haafingar
+  haafingar_region:0 "Haafingar"
+  solitude_area:0 "Solitude"
+  hraggstad_area:0 "Hraggstad"
+  volskygge_area:0 "Volskygge"
+  dragon_bridge_area:0 "Dragon Bridge"
+  
+  # The Reach
+  the_reach_region:0 "The Reach"
+  markarth_area:0 "Markarth"
+  reachwind_area:0 "Reachwind"
+  karthspire_area:0 "Karthspire"
+  sungard_area:0 "Sungard"
+  bleakwind_area:0 "Bleakwind"
+  chillwind_area:0 "Chillwind"
+  dragontooth_area:0 "Dragontooth"
+  karthwasten_area:0 "Karthwasten"
+  
+  # Hjaalmarch
+  hjaalmarch_region:0 "Hjaalmarch"
+  morthal_area:0 "Morthal"
+  snowhawk_area:0 "Snowhawk"
+  eldersblood_area:0 "Eldersblood"
+  skyborn_area:0 "Skyborn"
+  
+  # Whiterun
+  whiterun_region:0 "Whiterun"
+  whiterun_area:0 "Whiterun"
+  valtheim_area:0 "Valtheim"
+  hrothgar_area:0 "Hrothgar"
+  riverwood_area:0 "Riverwood"
+  greymoor_area:0 "Greymoor"
+  rorikstead_area:0 "Rorikstead"
+  
+  # Falkreath
+  falkreath_region:0 "Falkreath"
+  falkreath_area:0 "Falkreath"
+  neugrad_area:0 "Neugrad"
+  helgen_area:0 "Helgen"
+  brittleshin_area:0 "Brittleshin"
+  shriekwind_area:0 "Shriekwind"
+  sunderstone_area:0 "Sunderstone"
+  
+  # The Rift
+  the_rift_region:0 "The Rift"
+  riften_area:0 "Riften"
+  angarvunde_area:0 "Angarvunde"
+  greenwall_area:0 "Greenwall"
+  arcwind_area:0 "Arcwind"
+  ivarstead_area:0 "Ivarstead"
+  nilheim_area:0 "Nilheim"
+  shors_stone_area:0 "Shor's Stone"
+  
+  # Eastmarch
+  eastmarch_region:0 "Eastmarch"
+  windhelm_area:0 "Windhelm"
+  morvunskar_area:0 "Morvunskar"
+  amol_area:0 "Amol"
+  mistwatch_area:0 "Mistwatch"
+  ansilvund_area:0 "Ansilvund"
+  kynesgrove_area:0 "Kynesgrove"
+  
+  # Winterhold
+  winterhold_region:0 "Winterhold"
+  winterhold_area:0 "Winterhold"
+  snowveil_area:0 "Snowveil"
+  kastav_area:0 "Kastav"
+  ironbind_area:0 "Ironbind"
+  saarthal_area:0 "Saarthal"
+  
+  # The Pale
+  the_pale_region:0 "The Pale"
+  dawnstar_area:0 "Dawnstar"
+  dunstad_area:0 "Dunstad"
+  korvanjund_area:0 "Korvanjund"
+  shearpoint_area:0 "Shearpoint"
+  
+  # Solstheim
+  solstheim_region:0 "Solstheim"
+  south_solstheim_area:0 "South Solstheim"
+  north_solstheim_area:0 "North Solstheim"

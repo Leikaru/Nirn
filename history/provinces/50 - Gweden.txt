@@ -1,0 +1,17 @@
+# Gweden
+owner = I02
+controller = I02
+add_core = I02
+
+culture = colovian
+religion = eight_divines_r
+
+base_tax = 4
+base_production = 6
+base_manpower = 4
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

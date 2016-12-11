@@ -1,0 +1,17 @@
+# Weynon
+owner = S53
+controller = S53
+add_core = S53
+
+culture = nordic
+religion = nordic_r
+
+base_tax = 1
+base_production = 2
+base_manpower = 1
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

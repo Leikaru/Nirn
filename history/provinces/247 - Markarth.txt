@@ -1,0 +1,17 @@
+# Markarth
+owner = S02
+controller = S02
+add_core = S02
+
+culture = reachman
+religion = the_old_gods_r
+
+base_tax = 6
+base_production = 6
+base_manpower = 11
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

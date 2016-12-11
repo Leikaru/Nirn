@@ -1,0 +1,17 @@
+# Telepe
+owner = 
+controller = 
+add_core = 
+
+culture = Khajiit
+religion = eight_divines_r
+
+base_tax = 2
+base_production = 3
+base_manpower = 1
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

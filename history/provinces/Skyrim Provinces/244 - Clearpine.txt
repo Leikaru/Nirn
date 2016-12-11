@@ -1,0 +1,17 @@
+# Clearpine
+owner = S16
+controller = S16
+add_core = S16
+
+culture = nordic
+religion = eight_divines_r
+
+base_tax = 1
+base_production = 3
+base_manpower = 2
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

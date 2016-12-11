@@ -1,0 +1,17 @@
+# Bthardzam
+owner = S02
+controller = S02
+add_core = S02
+
+culture = reachman
+religion = the_old_gods_r
+
+base_tax = 2
+base_production = 1
+base_manpower = 1
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

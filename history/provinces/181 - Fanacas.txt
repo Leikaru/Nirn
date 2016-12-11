@@ -1,0 +1,17 @@
+# Fanacas
+owner = I44
+controller = I44
+add_core = I44
+
+culture = nibenese
+religion = eight_divines_r
+
+base_tax = 1
+base_production = 3
+base_manpower = 5
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

@@ -1,0 +1,17 @@
+# Niryastare
+owner = I21
+controller = I21
+add_core = I21
+
+culture = colovian
+religion = eight_divines_r
+
+base_tax = 3
+base_production = 2
+base_manpower = 3
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

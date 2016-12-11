@@ -1,0 +1,17 @@
+# Mistwatch
+owner = S45
+controller = S45
+add_core = S45
+
+culture = nordic
+religion = eight_divines_r
+
+base_tax = 4
+base_production = 4
+base_manpower = 4
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

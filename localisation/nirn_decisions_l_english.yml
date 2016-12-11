@@ -1,0 +1,103 @@
+﻿l_english:
+  # Government Rank Decisions
+  nirn_form_minor_duchy_title:0 "Become a Minor Duchy"
+  nirn_form_minor_duchy_desc:0 "Our days as a County are long gone. With our new found status as a more powerful nation than we once were, we can now call ourselves a Minor Duchy!"
+  
+  nirn_form_duchy_title:0 "Become a Duchy"
+  nirn_form_duchy_desc:0 "We have climbed up the ladder, to the highest rank attainable without special measures. We can now officially become a Duchy, and thus a powerful nation known throughout Tamriel!"
+  
+  # Cyrodiil Decisions
+  form_anvil_title:0 "Form Anvil (nation)"
+  form_anvil_desc:0 "We now control Anvil, and with the nation of Anvil no longer existing, perhaps it is now time for us to take that glorious name and make the city our proud home."
+  
+  unite_anvil_title:0 "Unite the Region of Anvil"
+  unite_anvil_desc:0 "As the nation of Anvil, we have finally gained control of all provinces in our region, and so have united our people into one glorious kingdom."
+  
+  form_kvatch_title:0 "Form Kvatch (nation)"
+  form_kvatch_desc:0 "We now control kvatch, and with the nation of Kvatch no longer existing, perhaps it is now time for us to take that glorious name and make the city our proud home."
+  
+  unite_kvatch_title:0 "Unite the Region of Kvatch"
+  unite_kvatch_desc:0 "As the nation of Kvatch, we have finally gained control of all provinces in our region, and so have united our people into one glorious kingdom."
+  
+  form_skingrad_title:0 "Form Skingrad (nation)"
+  form_skingrad_desc:0 "We now control Skingrad, and with the nation of Skingrad no longer existing, perhaps it is now time for us to take that glorious name and make the city our proud home."
+  
+  unite_skingrad_title:0 "Unite the Region of Skingrad"
+  unite_skingrad_desc:0 "As the nation of Skingrad, we have finally gained control of all provinces in our region, and so have united our people into one glorious kingdom."
+  
+  form_bruma_title:0 "Form Bruma (nation)"
+  form_bruma_desc:0 "We now control Bruma, and with the nation of Bruma no longer existing, perhaps it is now time for us to take that glorious name and make the city our proud home."
+  
+  unite_bruma_title:0 "Unite the Region of Bruma"
+  unite_bruma_desc:0 "As the nation of Bruma, we have finally gained control of all provinces in our region, and so have united our people into one glorious kingdom."
+  
+  form_cheydinhal_title:0 "Form Cheydinhal (nation)"
+  form_cheydinhal_desc:0 "We now control Cheydinhal, and with the nation of Cheydinahl no longer existing, perhaps it is now time for us to take that glorious name and make the city our proud home."
+  
+  unite_cheydinhal_title:0 "Unite the Region of Cheydinhal"
+  unite_cheydinhal_desc:0 "As the nation of Cheydinhal, we have finally gained control of all provinces in our region, and so have united our people into one glorious kingdom."
+  
+  form_bravil_title:0 "Form Bravil (nation)"
+  form_bravil_desc:0 "We now control Bravil, and with the nation of Bravil no longer existing, perhaps it is now time for us to take that glorious name and make the city our proud home."
+  
+  form_leyawiin_title:0 "Form Leyawiin (nation)"
+  form_leyawiin_desc:0 "We now control Leyawiin, and with the nation of Leyawiin no longer existing, perhaps it is now time for us to take that glorious name and make the city our proud home."
+  
+  unite_niben_title:0 "Unite the Niben Region"
+  unite_niben_desc:0 "As the ruling nation of one of the 2 major cities within the Niben, we have finally gained control of all provinces in the Niben, and so have united our people into one glorious kingdom."
+  
+  # Skyrim Decisions
+  form_solitude_title:0 "Form Solitude (nation)"
+  form_solitude_desc:0 "We have gained control of the great city of Solitude. As a Nordic nation, we should claim the name for ourselves, and establish ourselves as one of the strongest nations within Skyrim."
+  
+  form_markarth_title:0 "Form Markarth (nation)"
+  form_markarth_desc:0 "We have gained control of the great city of Markarth. Being the proud Reachmen that we are, we should claim the name for ourselves, and establish ourselves as one of the strongest nations within not just Skyrim, but all of Tamriel."
+  
+  form_morthal_title:0 "Form Morthal (nation)"
+  form_morthal_desc:0 "We have gained control of the city of Morthal. As a Nordic nation, we should claim the name for ourselves, and establish ourselves as a more powerful nation within Skyrim."
+  
+  form_whiterun_title:0 "Form Whiterun (nation)"
+  form_whiterun_desc:0 "We have gained control of the great city of Whiterun. As a Nordic nation, we should claim the name for ourselves, and establish ourselves as one of the strongest nations within Skyrim."
+  
+  form_falkreath_title:0 "Form Falkreath (nation)"
+  form_falkreath_desc:0 "We have gained control of the city of Falkreath. As a Nordic nation, we should claim the name for ourselves, and establish ourselves as a more powerful nation within Skyrim."
+  
+  form_riften_title:0 "Form Riften (nation)"
+  form_riften_desc:0 "We have gained control of the great city of Riften. As a Nordic nation, we should claim the name for ourselves, and establish ourselves as one of the strongest nations within Skyrim."
+  
+  form_windhelm_title:0 "Form Windhelm (nation)"
+  form_whiterun_desc:0 "We have gained control of the great city of Windhelm. As a Nordic nation, we should claim the name for ourselves, and establish ourselves as one of the strongest nations within Skyrim."
+  
+  form_winterhold_title:0 "Form Winterhold (nation)"
+  form_winterhold_desc:0 "We have gained control of the great city of Winterhold. As a Nordic nation, we should claim the name for ourselves, and establish ourselves as one of the strongest nations within Skyrim."
+  
+  form_dawnstar_title:0 "Form Dawnstar (nation)"
+  form_dawnstar_desc:0 "We have gained control of the city of Dawnstar. As a Nordic nation, we should claim the name for ourselves, and establish ourselves as a more powerful nation within Skyrim."
+  
+  unite_haafingar_title:0 "Unite Haafingar"
+  unite_haafingar_desc:0 "We have united the our home hold, Haafingar, under our own, single banner, meaning we can now truly call ourselves the Jarldom of Haafingar."
+  
+  unite_the_reach_title:0 "Unite The Reach"
+  unite_the_reach_desc:0 "We have united the our home hold, The Reach, under our own, single banner, meaning we can now truly call ourselves the The Reach."
+  
+  unite_hjaalmarch_title:0 "Unite Hjaalmarch"
+  unite_hjaalmarch_desc:0 "We have united the our home hold, Hjaalmarch, under our own, single banner, meaning we can now truly call ourselves the Jarldom of Hjaalmarch."
+  
+  unite_whiterun_title:0 "Unite Whiterun"
+  unite_whiterun_desc:0 "We have united the our home hold, Whiterun, under our own, single banner, meaning we can now truly call ourselves the Jarldom of Whiterun."
+  
+  unite_falkreath_title:0 "Unite Falkreath"
+  unite_falkreath_desc:0 "We have united the our home hold, Falkreath, under our own, single banner, meaning we can now truly call ourselves the Jarldom of Falkreath."
+  
+  unite_the_rift_title:0 "Unite The Rift"
+  unite_the_rift_desc:0 "We have united the our home hold, The Rift, under our own, single banner, meaning we can now truly call ourselves the Jarldom of The Rift."
+  
+  unite_eastmarch_title:0 "Unite Eastmarch"
+  unite_eastmarch_desc:0 "We have united the our home hold, Eastmarch, under our own, single banner, meaning we can now truly call ourselves the Jarldom of Eastmarch."
+  
+  unite_winterhold_title:0 "Unite Winterhold"
+  unite_winterhold_desc:0 "We have united the our home hold, Winterhold, under our own, single banner, meaning we can now truly call ourselves the Jarldom of Winterhold."
+  
+  unite_the_pale_title:0 "Unite The Pale"
+  unite_the_pale_desc:0 "We have united the our home hold, The Pale, under our own, single banner, meaning we can now truly call ourselves the Jarldom of The Pale."
+  

@@ -1,0 +1,17 @@
+# Eldersblood
+owner = S25
+controller = S25
+add_core = S25
+
+culture = nordic
+religion = nordic_r
+
+base_tax = 4
+base_production = 5
+base_manpower = 4
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

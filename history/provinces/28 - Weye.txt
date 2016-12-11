@@ -1,0 +1,17 @@
+# Weye
+owner = I01
+controller = I01
+add_core = I01
+
+culture = imperial
+religion = eight_divines_r
+
+base_tax = 6
+base_production = 6
+base_manpower = 5
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

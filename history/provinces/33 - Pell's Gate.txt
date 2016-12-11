@@ -1,0 +1,17 @@
+# Pell's Gate
+owner = I12
+controller = I12
+add_core = I12
+
+culture = imperial
+religion = eight_divines_r
+
+base_tax = 6
+base_production = 4
+base_manpower = 7
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

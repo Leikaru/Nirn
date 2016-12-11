@@ -1,0 +1,17 @@
+# Bleakwind
+owner = S21
+controller = S21
+add_core = S21
+
+culture = reachman
+religion = the_old_gods_r
+
+base_tax = 4
+base_production = 3
+base_manpower = 4
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

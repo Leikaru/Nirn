@@ -1,0 +1,17 @@
+# Mongrel's Tooth
+owner = I24
+controller = I24
+add_core = I24
+
+culture = colovian
+religion = eight_divines_r
+
+base_tax = 1
+base_production = 1
+base_manpower = 3
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

@@ -1,0 +1,17 @@
+# Blackboot
+owner = I29
+controller = I29
+add_core = I29
+
+culture = colovian
+religion = eight_divines_r
+
+base_tax = 3
+base_production = 4
+base_manpower = 7
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

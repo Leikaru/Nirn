@@ -1,0 +1,16 @@
+government = feudal_monarchy
+government_rank = 2
+primary_culture = colovian
+religion = eight_divines_r
+technology_group = western
+capital = 99
+
+3340.1.1 = {
+	monarch = {
+		name = "Fred"
+		dynasty = "Septim"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}

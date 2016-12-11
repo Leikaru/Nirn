@@ -1,0 +1,17 @@
+# Urasek
+owner = I15
+controller = I15
+add_core = I15
+
+culture = imperial
+religion = eight_divines_r
+
+base_tax = 4
+base_production = 5
+base_manpower = 3
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+
