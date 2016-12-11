@@ -1,5 +1,5 @@
 name="Nirn - PRE-ALPHA"
-path="mod/Nirn-EU4"
+path="mod/Nirn"
 
 replace_path = "common/bookmarks"
 replace_path = "history/provinces"
