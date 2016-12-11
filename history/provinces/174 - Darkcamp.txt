@@ -1,0 +1,17 @@
+# Darkcamp
+owner = I43
+controller = I43
+add_core = I43
+
+culture = nibenese
+religion = eight_divines_r
+
+base_tax = 3
+base_production = 3
+base_manpower = 1
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

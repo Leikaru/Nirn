@@ -1,0 +1,17 @@
+# Shardrock
+owner = I26
+controller = I26
+add_core = I26
+
+culture = colovian
+religion = eight_divines_r
+
+base_tax = 6
+base_production = 6
+base_manpower = 7
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

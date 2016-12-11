@@ -1,0 +1,17 @@
+# Cropsford
+owner = I19
+controller = I19
+add_core = I19
+
+culture = imperial
+religion = eight_divines_r
+
+base_tax = 5
+base_production = 6
+base_manpower = 5
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

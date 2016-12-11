@@ -1,0 +1,17 @@
+# Leyawiin
+owner = 
+controller = 
+add_core = 
+
+culture = imperial
+religion = eight_divines_r
+
+base_tax = 10
+base_production = 7
+base_manpower = 6
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

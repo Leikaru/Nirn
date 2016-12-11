@@ -1,0 +1,1 @@
+NDefines.NNationDesigner.MAX_GOVERNMENT_RANK = 4		-- Can be a Petty Kingdom

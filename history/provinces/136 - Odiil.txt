@@ -1,0 +1,17 @@
+# Odiil
+owner = I10
+controller = I10
+add_core = I10
+
+culture = colovian
+religion = eight_divines_r
+
+base_tax = 3
+base_production = 6
+base_manpower = 5
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

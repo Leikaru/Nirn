@@ -1,0 +1,17 @@
+# Moesring
+owner = S63
+controller = S63
+add_core = S63
+
+culture = skaal
+religion = all_maker_r
+
+base_tax = 2
+base_production = 3
+base_manpower = 3
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

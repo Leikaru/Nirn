@@ -1,0 +1,17 @@
+# Charcove
+owner = I12
+controller = I12
+add_core = I12
+
+culture = imperial
+religion = eight_divines_r
+
+base_tax = 1
+base_production = 2
+base_manpower = 1
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

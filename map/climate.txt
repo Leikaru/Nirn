@@ -1,0 +1,26 @@
+# Valenwood, Elsewyr, Argonia
+tropical = {
+}
+
+# Southern Elsewyr, Alik'r, Yokuda
+arid = {
+}
+
+# Atmora, Northern Kamal, Northern Skyrim
+arctic = {
+}
+
+# Southern High Rock, Morrowind, Most of Cyrodiil
+mild_winter = {
+}
+
+# Central & Southern Skyrim, Northern High Rock, Northern Morrowind, Jerall & Velothi Mountains
+normal_winter = {
+}
+
+# Northern Skyrim, Extreme North High Rock
+severe_winter = {
+}
+
+impassable = {
+}

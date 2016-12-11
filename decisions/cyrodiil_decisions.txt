@@ -1,0 +1,576 @@
+country_decisions = {
+	
+	##############
+	# ANVIL
+	##############	
+	form_anvil = {
+		major = yes
+		
+		potential = {
+			government = monarchy
+			
+			capital_scope = {
+				region = anvil_region
+			}
+			
+			NOT = {
+				tag = I01
+				exists = I02
+				tag = I03
+				tag = I04
+				tag = I05
+				tag = I06
+				tag = I07
+				tag = I08
+				tag = I09
+				tag = I10
+				tag = I11
+			}
+		}
+		
+		allow = {
+			owns_core_province = 41		# Own Anvil when Anvil doesn't exist
+		}
+		
+		effect = {
+			change_tag = I02
+			set_capital = 41
+
+			if = {
+				limit = {
+					NOT = { government_rank = 3 }
+				}
+				set_government_rank = 3    # Set government rank to Duchy
+			}
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	unite_anvil = {
+		major = yes
+		
+		potential = {
+			tag = I02
+			government = monarchy
+			
+			NOT = { has_country_flag = anvil_united }
+		}
+		
+		allow = {
+			anvil_region = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+		
+		effect = {
+			set_government_rank = 4
+			
+			41 = {
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
+			}
+			
+			set_country_flag = anvil_united
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	##############
+	# KVATCH
+	##############
+	form_kvatch = {
+		major = yes
+		
+		potential = {
+			government = monarchy
+			
+			capital_scope = {
+				region = kvatch_region
+			}
+			
+			NOT = {
+				tag = I01
+				tag = I02
+				exists = I03
+				tag = I04
+				tag = I05
+				tag = I06
+				tag = I07
+				tag = I08
+				tag = I09
+				tag = I10
+				tag = I11
+			}
+		}
+		
+		allow = {
+			owns_core_province = 65
+		}
+		
+		effect = {
+			change_tag = I03
+			set_capital = 65
+
+			if = {
+				limit = {
+					NOT = { government_rank = 3 }
+				}
+				set_government_rank = 3    # Set government rank to Duchy
+			}
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	unite_kvatch = {
+		major = yes
+		
+		potential = {
+			tag = I03
+			government = monarchy
+			
+			NOT = { has_country_flag = kvatch_united }
+		}
+		
+		allow = {
+			kvatch_region = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+		
+		effect = {
+			set_government_rank = 4
+			
+			65 = {
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
+			}
+			
+			set_country_flag = kvatch_united
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	##############
+	# SKINGRAD
+	##############
+	form_skingrad = {
+		major = yes
+		
+		potential = {
+			government = monarchy
+			
+			capital_scope = {
+				region = skingrad_region
+			}
+			
+			NOT = {
+				tag = I01
+				tag = I02
+				tag = I03
+				exists = I04
+				tag = I05
+				tag = I06
+				tag = I07
+				tag = I08
+				tag = I09
+				tag = I10
+				tag = I11
+			}
+		}
+		
+		allow = {
+			owns_core_province = 91
+		}
+		
+		effect = {
+			change_tag = I04
+			set_capital = 91
+
+			if = {
+				limit = {
+					NOT = { government_rank = 3 }
+				}
+				set_government_rank = 3    # Set government rank to Duchy
+			}
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	unite_skingrad = {
+		major = yes
+		
+		potential = {
+			tag = I04
+			government = monarchy
+			
+			NOT = { has_country_flag = skingrad_united }
+		}
+		
+		allow = {
+			skingrad_region = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+		
+		effect = {
+			set_government_rank = 4
+			
+			91 = {
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
+			}
+			
+			set_country_flag = skingrad_united
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	##############
+	# BRUMA
+	##############
+	form_bruma = {
+		major = yes
+		
+		potential = {
+			government = monarchy
+			
+			capital_scope = {
+				region = bruma_region
+			}
+			
+			NOT = {
+				tag = I01
+				tag = I02
+				tag = I03
+				tag = I04
+				exists = I05
+				tag = I06
+				tag = I07
+				tag = I08
+				tag = I09
+				tag = I10
+				tag = I11
+			}
+		}
+		
+		allow = {
+			owns_core_province = 154
+		}
+		
+		effect = {
+			change_tag = I05
+			set_capital = 154
+
+			if = {
+				limit = {
+					NOT = { government_rank = 3 }
+				}
+				set_government_rank = 3    # Set government rank to Duchy
+			}
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	unite_bruma = {
+		major = yes
+		
+		potential = {
+			tag = I05
+			government = monarchy
+			
+			NOT = { has_country_flag = bruma_united }
+		}
+		
+		allow = {
+			bruma_region = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+		
+		effect = {
+			set_government_rank = 4
+			
+			154 = {
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
+			}
+			
+			set_country_flag = bruma_united
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	##############
+	# NIBEN
+	##############
+	form_bravil = {
+		major = yes
+		
+		potential = {
+			government = monarchy
+			
+			capital_scope = {
+				region = niben_region
+			}
+			
+			NOT = {
+				tag = I01
+				tag = I02
+				tag = I03
+				tag = I04
+				tag = I05
+				tag = I06
+				exists = I07
+				tag = I08
+				tag = I09
+				tag = I10
+				tag = I11
+			}
+		}
+		
+		allow = {
+			owns_core_province = 114
+		}
+		
+		effect = {
+			change_tag = I07
+			set_capital = 114
+
+			if = {
+				limit = {
+					NOT = { government_rank = 3 }
+				}
+				set_government_rank = 3    # Set government rank to Duchy
+			}
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	form_leyawiin = {
+		major = yes
+		
+		potential = {
+			government = monarchy
+			
+			capital_scope = {
+				region = niben_region
+			}
+			
+			NOT = {
+				tag = I01
+				tag = I02
+				tag = I03
+				tag = I04
+				tag = I05
+				tag = I06
+				tag = I07
+				exists = I08
+				tag = I09
+				tag = I10
+				tag = I11
+			}
+		}
+		
+		allow = {
+			owns_core_province = 115
+		}
+		
+		effect = {
+			change_tag = I08
+			set_capital = 115
+
+			if = {
+				limit = {
+					NOT = { government_rank = 3 }
+				}
+				set_government_rank = 3    # Set government rank to Duchy
+			}
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	unite_niben = {
+		major = yes
+		
+		potential = {
+			OR = {
+				tag = I07
+				tag = I08
+			}
+			government = monarchy
+			
+			NOT = { has_country_flag = niben_united }
+		}
+		
+		allow = {
+			niben_region = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+		
+		effect = {
+			set_government_rank = 4
+			
+			if = {
+				limit = {
+					capital = 114
+				}
+				
+				114 = {
+					add_base_tax = 1
+					add_base_production = 1
+					add_base_manpower = 1
+				}
+			}
+			
+			if = {
+				limit = {
+					capital = 115
+				}
+				
+				115 = {
+					add_base_tax = 1
+					add_base_production = 1
+					add_base_manpower = 1
+				}
+			}
+			
+			set_country_flag = niben_united
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	##############
+	# CHEYDINHAL
+	##############
+	form_cheydinhal = {
+		major = yes
+		
+		potential = {
+			government = monarchy
+			
+			capital_scope = {
+				region = cheydinhal_region
+			}
+			
+			NOT = {
+				tag = I01
+				tag = I02
+				tag = I03
+				tag = I04
+				tag = I05
+				exists = I06
+				tag = I07
+				tag = I08
+				tag = I09
+				tag = I10
+				tag = I11
+			}
+		}
+		
+		allow = {
+			owns_core_province = 171
+		}
+		
+		effect = {
+			change_tag = I06
+			set_capital = 171
+
+			if = {
+				limit = {
+					NOT = { government_rank = 3 }
+				}
+				set_government_rank = 3    # Set government rank to Duchy
+			}
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	unite_cheydinhal = {
+		major = yes
+		
+		potential = {
+			tag = I06
+			government = monarchy
+			
+			NOT = { has_country_flag = cheydinhal_united }
+		}
+		
+		allow = {
+			niben_region = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+		
+		effect = {
+			set_government_rank = 4
+				
+			171 = {
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
+			}
+			
+			set_country_flag = cheydinhal_united
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	
+}

@@ -1,0 +1,17 @@
+# Windhelm
+owner = S07
+controller = S07
+add_core = S07
+
+culture = nordic
+religion = nordic_r
+
+base_tax = 8
+base_production = 5
+base_manpower = 10
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

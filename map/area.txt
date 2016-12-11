@@ -1,0 +1,467 @@
+# ===============
+# Cyrodiil
+# ===============
+
+# Rumare
+rumare_area = {
+	1 2 7 28
+}
+
+chalman_area = {
+	8 9 10 11
+}
+
+bleakers_way_area = {
+	4 5 6
+}
+
+urasek_area = {
+	12 13 14 15 16
+}
+
+magia_area = {
+	17 18 19
+}
+
+sejanus_area = {
+	20 21 22 23 24
+}
+
+nikel_area = {
+	3 25 26 27
+}
+
+virtue_area = {
+	29 30 31 32
+}
+
+pells_gate_area = {
+	33 34 35 36
+}
+
+alessia_area = {
+	37 38 39 40
+}
+
+# Anvil
+anvil_area = {
+	41 47 48 54 55
+}
+
+crowhaven_area = {
+	42 43 45 46
+}
+
+sutch_area = {
+	44 57 59 60
+}
+
+wariel_area = {
+	53 56 58
+}
+
+strand_area = {
+	49 50 51 52
+}
+
+hastrel_area = {
+	61 62 63 64
+}
+
+# Kvatch
+kvatch_area = {
+	65 66 67
+}
+
+istirus_area = {
+	70 72 73 74
+}
+
+linchal_area = {
+	68 69 78 79
+}
+
+shardrock_area = {
+	71 75 76 77
+}
+
+varondo_area = {
+	80 81 82 84
+}
+
+dirich_area = {
+	83 87 88
+}
+
+ontus_area = {
+	85 86 89 90
+}
+
+# Skingrad
+skingrad_area = {
+	91 92 95 96 97
+}
+
+blackboot_area = {
+	93 98 99
+}
+
+elengylnn_area = {
+	107 108 109 111
+}
+
+woodhand_area = {
+	106 110 112 113
+}
+
+vlastarus_area = {
+	94 103 104
+}
+
+roebeck_area = {
+	100 101 102 105
+}
+
+# Niben Region
+bravil_area = {
+	114  116  117 123
+}
+
+harcane_area = {
+	118 119 120 121 122
+}
+
+irony_area = {
+	124 125 126 127
+}
+
+waters_edge_area = {
+	128 129 130
+}
+
+leyawiin_area = {
+	115 131 132
+}
+
+# Chorrol
+chorrol_area = {
+	133 134 135 136 142
+}
+
+ash_area = {
+	137 138 139 141
+}
+
+hrotanda_area = {
+	140 145 146 147
+}
+
+colovian_highlands_area = {
+	143 144 149 
+}
+
+sancre_tor_area = {
+	148 150 151 152 153
+}
+
+# Bruma
+bruma_area = {
+	154 155 160 161 162
+}
+
+applewatch_area = {
+	156 157 158 159
+}
+
+frostfire_area = {
+	163 164 165 166 167
+}
+
+frostcrag_area = {
+	168 169 170
+}
+
+# Cheydinhal
+cheydinhal_area = {
+	171 176 177 179 180
+}
+
+arrius_area = {
+	178 181 182
+}
+
+kings_crest_area = {
+	183 184 185
+}
+
+scinia_area = {
+	172 173 174 175
+}
+
+# Nibenay
+facian_area = {
+	186 190 191 192
+}
+
+drakelowe_area = {
+	187 188 189
+}
+
+aurus_area = {
+	193 194 195 226 227
+}
+
+sundercliff_area = {
+	198 199 207
+}
+
+flecia_area = {
+	197 206 209 217 228
+}
+
+gold_throat_area = {
+	201 212 224 
+}
+
+redwater_area = {
+	202 211 218
+}
+
+blackdog_area = {
+	213 215 223
+}
+
+# Blackwood
+blankenmarch_area = {
+	196 210 214 221
+}
+
+blackwood_area = {
+	203 205 208 219 220 225
+}
+
+deepscorn_area = {
+	200 204 216 222 229
+}
+
+# ===============
+# Skyrim
+# ===============
+
+# Haafingar
+solitude_area = {
+	232 233 234 235
+}
+
+hraggstad_area = {
+	236 238 239 240
+}
+
+volskygge_area = {
+	241 242 243 245
+}
+
+dragon_bridge_area = {
+	237 244 246
+}
+
+# The Reach
+markarth_area = {
+	247 248 249
+}
+
+reachwind_area = {
+	251 252 253 254 255
+}
+
+sungard_area = {
+	256 257 258 259
+}
+
+bleakwind_area = {
+	260 262 264
+}
+
+karthspire_area = {
+	250 261 263 272 275
+}
+
+karthwasten_area = {
+	265 270 271
+}
+
+chillwind_area = {
+	266 267 268
+}
+
+dragontooth_area = {
+	269 273 274
+}
+
+# Hjaalmarch
+morthal_area = {
+	276 277 278
+}
+
+snowhawk_area = {
+	279 280 281
+}
+
+eldersblood_area = {
+	286 287 288
+}
+
+skyborn_area = {
+	282 283 284 285
+}
+
+# Whiterun
+whiterun_area = {
+	289 290 301 302 308
+}
+
+valtheim_area = {
+	291 292 293 294
+}
+
+hrothgar_area = {
+	295 296 297
+}
+
+riverwood_area = {
+	298 299 300
+}
+
+greymoor_area = {
+	303 307 309
+}
+
+rorikstead_area = {
+	304 305 306
+}
+
+# Falkreath
+falkreath_area = {
+	310 311 312 314
+}
+
+neugrad_area = {
+	313 315 316 317
+}
+
+helgen_area = {
+	318 319 320 323
+}
+
+brittleshin_area = {
+	321 329 330
+}
+
+sunderstone_area = {
+	324 326 328
+}
+
+shriekwind_area = {
+	322 325 327
+}
+
+# The Rift
+riften_area = {
+	331 334 337 338
+}
+
+angarvunde_area = {
+	335 336 339 340
+}
+
+arcwind_area = {
+	342 344 345
+}
+
+ivarstead_area = {
+	343 347 348
+}
+
+nilheim_area = {
+	341 346 349 350 351 
+}
+
+greenwall_area = {
+	332 333 356
+}
+
+shors_stone_area = {
+	354 355 352 353 357
+}
+
+# Eastmarch
+windhelm_area = {
+	358 359 360
+}
+
+morvunskar_area = {
+	361 363 364 365 366 368
+}
+
+amol_area = {
+	367 369 370 372
+}
+
+mistwatch_area = {
+	371 375 376 377
+}
+
+ansilvund_area = {
+	373 374 381
+}
+
+kynesgrove_area = {
+	362 378 379 380
+}
+
+# Winterhold
+winterhold_area = {
+	382 383 384 385
+}
+
+snowveil_area = {
+	386 387 400
+}
+
+kastav_area = {
+	388 389 390
+}
+
+ironbind_area = {
+	391 392 393 394 398
+}
+
+saarthal_area = {
+	395 396 397 399 401
+}
+
+# The Pale
+dawnstar_area = {
+	402 403 404
+}
+
+dunstad_area = {
+	405 406 407 410
+}
+
+shearpoint_area = {
+	408 409 416 417 418
+}
+
+korvanjund_area = {
+	411 412 413 414 415
+}
+
+# Solstheim
+south_solstheim_area = {
+	419 420 421 422 423 424 425
+}
+
+north_solstheim_area = {
+	426 427 428 429 430 431 432
+}

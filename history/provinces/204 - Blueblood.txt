@@ -1,0 +1,17 @@
+# Blueblood
+owner = I11
+controller = I11
+add_core = I11
+
+culture = nibenese
+religion = eight_divines_r
+
+base_tax = 4
+base_production = 5
+base_manpower = 4
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

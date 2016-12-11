@@ -1,0 +1,17 @@
+# Bruma
+owner = I05
+controller = I05
+add_core = I05
+
+culture = nordic
+religion = eight_divines_r
+
+base_tax = 10
+base_production = 6
+base_manpower = 9
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

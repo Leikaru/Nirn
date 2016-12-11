@@ -1,0 +1,17 @@
+# Cloud Ruler
+owner = I05
+controller = I05
+add_core = I05
+
+culture = nordic
+religion = eight_divines_r
+
+base_tax = 6
+base_production = 5
+base_manpower = 5
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

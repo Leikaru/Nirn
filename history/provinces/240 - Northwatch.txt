@@ -1,0 +1,17 @@
+# Northwatch
+owner = S17
+controller = S17
+add_core = S17
+
+culture = nordic
+religion = eight_divines_r
+
+base_tax = 4
+base_production = 5
+base_manpower = 3
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

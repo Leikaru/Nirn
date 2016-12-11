@@ -1,0 +1,17 @@
+# Alftland
+owner = S47
+controller = S47
+add_core = S47
+
+culture = nordic
+religion = nordic_r
+
+base_tax = 1
+base_production = 1
+base_manpower = 2
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

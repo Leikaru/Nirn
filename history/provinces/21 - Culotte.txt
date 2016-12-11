@@ -1,0 +1,17 @@
+# Culotte
+owner = I18
+controller = I18
+add_core = I18
+
+culture = imperial
+religion = eight_divines_r
+
+base_tax = 2
+base_production = 3
+base_manpower = 1
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

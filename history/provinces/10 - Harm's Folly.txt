@@ -1,0 +1,17 @@
+# Harm's Folly
+owner = I13
+controller = I13
+add_core = I13
+
+culture = imperial
+religion = eight_divines_r
+
+base_tax = 4
+base_production = 6
+base_manpower = 4
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

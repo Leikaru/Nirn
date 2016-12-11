@@ -1,0 +1,17 @@
+# Deadspite
+owner = S24
+controller = S24
+add_core = S24
+
+culture = reachman
+religion = the_old_gods_r
+
+base_tax = 2
+base_production = 1
+base_manpower = 4
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

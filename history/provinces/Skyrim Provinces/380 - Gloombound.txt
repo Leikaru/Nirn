@@ -1,0 +1,17 @@
+# Gloombound
+owner = S07
+controller = S07
+add_core = S07
+
+culture = nordic
+religion = nordic_r
+
+base_tax = 2
+base_production = 4
+base_manpower = 2
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

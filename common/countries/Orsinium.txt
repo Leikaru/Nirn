@@ -1,0 +1,24 @@
+# Orsinium
+graphical_culture = easterngfx
+
+color = { 133 153 129 }
+
+army_names = {
+	"Army"
+}
+
+fleet_names = {
+	"Navy"
+}
+
+leader_names = {
+	"Jeff"
+}
+monarch_names = {
+	"Monarch #0" = 20
+}
+
+ship_names = {
+	Ship
+}
+

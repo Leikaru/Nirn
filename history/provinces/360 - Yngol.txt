@@ -1,0 +1,17 @@
+# Yngol
+owner = S07
+controller = S07
+add_core = S07
+
+culture = nordic
+religion = nordic_r
+
+base_tax = 3
+base_production = 2
+base_manpower = 1
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

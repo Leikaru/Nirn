@@ -1,0 +1,17 @@
+# Autumnwatch
+owner = S35
+controller = S35
+add_core = S35
+
+culture = nordic
+religion = eight_divines_r
+
+base_tax = 5
+base_production = 4
+base_manpower = 5
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

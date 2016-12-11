@@ -1,0 +1,17 @@
+# Ashfallow
+owner = S62
+controller = S62
+add_core = S62
+
+culture = skaal
+religion = all_maker_r
+
+base_tax = 5
+base_production = 3
+base_manpower = 2
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

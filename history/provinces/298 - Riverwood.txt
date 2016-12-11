@@ -1,0 +1,17 @@
+# Riverwood
+owner = S27
+controller = S27
+add_core = S27
+
+culture = nordic
+religion = eight_divines_r
+
+base_tax = 5
+base_production = 4
+base_manpower = 4
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

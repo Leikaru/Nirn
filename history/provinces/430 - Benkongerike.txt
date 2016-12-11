@@ -1,0 +1,17 @@
+# Benkongerike
+owner = S61
+controller = S61
+add_core = S61
+
+culture = skaal
+religion = all_maker_r
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

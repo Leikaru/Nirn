@@ -1,0 +1,42 @@
+﻿l_english:
+  RANK_1:0 "County"
+  RANK_2:0 "Minor Duchy"
+  RANK_3:0 "Duchy"
+  RANK_4:0 "Petty Kingdom"
+  RANK_5:0 "High Kingdom"
+  RANK_6:0 "Empire"
+  RANK_7:0 "Grand Empire"
+  
+  COUNTY:0 "County"
+  MINOR_DUCHY:0 "Minor Duchy"
+  DUCHY:0 "Duchy"
+  PETTY_KINGDOM:0 "Petty Kingdom"
+  HIGH_KINGDOM:0 "High Kingdom"
+  EMPIRE:0 "Empire"
+  GRAND_EMPIRE:0 "Grand Empire"
+  
+  COUNT:0 "Count"
+  DUKE:0 "Duke"
+  KING:0 "King"
+  HIGH_KING:0 "High King"
+  EMPEROR:0 "Emperor"
+  
+  COUNTESS:0 "Countess"
+  DUCHESS:0 "Duchess"
+  QUEEN:0 "Queen"
+  HIGH_QUEEN:0 "High Queen"
+  EMPRESS:0 "Empress"
+  
+  PRINCE_CONSORT:0 "Prince-Consort"
+  
+  CONSORT:0 "Consort"
+  QUEEN_CONSORT:0 "Queen-Consort"
+  EMPRESS_CONSORT:0 "Empress-Consort"
+  
+  HEIR:0 "Heir"
+  
+  # Nord Specific
+  PETTY_JARLDOM: "Petty Jarldom"
+  MINOR_JARLDOM: "Minor Jarldom"
+  JARLDOM: "Jarldom"
+  JARL: "Jarl"

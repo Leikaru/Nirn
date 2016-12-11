@@ -1,0 +1,3 @@
+# TEMPLATE FILE
+discovered_by = western
+

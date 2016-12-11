@@ -1,0 +1,17 @@
+# Atrene
+owner = I20
+controller = I20
+add_core = I20
+
+culture = colovian
+religion = eight_divines_r
+
+base_tax = 2
+base_production = 1
+base_manpower = 2
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

@@ -1,0 +1,17 @@
+# Kvatch
+owner = I03
+controller = I03
+add_core = I03
+
+culture = colovian
+religion = eight_divines_r
+
+base_tax = 11
+base_production = 8
+base_manpower = 10
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

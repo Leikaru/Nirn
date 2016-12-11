@@ -1,0 +1,215 @@
+#####################
+# Tamriel           #
+#####################
+
+# Cyrodiil
+rumare_region = {
+	areas = {
+		rumare_area
+		chalman_area
+		bleakers_way_area
+		urasek_area
+		magia_area
+		sejanus_area
+		nikel_area
+		virtue_area
+		pells_gate_area
+		alessia_area
+	}
+}
+
+anvil_region = {
+	areas = {
+		anvil_area
+		crowhaven_area
+		sutch_area
+		wariel_area
+		strand_area
+		hastrel_area
+	}
+}
+
+kvatch_region = {
+	areas = {
+		kvatch_area
+		istirus_area
+		linchal_area
+		shardrock_area
+		varondo_area
+		dirich_area
+		ontus_area
+	}
+}
+
+skingrad_region = {
+	areas = {
+		skingrad_area
+		blackboot_area
+		elengylnn_area
+		woodhand_area
+		vlastarus_area
+		roebeck_area
+	}
+}
+
+niben_region = {
+	areas = {
+		bravil_area
+		harcane_area
+		irony_area
+		waters_edge_area
+		leyawiin_area
+	}
+}
+
+chorrol_region = {
+	areas = {
+		chorrol_area
+		ash_area
+		hrotanda_area
+		colovian_highlands_area
+		sancre_tor_area
+	}
+}
+
+bruma_region = {
+	areas = {
+		bruma_area
+		applewatch_area
+		frostfire_area
+		frostcrag_area
+	}
+}
+
+cheydinhal_region = {
+	areas = {
+		cheydinhal_area
+		arrius_area
+		kings_crest_area
+		scinia_area
+	}
+}
+
+nibenay_region = {
+	areas = {
+		facian_area
+		drakelowe_area
+		aurus_area
+		flecia_area
+		sundercliff_area
+		gold_throat_area
+		redwater_area
+		blackdog_area
+	}
+}
+
+blackwood_region = {
+	areas = {
+		blankenmarch_area
+		blackwood_area
+		deepscorn_area
+	}
+}
+
+# Skyrim
+haafingar_region = {
+	areas = {
+		solitude_area
+		hraggstad_area
+		volskygge_area
+		dragon_bridge_area
+	}
+}
+
+the_reach_region = {
+	areas = {
+		markarth_area
+		reachwind_area
+		karthspire_area
+		sungard_area
+		bleakwind_area
+		chillwind_area
+		dragontooth_area
+		karthwasten_area
+	}
+}
+
+hjaalmarch_region = {
+	areas = {
+		morthal_area
+		snowhawk_area
+		eldersblood_area
+		skyborn_area
+	}
+}
+
+whiterun_region = {
+	areas = {
+		whiterun_area
+		valtheim_area
+		hrothgar_area
+		riverwood_area
+		greymoor_area
+		rorikstead_area
+	}
+}
+
+falkreath_region = {
+	areas = {
+		falkreath_area
+		neugrad_area
+		helgen_area
+		brittleshin_area
+		shriekwind_area
+		sunderstone_area
+	}
+}
+
+the_rift_region = {
+	areas = {
+		riften_area
+		angarvunde_area
+		greenwall_area
+		arcwind_area
+		ivarstead_area
+		nilheim_area
+		shors_stone_area
+	}
+}
+
+eastmarch_region = {
+	areas = {
+		windhelm_area
+		morvunskar_area
+		amol_area
+		mistwatch_area
+		ansilvund_area
+		kynesgrove_area
+	}
+}
+
+winterhold_region = {
+	areas = {
+		winterhold_area
+		snowveil_area
+		kastav_area
+		ironbind_area
+		saarthal_area
+	}
+}
+
+the_pale_region = {
+	areas = {
+		dawnstar_area
+		dunstad_area
+		korvanjund_area
+		shearpoint_area
+	}
+}
+
+solstheim_region = {
+	areas = {
+		south_solstheim_area
+		north_solstheim_area
+	}
+}

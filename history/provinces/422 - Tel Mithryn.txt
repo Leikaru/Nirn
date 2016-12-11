@@ -1,0 +1,17 @@
+# Tel Mithryn
+owner = S62
+controller = S62
+add_core = S62
+
+culture = dunmer
+religion = nerevarine_r
+
+base_tax = 5
+base_production = 4
+base_manpower = 4
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

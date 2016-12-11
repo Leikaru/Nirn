@@ -1,0 +1,17 @@
+# Brina Cross
+owner = I02
+controller = I02
+add_core = I02
+
+culture = colovian
+religion = eight_divines_r
+
+base_tax = 5
+base_production = 4
+base_manpower = 5
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

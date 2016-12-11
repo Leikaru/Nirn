@@ -1,0 +1,17 @@
+# Fallowstone
+owner = S06
+controller = S06
+add_core = S06
+
+culture = nordic
+religion = eight_divines_r
+
+base_tax = 2
+base_production = 2
+base_manpower = 1
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

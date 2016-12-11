@@ -1,0 +1,17 @@
+# Border Watch
+owner = 
+controller = 
+add_core = 
+
+culture = Khajiit
+religion = eight_divines_r
+
+base_tax = 5
+base_production = 5
+base_manpower = 4
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

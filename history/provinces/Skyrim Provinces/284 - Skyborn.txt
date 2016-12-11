@@ -1,0 +1,17 @@
+# Skyborn
+owner = S22
+controller = S22
+add_core = S22
+
+culture = nordic
+religion = nordic_r
+
+base_tax = 4
+base_production = 4
+base_manpower = 4
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

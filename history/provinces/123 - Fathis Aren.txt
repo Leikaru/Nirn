@@ -1,0 +1,17 @@
+# Fathis Aren
+owner = I07
+controller = I07
+add_core = I07
+
+culture = imperial
+religion = eight_divines_r
+
+base_tax = 4
+base_production = 4
+base_manpower = 2
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

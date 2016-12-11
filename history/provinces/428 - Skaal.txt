@@ -1,0 +1,17 @@
+# Skaal
+owner = S61
+controller = S61
+add_core = S61
+
+culture = skaal
+religion = all_maker_r
+
+base_tax = 5
+base_production = 3
+base_manpower = 6
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

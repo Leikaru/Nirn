@@ -1,0 +1,17 @@
+# Japhet
+owner = S08
+controller = S08
+add_core = S08
+
+culture = nordic
+religion = nordic_r
+
+base_tax = 2
+base_production = 3
+base_manpower = 2
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

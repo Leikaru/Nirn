@@ -1,0 +1,17 @@
+# Brokepromise
+owner = I27
+controller = I27
+add_core = I27
+
+culture = colovian
+religion = eight_divines_r
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

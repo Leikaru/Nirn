@@ -1,0 +1,59 @@
+country_decisions = {
+
+	nirn_form_minor_duchy = {
+		major = yes
+		
+		potential = {
+			NOT = { government_rank = 2 }
+		}
+			
+		allow = {
+			OR = { 
+				total_development = 20
+				num_of_cities = 3
+			}
+			
+			treasury = 50
+		}
+		
+		effect = {
+			set_government_rank = 2
+			add_prestige = 10
+			add_stability = 1
+			add_treasury = -50
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	nirn_form_duchy = {
+		major = yes
+		
+		potential = {
+			government_rank = 2
+			NOT = { government_rank = 3 }
+		}
+		
+		allow = {
+			OR = {
+				total_development = 50
+				num_of_cities = 8
+			}
+			
+			treasury = 100
+		}
+		
+		effect = {
+			set_government_rank = 3
+			add_prestige = 10
+			add_treasury = -100
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+}

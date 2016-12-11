@@ -1,0 +1,27 @@
+# A region can only belong to one super region.
+
+cyrodiil_superregion = {
+	rumare_region
+	anvil_region
+	kvatch_region
+	skingrad_region
+	niben_region
+	chorrol_region
+	bruma_region
+	cheydinhal_region
+	nibenay_region
+	blackwood_region
+}
+
+skyrim_superregion = {
+	haafingar_region
+	the_reach_region
+	hjaalmarch_region
+	whiterun_region
+	falkreath_region
+	the_rift_region
+	eastmarch_region
+	winterhold_region
+	the_pale_region
+	solstheim_region
+}

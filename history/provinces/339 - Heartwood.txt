@@ -1,0 +1,17 @@
+# Heartwood
+owner = S34
+controller = S34
+add_core = S34
+
+culture = nordic
+religion = eight_divines_r
+
+base_tax = 3
+base_production = 5
+base_manpower = 3
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

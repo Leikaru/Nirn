@@ -1,0 +1,17 @@
+# Linchal
+owner = I24
+controller = I24
+add_core = I24
+
+culture = colovian
+religion = eight_divines_r
+
+base_tax = 5
+base_production = 4
+base_manpower = 4
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+
