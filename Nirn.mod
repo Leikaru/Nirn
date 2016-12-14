@@ -2,6 +2,7 @@ name="Nirn - PRE-ALPHA"
 path="mod/Nirn"
 
 replace_path = "common/bookmarks"
+replace_path = "common/disasters"
 replace_path = "history/provinces"
 replace_path = "history/wars"
 
