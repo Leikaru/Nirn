@@ -1,0 +1,4 @@
+# Institution Birthplaces
+birthplace_of_barbarism = {
+	infantry_cost = -0.15
+}
