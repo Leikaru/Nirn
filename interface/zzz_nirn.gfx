@@ -1,0 +1,65 @@
+spriteTypes = {
+	# Nirn Terrain
+	
+	# Colony
+	spriteType = {
+		name = "GFX_colony_terrain_valenwoods"
+		texturefile = "gfx//interface//terrain//colony_terrain_valenwoods.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_colony_terrain_black_marsh"
+		texturefile = "gfx//interface//terrain//colony_terrain_black_marsh.dds"
+	}
+	
+    spriteType = {
+		name = "GFX_colony_terrain_ashlands"
+		texturefile = "gfx//interface//terrain//colony_terrain_ashlands.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_colony_terrain_alikr"
+		texturefile = "gfx//interface//terrain//colony_terrain_alikr.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_colony_terrain_urban"
+		texturefile = "gfx//interface//terrain//colony_terrain_urban.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_colony_terrain_snow_wastes"
+		texturefile = "gfx//interface//terrain//colony_terrain_snow_wastes.dds"
+	}
+    
+	# Combat
+	spriteType = {
+		name = "GFX_combat_terrain_valenwoods"	
+		texturefile = "gfx//interface//terrain//combat_terrain_valenwoods.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_combat_terrain_black_marsh"	
+		texturefile = "gfx//interface//terrain//combat_terrain_black_marsh.dds"
+	}
+	
+    spriteType = {
+		name = "GFX_combat_terrain_ashlands"
+		texturefile = "gfx//interface//terrain//combat_terrain_ashlands.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_combat_terrain_alikr"
+		texturefile = "gfx//interface//terrain//combat_terrain_alikr.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_combat_terrain_urban"
+		texturefile = "gfx//interface//terrain//combat_terrain_urban.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_combat_terrain_snow_wastes"
+		texturefile = "gfx//interface//terrain//combat_terrain_snow_wastes.dds"
+	}
+}

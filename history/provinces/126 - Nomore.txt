@@ -3,8 +3,8 @@ owner = I33
 controller = I33
 add_core = I33
 
-culture = Khajiit
-religion = eight_divines_r
+culture = anequinan
+religion = alkosh_r
 
 base_tax = 3
 base_production = 4
