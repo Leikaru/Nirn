@@ -289,7 +289,114 @@ categories =  {
 		
 		terrain_override = {
 		}	
-	}	
+	}
+	
+	#########################
+	# Nirn Terrains
+	#########################
+	
+	# Valenwoods. Found in central Valenwood. Basically an extreme Jungle
+	valenwoods = {
+		color = { 86 191 102 }
+
+		sound_type = jungle
+		
+		movement_cost = 2
+		defence = 2
+		local_development_cost = 0.5
+		local_hostile_attrition = 2	# Good luck
+		nation_designer_cost_multiplier = 1
+		supply_limit = 3
+		
+		terrain_override = {
+		}
+	}
+	
+	# Black Marsh. Found in Central Argonia. Basically extreme extreme marsh
+	black_marsh = {
+		color = { 27 92 70 }
+		
+		sound_type = marsh
+		
+		movement_cost = 4
+		defence = 3
+		local_development_cost = 0.75
+		local_hostile_attrition = 4 # Basically impossible to get through
+		nation_designer_cost_multiplier = 0.95
+		supply_limit = 2
+		
+		terrain_override = {
+		}
+	}
+	
+	# Ashlands. Vvardenfell.
+	ashlands = {
+		color = { 163 154 131 }
+		
+		sound_type = plains
+		
+		movement = 1.2
+		local_development_cost = 0.25
+		nation_designer_cost_multiplier = 0.9
+		supply_limit = 4
+		
+		terrain_override = {
+		}
+	}
+	
+	# Alik'r. Special type of desert found in Hammerfell.
+	alikr_desert = {
+		color = { 194 114 72 }
+		
+		type = desert
+		sound_type = desert
+		
+		movement_cost = 1.2
+		supply_limit = 3
+		local_development_cost = 0.1
+		local_hostile_attrition = 3
+		nation_designer_cost_multiplier = 1
+		
+		terrain_override = {
+		}
+	}
+	
+	# Urban. Major cities + a fair amount of High Rock.
+	urban = {
+		color = { 173 173 173 }
+		
+		sound_type = plains
+		
+		movement_cost = 1
+		defence = 2
+		supply_limit = 12
+		
+		local_development_cost = -0.1
+		
+		nation_designer_cost_multiplier = 1.1
+		
+		terrain_override = {
+			1 41 65 91 114 115 133 154 171  # Cities of Cyrodiil
+			232 247 289 331 358				# 5 Major Cities of Skyrim (Winterhold not included as it's still a pretty cold place)
+		}
+	}
+	
+	# Snow Wastes. Found in Atmora. Extreme Arctic conditions. Some places literally frozen in time.
+	snow_wastes = {
+		color = { 75 124 209 }
+		
+		sound_type = desert
+		
+		movement_cost = 2
+		supply_limit = 2
+		
+		local_development_cost = 1
+		
+		nation_designer_cost_multiplier = 0.75
+		
+		terrain_override = {
+		}
+	}
 }
 	
 ##################################################################
@@ -333,7 +440,15 @@ terrain = {
 	woods				= { type = woods			color = { 	255	 } }
 	jungle				= { type = jungle			color = { 	254	 } }
 	
-	terrain_21			= { type = farmlands		color = { 	21	 } }	
+	terrain_21			= { type = farmlands		color = { 	21	 } }
+	
+	# Nirn Terrain
+	valenwoods			= { type = valenwoods		color = {	253	 } }
+	black_marsh			= { type = black_marsh		color = {	252  } }
+	ashlands			= { type = ashlands			color = {	251  } }
+	alikr_desert		= { type = alikr_desert		color = {	250  } }
+	urban				= { type = urban			color = {	249  } }
+	snow_wastes			= { type = snow_wastes		color = {	248  } }
 }
 
 ##################################################################
