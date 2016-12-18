@@ -3,7 +3,7 @@ government_rank = 4
 primary_culture = nordic
 religion = eight_divines_r
 technology_group = western
-capital = 1
+capital = 232 # Solitude
 
 3340.1.1 = {
 	monarch = {
