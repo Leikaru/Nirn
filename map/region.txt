@@ -284,3 +284,70 @@ vvardenfell_region = {
 		ashlands_area
 	}
 }
+
+# High Rock
+daggerfall_region = {
+	areas = {
+		daggerfall_area
+		glenumbra_area
+		anticlere_area
+		daenia_area
+	}
+}
+
+camlorn_region = {
+	areas = {
+		camlorn_area
+		ykalon_area
+		urvanus_area
+		bhoriane_area
+		kambria_area
+	}
+}
+
+northpoint_region = {
+	areas = {
+		northpoint_area
+		whitehaven_area
+		normar_heights_area
+		portdun_area
+	}
+}
+
+wayrest_region = {
+	areas = {
+		wayrest_area
+		balfiera_area
+		alcaire_area
+		norwalk_area
+	}
+}
+
+wrothgarian_mountains_region = {
+	areas = {
+		sharnhelm_area
+		thorkan_area
+		darguard_area
+		orsinium_area
+	}
+}
+
+evermore_region = {
+	areas = {
+		evermore_area
+		black_wastes_area
+		heartis_area
+		azras_crossing_area
+	}
+}
+
+western_reach_region = {
+	areas = {
+		farrun_area
+		jehenna_area
+		dunlain_area
+		kathgran_area
+		ravenspring_area
+		dunkarn_area
+	}
+}

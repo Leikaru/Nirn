@@ -635,3 +635,139 @@ gnisis_area = {
 ashlands_area = {
 	611 615 616 617 618 640
 }
+
+###################
+# High Rock
+###################
+
+# Daggerfall
+daggerfall_area = {
+	642 652 656 685 686
+}
+
+glenumbra_area = {
+	653 654 687 688 689
+}
+
+anticlere_area = {
+	655 657 690
+}
+
+daenia_area = {
+	659 660 691 692
+}
+
+# Camlorn
+camlorn_area = {
+	643 699 700 701 706 707
+}
+
+ykalon_area = {
+	661 693 698
+}
+
+urvanus_area = {
+	658 662 694 695 696
+}
+
+bhoriane_area = {
+	663 697 702
+}
+
+kambria_area = {
+	664 668 704 705
+}
+
+# Northpoint
+northpoint_area = {
+	644 717 718 719
+}
+
+whitehaven_area = {
+	665 708 709 710 711 712
+}
+
+normar_heights_area = {
+	672 713 714 715 716
+}
+
+portdun_area = {
+	675 720 721 722 723
+}
+
+# Wayrest
+wayrest_area = {
+	647 750 751
+}
+
+balfiera_area = {
+	651 671 748 749
+}
+
+alcaire_area = {
+	669 670 703 747
+}
+
+norwalk_area = {
+	677 678 752 753 754
+}
+
+# Wrothgarian Mountains
+sharnhelm_area = {
+	645 667 770 771 772
+}
+
+thorkan_area = {
+	673 674 773 774
+}
+
+darguard_area = {
+	666 758 759
+}
+
+orsinium_area = {
+	646 760 761 762 763 764 775
+}
+
+# Evermore
+evermore_area = {
+	648 755 756
+}
+
+black_wastes_area = {
+	680 767 768 769
+}
+
+heartis_area = {
+	679 724 725 726 727
+}
+
+azras_crossing_area = {
+	676 765 766
+}
+
+
+# Western Reach
+farrun_area = {
+	649 740 741
+}
+
+jehenna_area = {
+	650 744 745 746
+}
+
+dunlain_area = {
+	684 739 743
+}
+
+kathgran_area = {
+	683 728 729 731
+}
+
+ravenspring_area = {
+	682 732 736 737 738 742
+}
+
+dunkarn_area = {
+	681 730 733 734 735
+}

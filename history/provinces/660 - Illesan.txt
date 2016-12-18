@@ -1,0 +1,17 @@
+# Illesan
+owner = R15
+controller = R15
+add_core = R15
+
+culture = breton
+religion = eight_divines_r
+
+base_tax = 4
+base_production = 7
+base_manpower = 5
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

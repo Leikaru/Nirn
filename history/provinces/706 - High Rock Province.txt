@@ -1,0 +1,17 @@
+# High Rock Province
+owner = R23
+controller = R23
+add_core = R23
+
+culture = breton
+religion = eight_divines_r
+
+base_tax = 1
+base_production = 3
+base_manpower = 2
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

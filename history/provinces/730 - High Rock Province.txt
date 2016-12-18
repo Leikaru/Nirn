@@ -1,0 +1,17 @@
+# High Rock Province
+owner = R31
+controller = R31
+add_core = R31
+
+culture = reachman
+religion = the_old_gods_r
+
+base_tax = 3
+base_production = 1
+base_manpower = 2
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

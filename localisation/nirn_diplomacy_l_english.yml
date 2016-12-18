@@ -1,0 +1,8 @@
+﻿l_english:
+  NIRN_BOTH_ELVEN:0 "Both Nations must be Elven to perform this action"
+  NIRN_BOTH_HUMAN:0 "Both Nations must be Human to perform this action"
+  NIRN_BOTH_KHAJIIT:0 "Both Nations must be Kha'Jiit to perform this action"
+  NIRN_BOTH_ARGONIAN:0 "Both Nations must be Argonian to perform this action"
+  
+  NIRN_WAR_HIGH_HROTHGAR_OFFENSIVE:0 "High Hrothgar cannot declare war on Nordic Nations"
+  NIRN_WAR_HIGH_HROTHGAR_DEFENSIVE:0 "Nordic Nations cannot declare war on High Hrothgar"

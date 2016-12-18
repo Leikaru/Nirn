@@ -1,0 +1,17 @@
+# Wind Keep
+owner = R33
+controller = R33
+add_core = R33
+
+culture = breton
+religion = eight_divines_r
+
+base_tax = 4
+base_production = 7
+base_manpower = 4
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

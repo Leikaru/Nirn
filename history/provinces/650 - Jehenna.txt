@@ -1,0 +1,17 @@
+# Jehenna
+owner = R08
+controller = R08
+add_core = R08
+
+culture = reachman
+religion = the_old_gods_r
+
+base_tax = 9
+base_production = 6
+base_manpower = 9
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

@@ -1,0 +1,17 @@
+# Dunlain
+owner = R07
+controller = R07
+add_core = R07
+
+culture = reachman
+religion = the_old_gods_r
+
+base_tax = 4
+base_production = 4
+base_manpower = 4
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

@@ -1,0 +1,7 @@
+government = feudal_monarchy
+government_rank = 2
+primary_culture = breton
+religion = eight_divines_r
+technology_group = western
+capital = 665
+

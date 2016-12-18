@@ -1,0 +1,17 @@
+# Black Wastes
+owner = R31
+controller = R31
+add_core = R31
+
+culture = reachman
+religion = the_old_gods_r
+
+base_tax = 4
+base_production = 6
+base_manpower = 5
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

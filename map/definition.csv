@@ -640,62 +640,195 @@ province;red;green;blue;x;x
 639;40;3;76;Gnaar Mok;x
 640;26;2;51;Dagon Fel;x
 641;33;3;63;Vivec;x
-642;204;195;173;High Rock;x
-643;143;114;46;Hammerfell;x
-644;255;254;104;Alinor;x
-645;173;254;153;Valenwood;x
-646;214;196;141;Elsewyr;x
-647;35;115;35;Argonia;x
-648;121;41;202;Pyandonea;x
-649;210;108;183;Yokuda;x
-650;151;228;218;Atmora;x
-651;211;198;137;The Islands;x
-652;58;167;153;Kamal;x
-653;129;210;171;Tsaesci;x
-654;237;190;87;Ka Po Tun;x
-655;131;114;80;Tang Mo;x
-656;120;154;164;Uncolonized Akavir;x
-657;20;20;255;Sea Province;x
-658;20;30;255;Sea Province;x
-659;20;40;255;Sea Province;x
-660;20;50;255;Sea Province;x
-661;20;60;255;Sea Province;x
-662;20;70;255;Sea Province;x
-663;20;80;255;Sea Province;x
-664;20;90;255;Sea Province;x
-665;20;100;255;Sea Province;x
-666;20;110;255;Sea Province;x
-667;20;120;255;Sea Province;x
-668;20;130;255;Sea Province;x
-669;20;140;255;Sea Province;x
-670;20;150;255;Sea Province;x
-671;20;160;255;Sea Province;x
-672;20;170;255;Sea Province;x
-673;20;180;255;Sea Province;x
-674;20;190;255;Sea Province;x
-675;20;200;255;Sea Province;x
-676;20;210;255;Sea Province;x
-677;20;220;255;Sea Province;x
-678;20;230;255;Sea Province;x
-679;20;240;255;Sea Province;x
-680;20;250;255;Sea Province;x
-681;30;20;255;Sea Province;x
-682;30;30;255;Sea Province;x
-683;30;40;255;Sea Province;x
-684;30;50;255;Sea Province;x
-685;30;60;255;Sea Province;x
-686;30;70;255;Sea Province;x
-687;30;80;255;Sea Province;x
-688;30;90;255;Sea Province;x
-689;30;100;255;Sea Province;x
-690;30;110;255;Sea Province;x
-691;30;120;255;Sea Province;x
-692;30;130;255;Sea Province;x
-693;30;140;255;Sea Province;x
-694;30;150;255;Sea Province;x
-695;30;160;255;Sea Province;x
-696;30;170;255;Sea Province;x
-697;30;180;255;Sea Province;x
-698;30;190;255;Sea Province;x
-699;30;200;255;Sea Province;x
-700;30;210;255;Sea Province;x
+642;255;102;0;Daggerfall;x
+643;242;96;0;Camlorn;x
+644;229;91;0;Northpoint;x
+645;216;86;0;Sharnhelm;x
+646;204;81;0;Orsinium;x
+647;191;76;0;Wayrest;x
+648;178;71;0;Evermore;x
+649;165;66;0;Farrun;x
+650;153;61;0;Jehenna;x
+651;140;56;0;Balfiera;x
+652;127;51;0;Tulune;x
+653;114;45;0;Glenumbra;x
+654;102;40;0;Glenpoint;x
+655;89;35;0;Shalgora;x
+656;76;30;0;Betony;x
+657;63;25;0;Anticlere;x
+658;51;20;0;Urvanus;x
+659;38;15;0;Daenia;x
+660;25;10;0;Illesan;x
+661;255;109;12;Ykalon;x
+662;242;104;12;Dwynnen;x
+663;229;98;11;Bhoriane;x
+664;216;93;10;Kambria;x
+665;204;87;10;Whitehaven;x
+666;191;82;9;Darguard;x
+667;178;76;8;Thorvale;x
+668;165;71;8;Eagle Brook;x
+669;153;65;7;Koegria;x
+670;140;60;7;Alcaire;x
+671;127;54;6;Menevia;x
+672;114;49;5;Normar Heights;x
+673;102;43;5;Thorkan;x
+674;89;38;4;Markwasten;x
+675;76;32;3;Portdun;x
+676;63;27;3;Azra's Crossing;x
+677;51;21;2;Norwalk;x
+678;38;16;1;Wind Keep;x
+679;255;117;25;Heartis;x
+680;242;111;24;Black Wastes;x
+681;229;105;22;Dunkarn;x
+682;216;99;21;Ravenspring;x
+683;204;93;20;Kathgran;x
+684;191;87;19;Dunlain;x
+685;178;82;17;High Rock Province;x
+686;165;76;16;High Rock Province;x
+687;153;70;15;High Rock Province;x
+688;140;64;14;High Rock Province;x
+689;127;58;12;High Rock Province;x
+690;114;52;11;High Rock Province;x
+691;102;46;10;High Rock Province;x
+692;89;41;8;High Rock Province;x
+693;76;35;7;High Rock Province;x
+694;63;29;6;High Rock Province;x
+695;51;23;5;High Rock Province;x
+696;38;17;3;High Rock Province;x
+697;25;11;2;High Rock Province;x
+698;255;124;38;High Rock Province;x
+699;242;118;36;High Rock Province;x
+700;229;112;34;High Rock Province;x
+701;216;106;32;High Rock Province;x
+702;204;99;30;High Rock Province;x
+703;191;93;28;High Rock Province;x
+704;178;87;26;High Rock Province;x
+705;165;81;24;High Rock Province;x
+706;153;74;22;High Rock Province;x
+707;140;68;21;High Rock Province;x
+708;127;62;19;High Rock Province;x
+709;114;56;17;High Rock Province;x
+710;102;49;15;High Rock Province;x
+711;89;43;13;High Rock Province;x
+712;76;37;11;High Rock Province;x
+713;63;31;9;High Rock Province;x
+714;51;24;7;High Rock Province;x
+715;38;18;5;High Rock Province;x
+716;25;12;3;High Rock Province;x
+717;255;132;50;High Rock Province;x
+718;242;125;48;High Rock Province;x
+719;229;119;45;High Rock Province;x
+720;216;112;43;High Rock Province;x
+721;204;106;40;High Rock Province;x
+722;191;99;38;High Rock Province;x
+723;178;92;35;High Rock Province;x
+724;165;86;33;High Rock Province;x
+725;153;79;30;High Rock Province;x
+726;140;72;28;High Rock Province;x
+727;127;66;25;High Rock Province;x
+728;114;59;22;High Rock Province;x
+729;102;53;20;High Rock Province;x
+730;89;46;17;High Rock Province;x
+731;76;39;15;High Rock Province;x
+732;63;33;12;High Rock Province;x
+733;51;26;10;High Rock Province;x
+734;38;19;7;High Rock Province;x
+735;25;13;5;High Rock Province;x
+736;255;140;63;High Rock Province;x
+737;242;133;60;High Rock Province;x
+738;229;126;57;High Rock Province;x
+739;216;119;54;High Rock Province;x
+740;204;112;51;High Rock Province;x
+741;191;105;47;High Rock Province;x
+742;178;98;44;High Rock Province;x
+743;165;91;41;High Rock Province;x
+744;153;84;38;High Rock Province;x
+745;140;77;35;High Rock Province;x
+746;127;70;31;High Rock Province;x
+747;114;63;28;High Rock Province;x
+748;102;56;25;High Rock Province;x
+749;89;49;22;High Rock Province;x
+750;76;42;19;High Rock Province;x
+751;63;35;15;High Rock Province;x
+752;51;28;12;High Rock Province;x
+753;38;21;9;High Rock Province;x
+754;25;14;6;High Rock Province;x
+755;255;147;76;High Rock Province;x
+756;242;140;72;High Rock Province;x
+757;255;239;229;Wrothgarian Mountains;x
+758;229;133;68;High Rock Province;x
+759;216;125;65;High Rock Province;x
+760;204;118;61;High Rock Province;x
+761;191;110;57;High Rock Province;x
+762;178;103;53;High Rock Province;x
+763;165;96;49;High Rock Province;x
+764;153;88;45;High Rock Province;x
+765;140;81;42;High Rock Province;x
+766;127;73;38;High Rock Province;x
+767;114;66;34;High Rock Province;x
+768;102;59;30;High Rock Province;x
+769;89;51;26;High Rock Province;x
+770;76;44;22;High Rock Province;x
+771;63;36;19;High Rock Province;x
+772;51;29;15;High Rock Province;x
+773;38;22;11;High Rock Province;x
+774;25;14;7;High Rock Province;x
+775;12;7;3;High Rock Province;x
+776;143;114;46;Hammerfell;x
+777;255;254;104;Alinor;x
+778;173;254;153;Valenwood;x
+779;214;196;141;Elsewyr;x
+780;35;115;35;Argonia;x
+781;121;41;202;Pyandonea;x
+782;210;108;183;Yokuda;x
+783;151;228;218;Atmora;x
+784;211;198;137;The Islands;x
+785;58;167;153;Kamal;x
+786;129;210;171;Tsaesci;x
+787;237;190;87;Ka Po Tun;x
+788;131;114;80;Tang Mo;x
+789;120;154;164;Uncolonized Akavir;x
+790;20;20;255;Sea Province;x
+791;20;30;255;Sea Province;x
+792;20;40;255;Sea Province;x
+793;20;50;255;Sea Province;x
+794;20;60;255;Sea Province;x
+795;20;70;255;Sea Province;x
+796;20;80;255;Sea Province;x
+797;20;90;255;Sea Province;x
+798;20;100;255;Sea Province;x
+799;20;110;255;Sea Province;x
+800;20;120;255;Sea Province;x
+801;20;130;255;Sea Province;x
+802;20;140;255;Sea Province;x
+803;20;150;255;Sea Province;x
+804;20;160;255;Sea Province;x
+805;20;170;255;Sea Province;x
+806;20;180;255;Sea Province;x
+807;20;190;255;Sea Province;x
+808;20;200;255;Sea Province;x
+809;20;210;255;Sea Province;x
+810;20;220;255;Sea Province;x
+811;20;230;255;Sea Province;x
+812;20;240;255;Sea Province;x
+813;20;250;255;Sea Province;x
+814;30;20;255;Sea Province;x
+815;30;30;255;Sea Province;x
+816;30;40;255;Sea Province;x
+817;30;50;255;Sea Province;x
+818;30;60;255;Sea Province;x
+819;30;70;255;Sea Province;x
+820;30;80;255;Sea Province;x
+821;30;90;255;Sea Province;x
+822;30;100;255;Sea Province;x
+823;30;110;255;Sea Province;x
+824;30;120;255;Sea Province;x
+825;30;130;255;Sea Province;x
+826;30;140;255;Sea Province;x
+827;30;150;255;Sea Province;x
+828;30;160;255;Sea Province;x
+829;30;170;255;Sea Province;x
+830;30;180;255;Sea Province;x
+831;30;190;255;Sea Province;x
+832;30;200;255;Sea Province;x
+833;30;210;255;Sea Province;x

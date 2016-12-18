@@ -1,0 +1,17 @@
+# Glenpoint
+owner = R13
+controller = R13
+add_core = R13
+
+culture = breton
+religion = eight_divines_r
+
+base_tax = 7
+base_production = 6
+base_manpower = 6
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

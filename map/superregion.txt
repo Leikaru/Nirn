@@ -34,3 +34,13 @@ morrowind_superregion = {
 	telvannis_region
 	vvardenfell_region
 }
+
+high_rock_superregion = {
+	daggerfall_region
+	camlorn_region
+	northpoint_region
+	wayrest_region
+	wrothgarian_mountains_region
+	evermore_region
+	western_reach_region
+}

@@ -1,0 +1,3 @@
+# Wrothgarian Mountains - Wasteland
+discovered_by = western
+

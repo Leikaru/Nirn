@@ -1,0 +1,597 @@
+# Do not change tags in here without changing every other reference to them.
+# If adding new groups or cultures, make sure they are unique.
+#
+# Union tags do not suffer from the 'same_culture_group' tax penalty.
+# Primary tags are the first choice for rebel factions seeking cultural independence.
+#
+# graphical_culture = westerngfx
+# second_graphical_culture = muslimgfx (fallback if the first does not exist)
+
+# ==============
+# MEN CULTURES
+# ==============
+
+# Atmorans
+atmoran_group = {
+	graphical_culture = westerngfx
+	
+	# Atmoran - Atmora + some of Roscrea
+	atmoran = {
+		# primary = ???
+		male_names = {}
+		
+		female_names = {}
+		
+		dynasty_names = {}
+	}
+	
+	# Skaal - Solstheim + some of Roscrea
+	skaal = {
+		# primary = ???
+		male_names = {}
+		
+		female_names = {}
+		
+		dynasty_names = {}
+	}
+	
+	# Nordic - Skyrim + North Cyrodiil
+	nordic = {
+		# primary = ???
+		male_names = {}
+		
+		female_names = {}
+		
+		dynasty_names = {}
+	}
+}
+
+# Nedes
+nedic_group = {
+	graphical_culture = westerngfx
+	
+	# Nedes - Extinct by the Interregnum
+	nedic = {
+		# primary = ???
+		male_names = {}
+		
+		female_names = {}
+		
+		dynasty_names = {}
+	}
+	
+	# Imperial - Central Cyrodiil
+	imperial = {
+		# primary = ???
+		male_names = {}
+		
+		female_names = {}
+		
+		dynasty_names = {}
+	}
+	
+	# Colovian - Western Cyrodiil
+	colovian = {
+		primary = I10
+		male_names = {}
+		
+		female_names = {}
+		
+		dynasty_names = {}
+	}
+	
+	# Nibenese - Eastern Cyrodiil
+	nibenese = {
+		primary = I11
+		male_names = {}
+		
+		female_names = {}
+		
+		dynasty_names = {}
+	}
+	
+	# Breton - High Rock
+	breton = {
+		# primary = ???
+		male_names = {}
+		
+		female_names = {}
+		
+		dynasty_names = {}
+	}
+	
+	# Kothringi - Black Marsh (no provinces)
+	kothringi = {
+		# primary = ???
+		male_names = {}
+		
+		female_names = {}
+		
+		dynasty_names = {}
+	}
+	
+	# Ket Keptu - Central Hammerfell (no provinces)
+	ket_keptu = {
+		# primary = ???
+		male_names = {}
+		
+		female_names = {}
+		
+		dynasty_names = {}
+	}
+	
+	# Reachman - Eastern High Rock, Western Skyrim
+	reachman = {
+		# primary = ???
+		male_names = {}
+		
+		female_names = {}
+		
+		dynasty_names = {}
+	}
+}
+
+yokudan_group = {
+	graphical_culture = westerngfx
+	
+	# Yokudan - Yokuda
+	yokudan = {
+		# primary = ???
+		male_names = {}
+		
+		female_names = {}
+		
+		dynasty_names = {}
+	}
+	
+	# Crown - Hammerfell
+	crown = {
+		# primary = ???
+		male_names = {}
+		
+		female_names = {}
+		
+		dynasty_names = {}
+	}
+	
+	# Forebear - Hammerfell
+	forebear = {
+		# primary = ???
+		male_names = {}
+		
+		female_names = {}
+		
+		dynasty_names = {}
+	}
+}
+
+akaviri_group = {
+	graphical_culture = westerngfx
+	
+	# Akaviri - Small portion of land in Akavir
+	akaviri = {
+		# primary = ???
+		male_names = {}
+		
+		female_names = {}
+		
+		dynasty_names = {}
+	}
+	
+	# Islanders - The Lost Islands
+	islander = {
+		# primary = ???
+		male_names = {}
+		
+		female_names = {}
+		
+		dynasty_names = {}
+	}
+}
+
+# ==============
+# ELVEN CULTURES
+# ==============
+aldmeri = {
+	graphical_culture = westerngfx
+	
+	# Aldmer - Extinct
+	aldmer = {
+		# primary = ???
+		male_names = {}
+		
+		female_names = {}
+		
+		dynasty_names = {}
+	}
+	
+	# Falmer - Extinct
+	falmer = {
+		# primary = ???
+		male_names = {}
+		
+		female_names = {}
+		
+		dynasty_names = {}
+	}
+	
+	# Ayleid - Small parts of Valenwood
+	ayleid = {
+		# primary = ???
+		male_names = {}
+		
+		female_names = {}
+		
+		dynasty_names = {}
+	}
+	
+	# Altmer - Alinor
+	altmer = {
+		# primary = ???
+		male_names = {}
+		
+		female_names = {}
+		
+		dynasty_names = {}
+	}
+	
+	# Bosmer - Valenwood
+	bosmer = {
+		# primary = ???
+		male_names = {}
+		
+		female_names = {}
+		
+		dynasty_names = {}
+	}
+	
+	# Maormer - Pyandonea
+	maormer = {
+		# primary = ???
+		male_names = {}
+		
+		female_names = {}
+		
+		dynasty_names = {}
+	}
+	
+	# Direnni - Balfiera
+	direnni = {
+		# primary = ???
+		male_names = {}
+		
+		female_names = {}
+		
+		dynasty_names = {}
+	}
+}
+
+velothi = {
+	graphical_culture = westerngfx
+	
+	# Chimer - Extinct
+	chimer = {
+		# primary = ???
+		male_names = {}
+		
+		female_names = {}
+		
+		dynasty_names = {}
+	}
+	
+	# Dunmer - Morrowind
+	dunmer = {
+		# primary = ???
+		male_names = {}
+		
+		female_names = {}
+		
+		dynasty_names = {}
+	}
+	
+	# Ashlander - Vvardenfell
+	ashlander = {
+		# primary = ???
+		male_names = {}
+		
+		female_names = {}
+		
+		dynasty_names = {}
+	}
+	
+	# Dwemer - Extinct
+	dwemer = {
+		# primary = ???
+		male_names = {}
+		
+		female_names = {}
+		
+		dynasty_names = {}
+	}
+}
+
+orcish = {
+	graphical_culture = westerngfx
+	
+	# Wood Orc - Valenwood
+	wood_orc = {
+		# primary = ???
+		male_names = {}
+		
+		female_names = {}
+		
+		dynasty_names = {}
+	}
+	
+	# Orcs - High Rock / Hammerfell
+	orsimer = {
+		# primary = ???
+		male_names = {}
+		
+		female_names = {}
+		
+		dynasty_names = {}
+	}
+}
+
+# ==============
+# ARGONIAN CULTURES
+# ==============
+argonian = {
+	graphical_culture = westerngfx
+	
+	# Agaceph
+	agaceph = {
+		# primary = ???
+		male_names = {}
+		
+		female_names = {}
+		
+		dynasty_names = {}
+	}
+	
+	# Archein
+	archein = {
+		# primary = ???
+		male_names = {}
+		
+		female_names = {}
+		
+		dynasty_names = {}
+	}
+	
+	# Gee-Rusleel
+	gee_rusleel = {
+		# primary = ???
+		male_names = {}
+		
+		female_names = {}
+		
+		dynasty_names = {}
+	}
+	
+	# Kota-Vimleel
+	kota_vimleel = {
+		# primary = ???
+		male_names = {}
+		
+		female_names = {}
+		
+		dynasty_names = {}
+	}
+	
+	# Paatru
+	paatru = {
+		# primary = ???
+		male_names = {}
+		
+		female_names = {}
+		
+		dynasty_names = {}
+	}
+	
+	# Sarpa
+	sarpa = {
+		# primary = ???
+		male_names = {}
+		
+		female_names = {}
+		
+		dynasty_names = {}
+	}
+	
+	# Tum-Taleel
+	tum_taleel = {
+		# primary = ???
+		male_names = {}
+		
+		female_names = {}
+		
+		dynasty_names = {}
+	}
+	
+	# Naga
+	naga = {
+		# primary = ???
+		male_names = {}
+		
+		female_names = {}
+		
+		dynasty_names = {}
+	}
+	
+	# Veskhleel-Tzel
+	veskhleel_tzel = {
+		# primary = ???
+		male_names = {}
+		
+		female_names = {}
+		
+		dynasty_names = {}
+	}
+	
+	# Wasseek-Haleel
+	wasseek_haleel = {
+		# primary = ???
+		male_names = {}
+		
+		female_names = {}
+		
+		dynasty_names = {}
+	}
+}
+
+# ==============
+# KHAJIIT CULTURES
+# ==============
+khajiit = {
+	graphical_culture = westerngfx
+	
+	# Anequinan - North Elsewyr
+	anequinan = {
+		# primary = ???
+		male_names = {}
+		
+		female_names = {}
+		
+		dynasty_names = {}
+	}
+	
+	# Pelletinian - South Elsewyr
+	pelletinian = {
+		# primary = ???
+		male_names = {}
+		
+		female_names = {}
+		
+		dynasty_names = {}
+	}
+}
+
+# ==============
+# AKAVIR CULTURES
+# ==============
+po_tun_group = {
+	graphical_culture = westerngfx
+	
+	# Po'Tun
+	po_tun = {
+		# primary = ???
+		male_names = {}
+		
+		female_names = {}
+		
+		dynasty_names = {}
+	}
+	
+	# Ka Po' Tun
+	ka_po_tun = {
+		# primary = ???
+		male_names = {}
+		
+		female_names = {}
+		
+		dynasty_names = {}
+	}
+}
+
+tsaesci_group = {
+	graphical_culture = westerngfx
+	
+	# Tsaesci
+	tsaesci = {
+		# primary = ???
+		male_names = {}
+		
+		female_names = {}
+		
+		dynasty_names = {}
+	}
+}
+
+tang_mo_group = {
+	graphical_culture = westerngfx
+	
+	# Tang Mo
+	tang_mo = {
+		# primary = ???
+		male_names = {}
+		
+		female_names = {}
+		
+		dynasty_names = {}
+	}
+}
+
+kamal_group = {
+	graphical_culture = westerngfx
+	
+	# Kamal
+	kamal = {
+		# primary = ???
+		male_names = {}
+		
+		female_names = {}
+		
+		dynasty_names = {}
+	}
+}
+
+# ==============
+# DAEDRIC CULTURES
+# ==============
+daedra_group = {
+	graphical_culture = westerngfx
+	
+	daedric = {
+		# primary = ???
+		male_names = {}
+		
+		female_names = {}
+		
+		dynasty_names = {}
+	}
+}
+
+
+# ==============
+# RANDOM CULTURES
+# ==============
+lilmothiit_group = {
+	graphical_culture = westerngfx
+	
+	lilmothiit = {
+		# primary = ???
+		male_names = {}
+		
+		female_names = {}
+		
+		dynasty_names = {}
+	}
+}
+
+imga_group = {
+	graphical_culture = westerngfx
+	
+	imga = {
+		# primary = ???
+		male_names = {}
+		
+		female_names = {}
+		
+		dynasty_names = {}
+	}
+}
+
+sload = {
+	graphical_culture = westerngfx
+	
+	sload = {
+		# primary = ???
+		male_names = {}
+		
+		female_names = {}
+		
+		dynasty_names = {}
+	}
+}

@@ -1,0 +1,17 @@
+# Dunkarn
+owner = R34
+controller = R34
+add_core = R34
+
+culture = reachman
+religion = the_old_gods_r
+
+base_tax = 5
+base_production = 5
+base_manpower = 4
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

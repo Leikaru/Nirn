@@ -1,0 +1,17 @@
+# Daggerfall
+owner = R01
+controller = R01
+add_core = R01
+
+culture = breton
+religion = eight_divines_r
+
+base_tax = 9
+base_production = 8
+base_manpower = 12
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

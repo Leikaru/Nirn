@@ -1,0 +1,17 @@
+# Ykalon
+owner = R19
+controller = R19
+add_core = R19
+
+culture = breton
+religion = eight_divines_r
+
+base_tax = 5
+base_production = 4
+base_manpower = 5
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+
