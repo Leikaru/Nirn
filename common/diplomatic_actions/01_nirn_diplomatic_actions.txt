@@ -1,0 +1,226 @@
+########################################
+# DIPLOMATIC ACTIONS
+########################################
+# royal_marriage
+# declarewar
+# requestpeace
+# support_independence_action
+# allianceaction
+# embargoaction
+# annexationaction
+# integrationaction
+# vassalaction
+# guaranteeaction
+# warningaction
+# threaten_war
+# milaccess
+# fleet_access
+# offer_fleet_access
+# offermilaccess
+# insultaction
+# giftaction
+# claimaction
+# callaction
+# offerloan
+# warsubsidy
+# sellprov
+# imperial_relations_action
+# religious_unity_action
+# grant_electorate
+# remove_electorate
+# grant_freecity
+# remove_freecity
+# demand_unlawful_territory_action
+# call_crusade_action
+# excommunicate_action
+# enforce_peace
+# improve_relation
+# fabricate_claim
+# justify_trade_conflict
+# transfer_trade_power
+# infiltrate_administration
+# sabotage_reputation
+# support_rebels
+# sow_discontent
+# study_technology
+# agitate_for_liberty
+# form_coalition
+# request_to_join_federation
+# invite_to_federation
+# protectorateaction
+# ask_for_protection_action
+# support_heir
+# break_marriage
+# designate_march
+# ask_for_march
+# sell_ships_action
+# counterespionage
+# abandon_union_action
+
+declarewar = {
+
+	# High Hrothgar - Can't Declare, Can't be Declared On by Nords
+	condition = {
+		tooltip = NIRN_WAR_HIGH_HROTHGAR_DEFENSIVE
+		
+		potential = {
+			FROM = {
+				tag = HRO
+			}
+		}
+		
+		allow = {
+			FROM = {
+				tag = HRO
+			}
+			
+			ROOT = {
+				NOT = { primary_culture = nordic }
+			}
+		}
+	}
+	
+	condition = {
+		tooltip = NIRN_WAR_HIGH_HROTHGAR_OFFENSIVE
+	
+		potential = {
+			ROOT = {
+				tag = HRO
+			}
+		}
+		
+		allow = {
+			FROM = {
+				NOT = { primary_culture = nordic }
+			}
+		
+			ROOT = {
+				tag = HRO
+			}
+		}
+	}
+}
+
+warningaction = {
+	condition = {
+		tooltip = NIRN_BOTH_ELVEN
+		
+		potential = {
+			ROOT = {
+				is_elven = yes
+				NOT = { is_barbaric = yes }
+			}
+		}
+		
+		allow = {
+			ROOT = {
+				is_elven = yes
+			}
+			FROM = {
+				is_elven = yes
+			}
+		}
+	}
+	
+	condition = {
+		tooltip = NIRN_BOTH_HUMAN
+		
+		potential = {
+			ROOT = {
+				is_human = yes
+				NOT = { is_barbaric = yes } # Barbaric Nations do as they please
+			}
+		}
+		
+		allow = {
+			ROOT = {
+				is_human = yes
+			}
+			FROM = {
+				is_human = yes
+			}
+		}
+	}
+	
+	condition = {
+		tooltip = NIRN_BOTH_KHAJIIT
+		
+		potential = {
+			ROOT = {
+				culture_group = khajiit
+				NOT = { is_barbaric = yes }
+			}
+		}
+		
+		allow = {
+			ROOT = {
+				culture_group = khajiit
+			}
+			FROM = {
+				culture_group = khajiit
+			}
+		}
+	}
+}
+
+fabricate_claim = {
+	condition = {
+		tooltip = NIRN_BOTH_ELVEN
+		
+		potential = {
+			ROOT = {
+				is_elven = yes
+				NOT = { is_barbaric = yes }
+			}
+		}
+		
+		allow = {
+			ROOT = {
+				is_elven = yes
+			}
+			FROM = {
+				is_elven = yes
+			}
+		}
+	}
+	
+	condition = {
+		tooltip = NIRN_BOTH_HUMAN
+		
+		potential = {
+			ROOT = {
+				is_human = yes
+				NOT = { is_barbaric = yes }
+			}
+		}
+		
+		allow = {
+			ROOT = {
+				is_human = yes
+			}
+			FROM = {
+				is_human = yes
+			}
+		}
+	}
+	
+	condition = {
+		tooltip = NIRN_BOTH_KHAJIIT
+		
+		potential = {
+			ROOT = {
+				culture_group = khajiit
+				NOT = { is_barbaric = yes }
+			}
+		}
+		
+		allow = {
+			ROOT = {
+				culture_group = khajiit
+			}
+			FROM = {
+				culture_group = khajiit
+			}
+		}
+	}
+}
