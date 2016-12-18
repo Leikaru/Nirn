@@ -49,4 +49,5 @@ severe_winter = {
 }
 
 impassable = {
+	607 # Red Mountain
 }

@@ -143,3 +143,15 @@ S60 = "countries/Shor's Stone.txt"
 S61 = "countries/Skaal.txt"
 S62 = "countries/Ashfallow.txt"
 S63 = "countries/Moesring.txt"
+
+# Morrowind
+M01 = "countries/House Redoran.txt"
+M02 = "countries/House Hlaalu.txt"
+M03 = "countries/House Dres.txt"
+M04 = "countries/House Indoril.txt"
+M05 = "countries/House Telvanni.txt"
+
+M06 = "countries/Khuul.txt"
+M07 = "countries/Maar Gan.txt"
+M08 = "countries/Kogoruhn.txt"
+M09 = "countries/Tel Vos.txt"

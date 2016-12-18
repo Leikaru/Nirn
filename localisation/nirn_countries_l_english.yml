@@ -12,6 +12,18 @@
   ORS:0 "Orsinium"
   SOL:0 "Solstheim"
   
+  CYR_ADJ:0 "Cyrodiilic"
+  SKY_ADJ:0 "Nordic"
+  HRK_ADJ:0 "Breton"
+  HAM_ADJ:0 "Redguard"
+  MRW_ADJ:0 "Dunmeri"
+  ARG_ADJ:0 "Argonian"
+  SUM_ADJ:0 "Altmeri"
+  VAL_ADJ:0 "Bosmeri"
+  ELS_ADJ:0 "Kha'Jiit"
+  ORS_ADJ:0 "Orcish"
+  SOL_ADJ:0 "Solstheim"
+  
   # Cyrodiilic Nations
   I01:0 "Imperial Republic"
   I02:0 "Anvil"
@@ -275,4 +287,27 @@
   S61_ADJ:0 "Skaal"
   S62_ADJ:0 "Ashfallow"
   S63_ADJ:0 "Moesring"
+  
+  # Morrowind
+  M01:0 "House Redoran"
+  M02:0 "House Hlaalu"
+  M03:0 "House Dres"
+  M04:0 "House Indoril"
+  M05:0 "House Telvanni"
+  
+  M06:0 "Khuul"
+  M07:0 "Maar Gan"
+  M08:0 "Kogoruhn"
+  M09:0 "Tel Vos"
+  
+  M01_ADJ:0 "Redoran"
+  M02_ADJ:0 "Hlaalu"
+  M03_ADJ:0 "Dres"
+  M04_ADJ:0 "Indoril"
+  M05_ADJ:0 "Telvanni"
+  
+  M06_ADJ:0 "Khuul"
+  M07_ADJ:0 "Maar Gan"
+  M08_ADJ:0 "Kogoruhn"
+  M09_ADJ:0 "Tel Vos"
   

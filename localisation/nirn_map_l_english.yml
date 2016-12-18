@@ -187,6 +187,69 @@
   north_solstheim_area:0 "North Solstheim"
   
   ####################
+  # Morrowind
+  ####################
+  morrowind_superregion:0 "Morrowind"
+  
+  # Blacklight
+  blacklight_region:0 "Blacklight"
+  blacklight_area:0 "Blacklight"
+  cormaris_view_area:0 "Cormaris View"
+  soluthis_area:0 "Soluthis"
+  silgrad_area:0 "Silgrad"
+  veranis_hall_area:0 "Veranis Hall"
+  omayni_area:0 "Omayni"
+  bodrum_area:0 "Bodrum"
+  
+  # Narsis
+  narsis_region:0 "Narsis"
+  narsis_area:0 "Narsis"
+  balfalls_area:0 "Balfalls"
+  kragenmoor_area:0 "Kragenmoor"
+  othrenis_area:0 "Othrenis"
+  andrethis_area:0 "Andrethis"
+  heimlyn_keep_area:0 "Heimlyn Keep"
+  
+  # Tear
+  tear_region:0 "Tear"
+  tear_area:0 "Tear"
+  sotha_sil_area:0 "Sotha Sil"
+  kithendis_falls_area:0 "Kithendis Falls"
+  silnim_dale_area:0 "Silnim Dale"
+  aldsotha_area:0 "Aldsotha"
+  
+  # Mournhold
+  mournhold_region:0 "Mournhold"
+  mournhold_area:0 "Mournhold"
+  ebonheart_area:0 "Ebonheart"
+  old_keep_area:0 "Old Keep"
+  bosmora_area:0 "Bosmora"
+  dervons_watch_area:0 "Dervon's Watch"
+  salen_vulgate_area:0 "Salen Vulgate"
+  necrom_area:0 "Necrom"
+  
+  # Telvannis
+  telvannis_region:0 "Telvannis"
+  telvannis_isles_area:0 "Telvannis Isles"
+  dragon_glade_area:0 "Dragon Glade"
+  greenheights_area:0 "Greenheights"
+  praloris_area:0 "Praloris"
+  velothis_haven_area:0 "Velothi's Haven"
+  llolanthis_area:0 "Llolanthis"
+  firewatch_area:0 "Firewatch"
+  
+  # Vvardenfell
+  vvardenfell_region:0 "Vvardenfell"
+  vivec_area:0 "Vivec"
+  tel_fyr_area:0 "Tel Fyr"
+  balmora_area:0 "Balmora"
+  ghostgate_area:0 "Ghostgate"
+  sadrith_mora_area:0 "Sadrith Mora"
+  aldruhn_area:0 "Ald'Ruhn"
+  gnisis_area:0 "Gnisis"
+  ashlands_area:0 "Ashlands"
+  
+  ####################
   # Terrain
   ####################
   valenwoods:0 "Valenwoods"

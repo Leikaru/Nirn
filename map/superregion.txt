@@ -25,3 +25,12 @@ skyrim_superregion = {
 	the_pale_region
 	solstheim_region
 }
+
+morrowind_superregion = {
+	blacklight_region
+	narsis_region
+	tear_region
+	mournhold_region
+	telvannis_region
+	vvardenfell_region
+}

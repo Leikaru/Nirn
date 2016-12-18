@@ -465,3 +465,173 @@ south_solstheim_area = {
 north_solstheim_area = {
 	426 427 428 429 430 431 432
 }
+
+################
+# Morrowind
+################
+
+# Blacklight
+blacklight_area = {
+	433 465 466 467 468
+}
+
+cormaris_view_area = {
+	439 469 470 471 472 473
+}
+
+soluthis_area = {
+	440 474 475 476 477 478 479
+}
+
+silgrad_area = {
+	441 480 482 483 484 486
+}
+
+veranis_hall_area = {
+	442 481 485 487
+}
+
+omayni_area = {
+	443 488 489 490
+}
+
+bodrum_area = {
+	444 491 492 493 495 496
+}
+
+# Narsis
+narsis_area = {
+	434 524 532 533
+}
+
+balfalls_area = {
+	448 500 503 504
+}
+
+kragenmoor_area = {
+	445 494 497 498 499 501 502 505 506 507
+}
+
+othrenis_area = {
+	450 508 510 517 519 520
+}
+
+andrethis_area = {
+	446 513 514 515 516 521 527
+}
+
+heimlyn_keep_area = {
+	447 522 523 525 526 536
+}
+
+# Tear
+tear_area = {
+	435 542 543 544 545 546 549
+}
+
+sotha_sil_area = {
+	453 534 535 537 538 539 540 541
+}
+
+kithendis_falls_area = {
+	454 547 548 550 551
+}
+
+silnim_dale_area = {
+	452 552 553 554
+}
+
+aldsotha_area = {
+	455 555 556 557
+}
+
+# Mournhold
+mournhold_area = {
+	436 530 558 559 560
+}
+
+ebonheart_area = {
+	449 509 511 512 518 528
+}
+
+old_keep_area = {
+	451 529 531
+}
+
+bosmora_area = {
+	456 561 562 568
+}
+
+dervons_watch_area = {
+	458 563 564 565 566 567
+}
+
+salen_vulgate_area = {
+	457 569 570 571 572 575
+}
+
+necrom_area = {
+	437 576 577 578
+}
+
+# Telvannis
+telvannis_isles_area = {
+	464 601 602 603 604 605 606
+}
+
+dragon_glade_area = {
+	459 573 574 579 580 581
+}
+
+greenheights_area = {
+	460 582 584 585 587
+}
+
+praloris_area = {
+	461 583 586 590 591
+}
+
+velothis_haven_area = {
+	462 588 589 592
+}
+
+llolanthis_area = {
+	463 593 595 596 598
+}
+
+firewatch_area = {
+	438 594 597 599 600
+}
+
+# Vvardenfell
+vivec_area = {
+	626 627 628 629 632 641
+}
+
+tel_fyr_area = {
+	623 624 625
+}
+
+balmora_area = {
+	633 634 635 636 637
+}
+
+ghostgate_area = {
+	608 622 630 631 
+}
+
+sadrith_mora_area = {
+	619 620 621
+}
+
+aldruhn_area = {
+	609 610 638 639
+}
+
+gnisis_area = {
+	612 613 614
+}
+
+ashlands_area = {
+	611 615 616 617 618 640
+}

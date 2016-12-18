@@ -1,0 +1,17 @@
+# Zainab
+owner = M09
+controller = M09
+add_core = M09
+
+culture = ashlander
+religion = nerevarine_r
+
+base_tax = 4
+base_production = 4
+base_manpower = 2
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+
