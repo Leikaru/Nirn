@@ -1,4 +1,14 @@
 ﻿l_english:
+  # Government Types
+  cyrodiilic_monarchy:0 "Cyrodiilic Monarchy"
+  nordic_monarchy:0 "Nordic Monarchy"
+  breton_monarchy:0 "Breton Monarchy"
+  yokudan_monarchy:0 "Yokudan Monarchy"
+  aldmeri_monarchy:0 "Aldmeri Monarchy"
+  bosmeri_monarchy:0 "Bosmeri Monarchy"
+  khajiiti_monarchy:0 "Kha'Jiit Monarchy"
+  
+  # Government Ranks & Names
   RANK_1:0 "County"
   RANK_2:0 "Minor Duchy"
   RANK_3:0 "Duchy"
