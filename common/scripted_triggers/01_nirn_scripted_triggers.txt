@@ -7,9 +7,10 @@ is_elven = {
 
 is_human = {
 	OR = {
-		culture_group = atmoran
-		culture_group = nedic
-		culture_group = yokudan
+		culture_group = atmoran_group
+		culture_group = nedic_group
+		culture_group = yokudan_group
+		culture_group = akaviri_group
 	}
 }
 
@@ -21,5 +22,11 @@ is_barbaric = {
 		primary_culture = ashlander
 		primary_culture = ket_keptu
 		primary_culture = kothringi
+		
+		# Nords were once barbarians
+		AND = {
+			NOT = { is_year = 2920 } # Start of 2nd Era
+			primary_culture = nordic
+		}
 	}
 }

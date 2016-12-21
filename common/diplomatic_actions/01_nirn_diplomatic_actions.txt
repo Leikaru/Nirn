@@ -57,6 +57,75 @@
 # counterespionage
 # abandon_union_action
 
+royal_marriage = {
+	condition = {
+		tooltip = NIRN_BEAST_RACE
+		
+		potential = {
+			ROOT = {
+				OR = {
+					is_human = yes
+					is_elven = yes
+				}
+			}
+		}
+		
+		allow = {
+			ROOT = {
+				OR = {
+					is_human = yes
+					is_elven = yes
+				}
+			}
+			
+			FROM = {
+				OR = {
+					is_human = yes
+					is_elven = yes
+				}
+			}
+		}
+	}
+	
+	condition = {
+		tooltip = NIRN_BOTH_KHAJIIT
+		
+		potential = {
+			ROOT = {
+				culture_group = khajiit
+			}
+		}
+		
+		allow = {
+			ROOT = {
+				culture_group = khajiit
+			}
+			FROM = {
+				culture_group = khajiit
+			}
+		}
+	}
+	
+	condition = {
+		tooltip = NIRN_BOTH_ARGONIAN
+		
+		potential = {
+			ROOT = {
+				culture_group = argonian
+			}
+		}
+		
+		allow = {
+			ROOT = {
+				culture_group = argonian
+			}
+			FROM = {
+				culture_group = argonian
+			}
+		}
+	}
+}
+
 declarewar = {
 
 	# High Hrothgar - Can't Declare, Can't be Declared On by Nords
@@ -224,3 +293,195 @@ fabricate_claim = {
 		}
 	}
 }
+
+requestpeace = { # No Diplomatic Actions Yet }
+
+support_independence_action = { # No Diplomatic Actions Yet }
+
+allianceaction = {
+	condition = {
+		tooltip = NIRN_HIGH_HROTHGAR_ALLY
+		
+		potential = {
+			ROOT = {
+				tag = HRO
+			}
+		}
+		
+		allow = {
+			ROOT = {
+				NOT = { tag = HRO }
+			}
+		}
+	}
+	
+	condition = {
+		tooltip = NIRN_HIGH_HROTHGAR_ALLY_OFFER
+		
+		potential = {
+			FROM = {
+				tag = HRO
+			}
+		}
+		
+		allow = {
+			FROM = {
+				NOT = { tag = HRO }
+			}
+		}
+	}
+}
+
+embargoaction = { # No Diplomatic Actions Yet }
+
+annexationaction = { # No Diplomatic Actions Yet }
+
+integrationaction = { # No Diplomatic Actions Yet }
+
+vassalaction = {
+	condition = {
+		tooltip = NIRN_BOTH_ELVEN
+		
+		potential = {
+			ROOT = {
+				is_elven = yes
+			}
+		}
+		
+		allow = {
+			ROOT = {
+				is_elven = yes
+			}
+			FROM = {
+				is_elven = yes
+			}
+		}
+	}
+	
+	condition = {
+		tooltip = NIRN_BOTH_HUMAN
+		
+		potential = {
+			ROOT = {
+				is_human = yes
+			}
+		}
+		
+		allow = {
+			ROOT = {
+				is_human = yes
+			}
+			FROM = {
+				is_human = yes
+			}
+		}
+	}
+	
+	condition = {
+		tooltip = NIRN_BOTH_KHAJIIT
+		
+		potential = {
+			ROOT = {
+				culture_group = khajiit
+			}
+		}
+		
+		allow = {
+			ROOT = {
+				culture_group = khajiit
+			}
+			FROM = {
+				culture_group = khajiit
+			}
+		}
+	}
+	
+	condition = {
+		tooltip = NIRN_BOTH_ARGONIAN
+		
+		potential = {
+			ROOT = {
+				culture_group = argonian
+			}
+		}
+		
+		allow = {
+			ROOT = {
+				culture_group = argonian
+			}
+			FROM = {
+				culture_group = argonian
+			}
+		}
+	}
+}
+
+guaranteeaction = { # No Diplomatic Actions Yet }
+
+threaten_war = { # No Diplomatic Actions Yet }
+
+milaccess = { # No Diplomatic Actions Yet }
+
+fleet_access = { # No Diplomatic Actions Yet }
+
+offer_fleet_access = { # No Diplomatic Actions Yet }
+
+offermilaccess = { # No Diplomatic Actions Yet }
+
+insultaction = { # No Diplomatic Actions Yet }
+
+giftaction = { # No Diplomatic Actions Yet }
+
+claimaction = { # No Diplomatic Actions Yet }
+
+callaction = { # No Diplomatic Actions Yet }
+
+offerloan = { # No Diplomatic Actions Yet }
+
+warsubsidy = { # No Diplomatic Actions Yet }
+
+sellprov = { # No Diplomatic Actions Yet }
+
+enforce_peace = { # No Diplomatic Actions Yet }
+
+improve_relation = { # No Diplomatic Actions Yet }
+
+justify_trade_conflict = { # No Diplomatic Actions Yet }
+
+transfer_trade_power = { # No Diplomatic Actions Yet }
+
+infiltrate_administration = { # No Diplomatic Actions Yet }
+
+sabotage_reputation = { # No Diplomatic Actions Yet }
+
+support_rebels = { # No Diplomatic Actions Yet }
+
+sow_discontent = { # No Diplomatic Actions Yet }
+
+study_technology = { # No Diplomatic Actions Yet }
+
+agitate_for_liberty = { # No Diplomatic Actions Yet }
+
+form_coalition = { # No Diplomatic Actions Yet }
+
+request_to_join_federation = { # No Diplomatic Actions Yet }
+
+invite_to_federation = { # No Diplomatic Actions Yet }
+
+protectorateaction = { # No Diplomatic Actions Yet }
+
+ask_for_protection_action = { # No Diplomatic Actions Yet }
+
+support_heir = { # No Diplomatic Actions Yet }
+
+break_marriage = { # No Diplomatic Actions Yet }
+
+designate_march = { # No Diplomatic Actions Yet }
+
+ask_for_march = { # No Diplomatic Actions Yet }
+
+sell_ships_action = { # No Diplomatic Actions Yet }
+
+counterespionage = { # No Diplomatic Actions Yet }
+
+abandon_union_action = { # No Diplomatic Actions Yet }
