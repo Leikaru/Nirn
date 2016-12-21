@@ -6,6 +6,14 @@
   NEIGHBOR_NOT_OWNED_IS_INDIVIDUALIST:0 "Borders Nation with §YIndividualism§!"
   tooltip_individualism_embraced:0 "Owner has embraced §YIndividualism§!"
   
+  # Rulership
+  rulership:0 "Rulership"
+  rulership_date:0 "3375"
+  desc_rulership:0 "Rulership decrees that all nations should be ruled with civil laws in place, allowing all people to live prosperously and well. Rulership has been a minor factor for many years, and has allowed barbarians such as the Orcs and the Reachmen to thrive, and own large swathes of territory. However, now that the threat is too high, people are beginning to realise that the time has come for the civilized folk of the world to take action, and stop the barbarians from being a threat anymore."
+  NEIGHBOR_NOT_OWNED_HAS_RULERSHIP:0 "Borders Nation with §YRulership§!"
+  tooltip_civilized_nation:0 "Nation is civilized"
+  tooltip_rulership_embraced:0 "Owner has embraced §YRulership§!"
+  
   # Barbarism
   barbarism:0 "Barbarism"
   barbarism_date:0 "3435"
@@ -15,6 +23,13 @@
   tooltip_barbarism_embraced:0 "Owner has embraced §YBarbarism§!"
   
   # Events relating to Institutions
+  nirn_institutions.2.t:0 "The Beginning of Rulership"
+  nirn_institutions.2.d:0 "The year $YEAR$ is a good year for most of Tamriel. In High Rock, the civilized Breton folk have come up with the perfect solution to the ongoing spread of barbarism; to simply embrace the idea of civilized rulership, and have people from across Tamriel living under a set guide of civil laws which they must obey. Additionally, all reigning monarchs must also help embrace this new idealogy, as they must rule with a strong iron fist, and help finally put an end to the barbarian menaces!"
+  nirn_institutions.2.a:0 "For Civilization!"
+  nirn_institutions.2.a.tt:0 "Countries that have not yet fully §YEmbraced§! §YRulership§! Institution will receive an increasing technology cost penalty of §R1%§! per year up to at most §R50%§!."
+  nirn_institutions.200.d:0 "The year $YEAR$ is a good year for most of Tamriel. In High Rock, the civilized Breton folk have come up with the perfect solution to the ongoing spread of barbarism; to simply embrace the idea of civilized rulership, and have people from across Tamriel living under a set guide of civil laws which they must obey. Additionally, all reigning monarchs must also help embrace this new idealogy, as they must rule with a strong iron fist, and help finally put an end to the barbarian menaces!"
+  nirn_institutions.201.d:0 "Merchants who are believed to have come from afar are speaking of the spread of a new form of idealogies spreading in a province of the continent of Tamriel, known as High Rock. They speak of a movement known as 'rulership', forged with the idea of removing all of the barbarians of our world once and for all, and bringing peace and prosperity across the land."
+  
   nirn_institutions.3.t:0 "The Beginning of Barbarism"
   nirn_institutions.3.d:0 "The year $YEAR$ is a dark year for most of Tamriel. The Reachmen of the Reach have learnt how to develop moreso than ever before. Rumours even spread that they are now taking advantage of magic never seen before, such as even donating their mortality to the Old Gods, in return for power never seen before. Their intimidating nature has only increased, as the regions of High Rock and Skyrim lie unstable, waiting to see if the Reachmen will strike. The dark ages of Barbarism have begun, and it looks like it may never have an end..."
   nirn_institutions.3.a:0 "The Reachmen will rise..."
@@ -24,4 +39,5 @@
   
   # Province Modifiers
   birthplace_of_babarism:0 "Birthplace of Barbarism"
+  birthplace_of_rulership:0 "Birthplace of Rulership"
   
