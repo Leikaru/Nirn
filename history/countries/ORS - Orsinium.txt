@@ -1,7 +1,7 @@
 government = feudal_monarchy
 government_rank = 4
-primary_culture = skaal
-religion = all_maker_r
+primary_culture = orsimer
+religion = malacath_r
 technology_group = western
-capital = 428
+capital = 646
 

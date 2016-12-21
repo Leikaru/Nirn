@@ -1,16 +1,7 @@
-government = feudal_monarchy
+government = nordic_monarchy
 government_rank = 2
 primary_culture = skaal
 religion = all_maker_r
 technology_group = western
-capital = 427 # Moesring
+capital = 427
 
-3340.1.1 = {
-	monarch = {
-		name = "Ysgramor"
-		dynasty = "of Atmora"
-		adm = 6
-		dip = 6
-		mil = 6
-	}
-}

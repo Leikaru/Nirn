@@ -1,16 +1,7 @@
-government = feudal_monarchy
+government = cyrodiilic_monarchy
 government_rank = 3
 primary_culture = imperial
 religion = eight_divines_r
 technology_group = western
 capital = 114
 
-3340.1.1 = {
-	monarch = {
-		name = "Fred"
-		dynasty = "Septim"
-		adm = 2
-		dip = 2
-		mil = 2
-	}
-}

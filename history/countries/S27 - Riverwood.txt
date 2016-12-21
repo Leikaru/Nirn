@@ -1,16 +1,7 @@
-government = feudal_monarchy
+government = nordic_monarchy
 government_rank = 2
 primary_culture = nordic
-religion = eight_divines_r
+religion = nordic_r
 technology_group = western
-capital = 298 # Riverwood
+capital = 298
 
-3340.1.1 = {
-	monarch = {
-		name = "Ysgramor"
-		dynasty = "of Atmora"
-		adm = 6
-		dip = 6
-		mil = 6
-	}
-}
