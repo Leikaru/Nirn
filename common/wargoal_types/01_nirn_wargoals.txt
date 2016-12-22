@@ -1,0 +1,40 @@
+take_province_barbaric_conquest = {
+	type = take_province
+	
+	attacker = {
+		badboy_factor = 0.5
+		prestige_factor = 1.25
+		peace_cost_factor = 1	
+		
+		allowed_provinces = {
+			always = yes
+		}
+
+		po_demand_provinces = yes
+		po_become_vassal = yes
+		po_become_protectorate = yes
+		po_gold = yes
+		
+		prov_desc = ALL_PROVS
+	}
+	
+	defender = {
+		badboy_factor = 0.5
+		prestige_factor = 1.25
+		peace_cost_factor = 1	
+		
+		allowed_provinces = {
+			always = yes
+		}
+
+		po_demand_provinces = yes
+		po_become_vassal = yes
+		po_become_protectorate = yes
+		po_gold = yes
+		
+		prov_desc = ALL_PROVS
+	}	
+	
+	
+	war_name = PRIMITIVE_WAR_NAME	
+}
