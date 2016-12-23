@@ -1,12 +1,28 @@
 ﻿l_english:
   # Government Types
   cyrodiilic_monarchy:0 "Cyrodiilic Monarchy"
+  cyrodiilic_monarchy_desc:0 ""
   nordic_monarchy:0 "Nordic Monarchy"
+  nordic_monarchy_desc:0 ""
   breton_monarchy:0 "Breton Monarchy"
+  breton_monarchy_desc:0 ""
   yokudan_monarchy:0 "Yokudan Monarchy"
+  yokudan_monarchy_desc:0 ""
   aldmeri_monarchy:0 "Aldmeri Monarchy"
+  aldmeri_monarchy_desc:0 ""
   bosmeri_monarchy:0 "Bosmeri Monarchy"
+  bosmeri_monarchy_desc:0 ""
   khajiiti_monarchy:0 "Kha'Jiit Monarchy"
+  khajiiti_monarchy_desc:0 ""
+  
+  imperial_republic:0 "Imperial Republic"
+  imperial_republic_desc:0 ""
+  
+  greybeard_government:0 "Greybeard Cult"
+  greybeard_government_desc:0 ""
+  
+  reachman_chiefdom:0 "Reachman Chiefdom"
+  reachman_chiefdom_desc:0 ""
   
   # Government Ranks & Names
   RANK_1:0 "County"

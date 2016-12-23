@@ -1,134 +1,36 @@
-########################################
-# DIPLOMATIC ACTIONS
-########################################
-# royal_marriage
-# declarewar
-# requestpeace
-# support_independence_action
-# allianceaction
-# embargoaction
-# annexationaction
-# integrationaction
-# vassalaction
-# guaranteeaction
-# warningaction
-# threaten_war
-# milaccess
-# fleet_access
-# offer_fleet_access
-# offermilaccess
-# insultaction
-# giftaction
-# claimaction
-# callaction
-# offerloan
-# warsubsidy
-# sellprov
-# imperial_relations_action
-# religious_unity_action
-# grant_electorate
-# remove_electorate
-# grant_freecity
-# remove_freecity
-# demand_unlawful_territory_action
-# call_crusade_action
-# excommunicate_action
-# enforce_peace
-# improve_relation
-# fabricate_claim
-# justify_trade_conflict
-# transfer_trade_power
-# infiltrate_administration
-# sabotage_reputation
-# support_rebels
-# sow_discontent
-# study_technology
-# agitate_for_liberty
-# form_coalition
-# request_to_join_federation
-# invite_to_federation
-# protectorateaction
-# ask_for_protection_action
-# support_heir
-# break_marriage
-# designate_march
-# ask_for_march
-# sell_ships_action
-# counterespionage
-# abandon_union_action
-
 royal_marriage = {
-	condition = {
-		tooltip = NIRN_BEAST_RACE
-		
-		potential = {
-			ROOT = {
-				OR = {
-					is_human = yes
-					is_elven = yes
-				}
-			}
-		}
-		
-		allow = {
-			ROOT = {
-				OR = {
-					is_human = yes
-					is_elven = yes
-				}
-			}
-			
-			FROM = {
-				OR = {
-					is_human = yes
-					is_elven = yes
-				}
-			}
-		}
-	}
-	
-	condition = {
-		tooltip = NIRN_BOTH_KHAJIIT
-		
-		potential = {
-			ROOT = {
-				culture_group = khajiit
-			}
-		}
-		
-		allow = {
-			ROOT = {
-				culture_group = khajiit
-			}
-			FROM = {
-				culture_group = khajiit
-			}
-		}
-	}
-	
-	condition = {
-		tooltip = NIRN_BOTH_ARGONIAN
-		
-		potential = {
-			ROOT = {
-				culture_group = argonian
-			}
-		}
-		
-		allow = {
-			ROOT = {
-				culture_group = argonian
-			}
-			FROM = {
-				culture_group = argonian
-			}
-		}
-	}
+	# CONDITIONS
+	# Humans can only marry humans and elves.
+	# Elves can only marry humans and elves.
+	# 	Maormer can only marry Maormer, however.
+	# Kha'Jiit can only marry Kha'Jiit.
+	# Argonians can only marry Argonians.
 }
 
 declarewar = {
-
-	# High Hrothgar - Can't Declare, Can't be Declared On by Nords
+	# CONDITIONS
+	# Nordic Nations cannot declare war on High Hrothgar.
+	# Morrowind cannot declare war on nations other than those within Morrowind whilst the Tribunal are in power.
+	condition = {
+		tooltip = NIRN_WAR_HIGH_HROTHGAR_OFFENSIVE
+		
+		potential = {
+			ROOT = {
+				tag = HRO
+			}
+		}
+		
+		allow = {
+			ROOT = {
+				tag = HRO
+			}
+			
+			FROM = {
+				NOT = { primary_culture = nordic }
+			}
+		}
+	}
+	
 	condition = {
 		tooltip = NIRN_WAR_HIGH_HROTHGAR_DEFENSIVE
 		
@@ -139,349 +41,179 @@ declarewar = {
 		}
 		
 		allow = {
-			FROM = {
-				tag = HRO
-			}
-			
 			ROOT = {
 				NOT = { primary_culture = nordic }
+			}
+			
+			FROM = {
+				tag = HRO
 			}
 		}
 	}
 	
 	condition = {
-		tooltip = NIRN_WAR_HIGH_HROTHGAR_OFFENSIVE
-	
+		tooltip = NIRN_MORROWIND_TRIBUNAL_PACIFIST
+		
 		potential = {
 			ROOT = {
-				tag = HRO
+				tag = MRW
+				# government = tribunal_temple
 			}
 		}
 		
 		allow = {
-			FROM = {
-				NOT = { primary_culture = nordic }
-			}
-		
 			ROOT = {
-				tag = HRO
+				NOT = { tag = MRW }
+				# NOT = { government = tribunal_temple }
 			}
 		}
 	}
+}
+
+support_independence_action = {
+	# CONDITIONS
+	# Civilized nations can only support the independence of civilized nations, and vice versa for Barbarous nations.
+	condition = {
+		tooltip = NIRN_CIVILIZED
+		
+		potential = {
+			ROOT = {
+				NOT = { is_barbaric = yes }
+			}
+		}
+		
+		allow = {
+			ROOT = {
+				NOT = { is_barbaric = yes }
+			}
+			
+			FROM = {
+				NOT = { is_barbaric = yes }
+			}
+		}
+	}
+	
+	condition = {
+		tooltip = NIRN_BARBARIC
+		
+		potential = {
+			ROOT = {
+				is_barbaric = yes
+			}
+		}
+		
+		allow = {
+			ROOT = {
+				is_barbaric = yes
+			}
+			
+			FROM = {
+				is_barbaric = yes
+			}
+		}
+	}
+}
+
+allianceaction = {
+	# CONDITIONS
+	# Civilized nations can only ally with other civilized nations, and same with barbarous nations.
+	# Human nations can only ally with human nations.
+	condition = {
+		tooltip = NIRN_CIVILIZED
+		
+		potential = {
+			ROOT = {
+				NOT = { is_barbaric = yes }
+			}
+		}
+		
+		allow = {
+			ROOT = {
+				NOT = { is_barbaric = yes }
+			}
+			
+			FROM = {
+				NOT = { is_barbaric = yes }
+			}
+		}
+	}
+	
+	condition = {
+		tooltip = NIRN_BARBARIC
+		
+		potential = {
+			ROOT = {
+				is_barbaric = yes
+			}
+		}
+		
+		allow = {
+			ROOT = {
+				is_barbaric = yes
+			}
+			
+			FROM = {
+				is_barbaric = yes
+			}
+		}
+	}
+	
+	condition = {
+		tooltip = NIRN_BOTH_HUMAN
+		
+		potential = {
+			ROOT = {
+				is_human = yes
+			}
+		}
+		
+		allow = {
+			ROOT = {
+				is_human = yes
+			}
+			
+			FROM = {
+				is_human = yes
+			}
+		}
+	}
+	
+	condition = {
+		tooltip = NIRN_BOTH_HUMAN
+		
+		potential = {
+			ROOT = {
+				NOT = { is_human = yes }
+			}
+		}
+		
+		allow = {
+			ROOT = {
+				NOT = { is_human = yes }
+			}
+			
+			FROM = {
+				NOT = { is_human = yes }
+			}
+		}
+	}
+}
+
+vassalaction = {
+	# CONDITIONS
+	# Elven nations can only vassalize Elven nations.
+	# Human nations can only vassalize Human nations.
+	# Kha'Jiit can only vassalize Kha'Jiit nations.
+	# Argonians can only vassalize Argonian nations.
+}
+
+guaranteeaction = {
+	# CONDITIONS
+	# Civilized / Barbarian split again.
 }
 
 warningaction = {
-	condition = {
-		tooltip = NIRN_BOTH_ELVEN
-		
-		potential = {
-			ROOT = {
-				is_elven = yes
-				NOT = { is_barbaric = yes }
-			}
-		}
-		
-		allow = {
-			ROOT = {
-				is_elven = yes
-			}
-			FROM = {
-				is_elven = yes
-			}
-		}
-	}
-	
-	condition = {
-		tooltip = NIRN_BOTH_HUMAN
-		
-		potential = {
-			ROOT = {
-				is_human = yes
-				NOT = { is_barbaric = yes } # Barbaric Nations do as they please
-			}
-		}
-		
-		allow = {
-			ROOT = {
-				is_human = yes
-			}
-			FROM = {
-				is_human = yes
-			}
-		}
-	}
-	
-	condition = {
-		tooltip = NIRN_BOTH_KHAJIIT
-		
-		potential = {
-			ROOT = {
-				culture_group = khajiit
-				NOT = { is_barbaric = yes }
-			}
-		}
-		
-		allow = {
-			ROOT = {
-				culture_group = khajiit
-			}
-			FROM = {
-				culture_group = khajiit
-			}
-		}
-	}
+	# CONDITIONS
+	# Species has to be the same to do action, like usual.
+	# Barbarians can warn anybody, however.
 }
-
-fabricate_claim = {
-	condition = {
-		tooltip = NIRN_BOTH_ELVEN
-		
-		potential = {
-			ROOT = {
-				is_elven = yes
-				NOT = { is_barbaric = yes }
-			}
-		}
-		
-		allow = {
-			ROOT = {
-				is_elven = yes
-			}
-			FROM = {
-				is_elven = yes
-			}
-		}
-	}
-	
-	condition = {
-		tooltip = NIRN_BOTH_HUMAN
-		
-		potential = {
-			ROOT = {
-				is_human = yes
-				NOT = { is_barbaric = yes }
-			}
-		}
-		
-		allow = {
-			ROOT = {
-				is_human = yes
-			}
-			FROM = {
-				is_human = yes
-			}
-		}
-	}
-	
-	condition = {
-		tooltip = NIRN_BOTH_KHAJIIT
-		
-		potential = {
-			ROOT = {
-				culture_group = khajiit
-				NOT = { is_barbaric = yes }
-			}
-		}
-		
-		allow = {
-			ROOT = {
-				culture_group = khajiit
-			}
-			FROM = {
-				culture_group = khajiit
-			}
-		}
-	}
-}
-
-requestpeace = { # No Diplomatic Actions Yet }
-
-support_independence_action = { # No Diplomatic Actions Yet }
-
-allianceaction = {
-	condition = {
-		tooltip = NIRN_HIGH_HROTHGAR_ALLY
-		
-		potential = {
-			ROOT = {
-				tag = HRO
-			}
-		}
-		
-		allow = {
-			ROOT = {
-				NOT = { tag = HRO }
-			}
-		}
-	}
-	
-	condition = {
-		tooltip = NIRN_HIGH_HROTHGAR_ALLY_OFFER
-		
-		potential = {
-			FROM = {
-				tag = HRO
-			}
-		}
-		
-		allow = {
-			FROM = {
-				NOT = { tag = HRO }
-			}
-		}
-	}
-}
-
-embargoaction = { # No Diplomatic Actions Yet }
-
-annexationaction = { # No Diplomatic Actions Yet }
-
-integrationaction = { # No Diplomatic Actions Yet }
-
-vassalaction = {
-	condition = {
-		tooltip = NIRN_BOTH_ELVEN
-		
-		potential = {
-			ROOT = {
-				is_elven = yes
-			}
-		}
-		
-		allow = {
-			ROOT = {
-				is_elven = yes
-			}
-			FROM = {
-				is_elven = yes
-			}
-		}
-	}
-	
-	condition = {
-		tooltip = NIRN_BOTH_HUMAN
-		
-		potential = {
-			ROOT = {
-				is_human = yes
-			}
-		}
-		
-		allow = {
-			ROOT = {
-				is_human = yes
-			}
-			FROM = {
-				is_human = yes
-			}
-		}
-	}
-	
-	condition = {
-		tooltip = NIRN_BOTH_KHAJIIT
-		
-		potential = {
-			ROOT = {
-				culture_group = khajiit
-			}
-		}
-		
-		allow = {
-			ROOT = {
-				culture_group = khajiit
-			}
-			FROM = {
-				culture_group = khajiit
-			}
-		}
-	}
-	
-	condition = {
-		tooltip = NIRN_BOTH_ARGONIAN
-		
-		potential = {
-			ROOT = {
-				culture_group = argonian
-			}
-		}
-		
-		allow = {
-			ROOT = {
-				culture_group = argonian
-			}
-			FROM = {
-				culture_group = argonian
-			}
-		}
-	}
-}
-
-guaranteeaction = { # No Diplomatic Actions Yet }
-
-threaten_war = { # No Diplomatic Actions Yet }
-
-milaccess = { # No Diplomatic Actions Yet }
-
-fleet_access = { # No Diplomatic Actions Yet }
-
-offer_fleet_access = { # No Diplomatic Actions Yet }
-
-offermilaccess = { # No Diplomatic Actions Yet }
-
-insultaction = { # No Diplomatic Actions Yet }
-
-giftaction = { # No Diplomatic Actions Yet }
-
-claimaction = { # No Diplomatic Actions Yet }
-
-callaction = { # No Diplomatic Actions Yet }
-
-offerloan = { # No Diplomatic Actions Yet }
-
-warsubsidy = { # No Diplomatic Actions Yet }
-
-sellprov = { # No Diplomatic Actions Yet }
-
-enforce_peace = { # No Diplomatic Actions Yet }
-
-improve_relation = { # No Diplomatic Actions Yet }
-
-justify_trade_conflict = { # No Diplomatic Actions Yet }
-
-transfer_trade_power = { # No Diplomatic Actions Yet }
-
-infiltrate_administration = { # No Diplomatic Actions Yet }
-
-sabotage_reputation = { # No Diplomatic Actions Yet }
-
-support_rebels = { # No Diplomatic Actions Yet }
-
-sow_discontent = { # No Diplomatic Actions Yet }
-
-study_technology = { # No Diplomatic Actions Yet }
-
-agitate_for_liberty = { # No Diplomatic Actions Yet }
-
-form_coalition = { # No Diplomatic Actions Yet }
-
-request_to_join_federation = { # No Diplomatic Actions Yet }
-
-invite_to_federation = { # No Diplomatic Actions Yet }
-
-protectorateaction = { # No Diplomatic Actions Yet }
-
-ask_for_protection_action = { # No Diplomatic Actions Yet }
-
-support_heir = { # No Diplomatic Actions Yet }
-
-break_marriage = { # No Diplomatic Actions Yet }
-
-designate_march = { # No Diplomatic Actions Yet }
-
-ask_for_march = { # No Diplomatic Actions Yet }
-
-sell_ships_action = { # No Diplomatic Actions Yet }
-
-counterespionage = { # No Diplomatic Actions Yet }
-
-abandon_union_action = { # No Diplomatic Actions Yet }

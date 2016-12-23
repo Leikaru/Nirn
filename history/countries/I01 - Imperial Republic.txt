@@ -1,4 +1,4 @@
-government = cyrodiilic_monarchy
+government = imperial_republic
 government_rank = 3
 primary_culture = imperial
 religion = eight_divines_r

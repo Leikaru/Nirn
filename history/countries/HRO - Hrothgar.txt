@@ -1,4 +1,4 @@
-government = nordic_monarchy
+government = greybeard_government
 government_rank = 3
 primary_culture = nordic
 religion = way_of_the_voice_r

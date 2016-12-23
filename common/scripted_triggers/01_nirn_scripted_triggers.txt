@@ -22,11 +22,5 @@ is_barbaric = {
 		primary_culture = ashlander
 		primary_culture = ket_keptu
 		primary_culture = kothringi
-		
-		# Nords were once barbarians
-		AND = {
-			NOT = { is_year = 2920 } # Start of 2nd Era
-			primary_culture = nordic
-		}
 	}
 }
