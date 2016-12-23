@@ -1,0 +1,17 @@
+# Tulune
+owner = R11
+controller = R11
+add_core = R11
+
+culture = breton
+religion = eight_divines_r
+
+base_tax = 6
+base_production = 6
+base_manpower = 6
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

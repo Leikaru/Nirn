@@ -1,0 +1,7 @@
+government = feudal_monarchy
+government_rank = 2
+primary_culture = reachman
+religion = the_old_gods_r
+technology_group = western
+capital = 266
+

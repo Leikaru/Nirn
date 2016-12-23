@@ -1,0 +1,17 @@
+# Marandas
+owner = MRW
+controller = MRW
+add_core = MRW
+
+culture = ashlander
+religion = almsivi_r
+
+base_tax = 1
+base_production = 3
+base_manpower = 4
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

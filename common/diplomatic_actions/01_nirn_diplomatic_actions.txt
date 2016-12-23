@@ -1,0 +1,219 @@
+royal_marriage = {
+	# CONDITIONS
+	# Humans can only marry humans and elves.
+	# Elves can only marry humans and elves.
+	# 	Maormer can only marry Maormer, however.
+	# Kha'Jiit can only marry Kha'Jiit.
+	# Argonians can only marry Argonians.
+}
+
+declarewar = {
+	# CONDITIONS
+	# Nordic Nations cannot declare war on High Hrothgar.
+	# Morrowind cannot declare war on nations other than those within Morrowind whilst the Tribunal are in power.
+	condition = {
+		tooltip = NIRN_WAR_HIGH_HROTHGAR_OFFENSIVE
+		
+		potential = {
+			ROOT = {
+				tag = HRO
+			}
+		}
+		
+		allow = {
+			ROOT = {
+				tag = HRO
+			}
+			
+			FROM = {
+				NOT = { primary_culture = nordic }
+			}
+		}
+	}
+	
+	condition = {
+		tooltip = NIRN_WAR_HIGH_HROTHGAR_DEFENSIVE
+		
+		potential = {
+			FROM = {
+				tag = HRO
+			}
+		}
+		
+		allow = {
+			ROOT = {
+				NOT = { primary_culture = nordic }
+			}
+			
+			FROM = {
+				tag = HRO
+			}
+		}
+	}
+	
+	condition = {
+		tooltip = NIRN_MORROWIND_TRIBUNAL_PACIFIST
+		
+		potential = {
+			ROOT = {
+				tag = MRW
+				# government = tribunal_temple
+			}
+		}
+		
+		allow = {
+			ROOT = {
+				NOT = { tag = MRW }
+				# NOT = { government = tribunal_temple }
+			}
+		}
+	}
+}
+
+support_independence_action = {
+	# CONDITIONS
+	# Civilized nations can only support the independence of civilized nations, and vice versa for Barbarous nations.
+	condition = {
+		tooltip = NIRN_CIVILIZED
+		
+		potential = {
+			ROOT = {
+				NOT = { is_barbaric = yes }
+			}
+		}
+		
+		allow = {
+			ROOT = {
+				NOT = { is_barbaric = yes }
+			}
+			
+			FROM = {
+				NOT = { is_barbaric = yes }
+			}
+		}
+	}
+	
+	condition = {
+		tooltip = NIRN_BARBARIC
+		
+		potential = {
+			ROOT = {
+				is_barbaric = yes
+			}
+		}
+		
+		allow = {
+			ROOT = {
+				is_barbaric = yes
+			}
+			
+			FROM = {
+				is_barbaric = yes
+			}
+		}
+	}
+}
+
+allianceaction = {
+	# CONDITIONS
+	# Civilized nations can only ally with other civilized nations, and same with barbarous nations.
+	# Human nations can only ally with human nations.
+	condition = {
+		tooltip = NIRN_CIVILIZED
+		
+		potential = {
+			ROOT = {
+				NOT = { is_barbaric = yes }
+			}
+		}
+		
+		allow = {
+			ROOT = {
+				NOT = { is_barbaric = yes }
+			}
+			
+			FROM = {
+				NOT = { is_barbaric = yes }
+			}
+		}
+	}
+	
+	condition = {
+		tooltip = NIRN_BARBARIC
+		
+		potential = {
+			ROOT = {
+				is_barbaric = yes
+			}
+		}
+		
+		allow = {
+			ROOT = {
+				is_barbaric = yes
+			}
+			
+			FROM = {
+				is_barbaric = yes
+			}
+		}
+	}
+	
+	condition = {
+		tooltip = NIRN_BOTH_HUMAN
+		
+		potential = {
+			ROOT = {
+				is_human = yes
+			}
+		}
+		
+		allow = {
+			ROOT = {
+				is_human = yes
+			}
+			
+			FROM = {
+				is_human = yes
+			}
+		}
+	}
+	
+	condition = {
+		tooltip = NIRN_BOTH_HUMAN
+		
+		potential = {
+			ROOT = {
+				NOT = { is_human = yes }
+			}
+		}
+		
+		allow = {
+			ROOT = {
+				NOT = { is_human = yes }
+			}
+			
+			FROM = {
+				NOT = { is_human = yes }
+			}
+		}
+	}
+}
+
+vassalaction = {
+	# CONDITIONS
+	# Elven nations can only vassalize Elven nations.
+	# Human nations can only vassalize Human nations.
+	# Kha'Jiit can only vassalize Kha'Jiit nations.
+	# Argonians can only vassalize Argonian nations.
+}
+
+guaranteeaction = {
+	# CONDITIONS
+	# Civilized / Barbarian split again.
+}
+
+warningaction = {
+	# CONDITIONS
+	# Species has to be the same to do action, like usual.
+	# Barbarians can warn anybody, however.
+}

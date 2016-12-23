@@ -1,0 +1,77 @@
+namespace = nirn_ruler
+
+# Monarch Death
+country_event = {
+	id = nirn_ruler.1
+	title = nirn_ruler.1.t
+	desc = nirn_ruler.1.d
+	
+	picture = GOOD_WITH_MONARCH_eventPicture
+	
+	trigger = {
+		NOT = { ruler_has_personality = immortal_personality }
+		
+		OR = {
+			# Short life span
+			AND = {
+				OR = {
+					culture_group = atmoran_group
+					culture_group = orcish
+				}
+				ruler_age = 60
+			}
+			
+			# Normal life span
+			AND = {
+				OR = {
+					AND = {
+						culture_group = nedic_group
+						NOT = { primary_culture = breton }
+						NOT = { primary_culture = reachman }
+					}
+					culture_group = khajiit
+					culture_group = argonian
+				}
+				ruler_age = 70
+			}
+			
+			# Long life span
+			AND = {
+				OR = {
+					primary_culture = breton
+					primary_culture = reachman
+				}
+				ruler_age = 80
+			}
+			
+			# Elven life span
+			AND = {
+				OR = {
+					culture_group = velothi
+					AND = {
+						culture_group = aldmeri
+						NOT = { primary_culture = maormer }
+					}
+				}
+				ruler_age = 300
+			}
+			
+			# Maormer life span
+			AND = {
+				primary_culture = maormer
+				ruler_age = 500
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 120
+		
+		# Factors include use of restoration magic
+	}
+	
+	option = {
+		name = nirn_ruler.1.a # Long live the King / Queen
+		kill_ruler = yes
+	}
+}

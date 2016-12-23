@@ -1,0 +1,17 @@
+# Morrowind Province
+owner = M03
+controller = M03
+add_core = M03
+
+culture = dunmer
+religion = nerevarine_r
+
+base_tax = 4
+base_production = 2
+base_manpower = 1
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

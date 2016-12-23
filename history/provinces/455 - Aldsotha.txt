@@ -1,0 +1,17 @@
+# Aldsotha
+owner = MRW
+controller = MRW
+add_core = MRW
+
+culture = dunmer
+religion = almsivi_r
+
+base_tax = 7
+base_production = 5
+base_manpower = 5
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

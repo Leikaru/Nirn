@@ -1,0 +1,25 @@
+﻿l_english:
+  NIRN_BOTH_ELVEN:0 "Both Nations must be Elven to perform this action"
+  
+  NIRN_BOTH_HUMAN:0 "Both Nations must be Human to perform this action"
+  
+  NIRN_BOTH_KHAJIIT:0 "Both Nations must be Kha'Jiit to perform this action"
+  
+  NIRN_BOTH_ARGONIAN:0 "Both Nations must be Argonian to perform this action"
+  
+  NIRN_BARBARIC:0 "We are considered to barbaric by them to be considered as allies." 
+  NIRN_CIVILIZED:0 "They are too barbaric for us to consider as allies."
+  
+  # Royal Marriage
+  NIRN_BEAST_RACE_MARRIAGE:0 "Elven and Human races cannot marry Beast Races"
+  
+  # War
+  NIRN_WAR_HIGH_HROTHGAR_OFFENSIVE:0 "High Hrothgar cannot declare war on Nordic Nations"
+  NIRN_WAR_HIGH_HROTHGAR_DEFENSIVE:0 "Nordic Nations cannot declare war on High Hrothgar"
+  NIRN_MORROWIND_TRIBUNAL_PACIFIST:0 "The Tribunal would greatly dissaprove of going to war, as they have a pacifist mentality."
+  
+  # Alliance Offers
+  NIRN_HIGH_HROTHGAR_ALLY:0 "As High Hrothgar you cannot ally with any nations"
+  NIRN_HIGH_HROTHGAR_ALLY_OFFER:0 "You cannot ally yourself with High Hrothgar"
+  
+  

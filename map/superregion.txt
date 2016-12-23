@@ -25,3 +25,22 @@ skyrim_superregion = {
 	the_pale_region
 	solstheim_region
 }
+
+morrowind_superregion = {
+	blacklight_region
+	narsis_region
+	tear_region
+	mournhold_region
+	telvannis_region
+	vvardenfell_region
+}
+
+high_rock_superregion = {
+	daggerfall_region
+	camlorn_region
+	northpoint_region
+	wayrest_region
+	wrothgarian_mountains_region
+	evermore_region
+	western_reach_region
+}

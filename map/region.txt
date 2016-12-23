@@ -213,3 +213,141 @@ solstheim_region = {
 		north_solstheim_area
 	}
 }
+
+# Morrowind (regions do not necessarily equate to houses)
+blacklight_region = {
+	areas = {
+		blacklight_area
+		cormaris_view_area
+		soluthis_area
+		silgrad_area
+		veranis_hall_area
+		omayni_area
+		bodrum_area
+	}
+}
+
+narsis_region = {
+	areas = {
+		narsis_area
+		balfalls_area
+		kragenmoor_area
+		othrenis_area
+		andrethis_area
+		heimlyn_keep_area
+	}
+}
+
+tear_region = {
+	areas = {
+		tear_area
+		sotha_sil_area
+		kithendis_falls_area
+		silnim_dale_area
+		aldsotha_area
+	}
+}
+
+mournhold_region = {
+	areas = {
+		mournhold_area
+		ebonheart_area
+		old_keep_area
+		bosmora_area
+		dervons_watch_area
+		salen_vulgate_area
+		necrom_area
+	}
+}
+
+telvannis_region = {
+	areas = {
+		telvannis_isles_area
+		dragon_glade_area
+		greenheights_area
+		praloris_area
+		velothis_haven_area
+		llolanthis_area
+		firewatch_area
+	}
+}
+
+vvardenfell_region = {
+	areas = {
+		vivec_area
+		tel_fyr_area
+		balmora_area
+		ghostgate_area
+		sadrith_mora_area
+		aldruhn_area
+		gnisis_area
+		ashlands_area
+	}
+}
+
+# High Rock
+daggerfall_region = {
+	areas = {
+		daggerfall_area
+		glenumbra_area
+		anticlere_area
+		daenia_area
+	}
+}
+
+camlorn_region = {
+	areas = {
+		camlorn_area
+		ykalon_area
+		urvanus_area
+		bhoriane_area
+		kambria_area
+	}
+}
+
+northpoint_region = {
+	areas = {
+		northpoint_area
+		whitehaven_area
+		normar_heights_area
+		portdun_area
+	}
+}
+
+wayrest_region = {
+	areas = {
+		wayrest_area
+		balfiera_area
+		alcaire_area
+		norwalk_area
+	}
+}
+
+wrothgarian_mountains_region = {
+	areas = {
+		sharnhelm_area
+		thorkan_area
+		darguard_area
+		orsinium_area
+	}
+}
+
+evermore_region = {
+	areas = {
+		evermore_area
+		black_wastes_area
+		heartis_area
+		azras_crossing_area
+	}
+}
+
+western_reach_region = {
+	areas = {
+		farrun_area
+		jehenna_area
+		dunlain_area
+		kathgran_area
+		ravenspring_area
+		dunkarn_area
+	}
+}

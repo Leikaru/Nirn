@@ -1,0 +1,7 @@
+government = feudal_monarchy
+government_rank = 4
+primary_culture = dunmer
+religion = almsivi_r
+technology_group = western
+capital = 436
+

@@ -1,0 +1,17 @@
+# Azra's Crossing
+owner = R06
+controller = R06
+add_core = R06
+
+culture = orsimer
+religion = malacath_r
+
+base_tax = 5
+base_production = 7
+base_manpower = 7
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

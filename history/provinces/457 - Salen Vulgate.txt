@@ -1,0 +1,17 @@
+# Salen Vulgate
+owner = M05
+controller = M05
+add_core = M05
+
+culture = dunmer
+religion = nerevarine_r
+
+base_tax = 5
+base_production = 7
+base_manpower = 7
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

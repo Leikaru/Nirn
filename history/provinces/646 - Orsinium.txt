@@ -1,0 +1,17 @@
+# Orsinium
+owner = ORS
+controller = ORS
+add_core = ORS
+
+culture = orsimer
+religion = malacath_r
+
+base_tax = 7
+base_production = 7
+base_manpower = 12
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

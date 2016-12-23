@@ -1,0 +1,17 @@
+# Darguard
+owner = R36
+controller = R36
+add_core = R36
+
+culture = orsimer
+religion = malacath_r
+
+base_tax = 7
+base_production = 4
+base_manpower = 4
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

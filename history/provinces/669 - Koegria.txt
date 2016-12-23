@@ -1,0 +1,17 @@
+# Koegria
+owner = R21
+controller = R21
+add_core = R21
+
+culture = breton
+religion = eight_divines_r
+
+base_tax = 5
+base_production = 7
+base_manpower = 7
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

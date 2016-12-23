@@ -1,0 +1,17 @@
+# Sharnhelm
+owner = R04
+controller = R04
+add_core = R04
+
+culture = orsimer
+religion = malacath_r
+
+base_tax = 8
+base_production = 6
+base_manpower = 7
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

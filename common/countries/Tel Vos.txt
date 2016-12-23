@@ -1,0 +1,24 @@
+# Morrowind
+graphical_culture = easterngfx
+
+color = { 24 11 54 }
+
+army_names = {
+	"Army"
+}
+
+fleet_names = {
+	"Navy"
+}
+
+leader_names = {
+	"Jeff"
+}
+monarch_names = {
+	"Monarch #0" = 20
+}
+
+ship_names = {
+	Ship
+}
+

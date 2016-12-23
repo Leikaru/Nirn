@@ -1,0 +1,17 @@
+# High Rock Province
+owner = R14
+controller = R14
+add_core = R14
+
+culture = breton
+religion = eight_divines_r
+
+base_tax = 1
+base_production = 3
+base_manpower = 1
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

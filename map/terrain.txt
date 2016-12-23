@@ -341,6 +341,7 @@ categories =  {
 		supply_limit = 4
 		
 		terrain_override = {
+			608 609 610 611 612 613 614 615 616 617 618 619 620 621 622 623 630 631 # Vvardenfell
 		}
 	}
 	
@@ -378,6 +379,8 @@ categories =  {
 		terrain_override = {
 			1 41 65 91 114 115 133 154 171  # Cities of Cyrodiil
 			232 247 289 331 358				# 5 Major Cities of Skyrim (Winterhold not included as it's still a pretty cold place)
+			433 434 435 436 437 438 445 449 453 464 641 # Morrowind
+			642 643 644 645 646 647 648 649 650 652 653 654 655 657 658 659 661 662 663 664 665 668 669 670 671 672 675 677 678 679 681 682 683 684 # High Rock Cities
 		}
 	}
 	

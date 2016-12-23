@@ -1,0 +1,17 @@
+# High Rock Province
+owner = R38
+controller = R38
+add_core = R38
+
+culture = orsimer
+religion = malacath_r
+
+base_tax = 3
+base_production = 1
+base_manpower = 1
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

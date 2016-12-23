@@ -1,0 +1,17 @@
+# Alcaire
+owner = R24
+controller = R24
+add_core = R24
+
+culture = breton
+religion = eight_divines_r
+
+base_tax = 5
+base_production = 5
+base_manpower = 5
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

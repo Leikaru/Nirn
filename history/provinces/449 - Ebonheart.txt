@@ -1,0 +1,17 @@
+# Ebonheart
+owner = MRW
+controller = MRW
+add_core = MRW
+
+culture = dunmer
+religion = almsivi_r
+
+base_tax = 9
+base_production = 7
+base_manpower = 9
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

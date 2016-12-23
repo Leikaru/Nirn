@@ -1,0 +1,17 @@
+# Dwynnen
+owner = R20
+controller = R20
+add_core = R20
+
+culture = breton
+religion = eight_divines_r
+
+base_tax = 7
+base_production = 5
+base_manpower = 4
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

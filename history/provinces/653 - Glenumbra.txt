@@ -1,0 +1,17 @@
+# Glenumbra
+owner = R12
+controller = R12
+add_core = R12
+
+culture = breton
+religion = eight_divines_r
+
+base_tax = 5
+base_production = 5
+base_manpower = 6
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

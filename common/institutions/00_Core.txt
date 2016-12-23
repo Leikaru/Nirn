@@ -42,15 +42,19 @@ individualism = {
 			# - Western / Southern Argonia
 			
 			AND = {
+				is_year = 3400
+				culture_group = velothi
+			}
+			
+			AND = {
+				is_year = 3450
+				culture = bosmer
+			}
+			
+			AND = {
 				is_year = 3500
 				
 				continent = tamriel
-
-				culture_group = velothi
-				culture_group = argonian
-				culture_group = khajiit
-				culture = bosmer
-				culture = skaal
 			}
 		}
 	}
@@ -137,7 +141,163 @@ individualism = {
 # 
 # Starts in a major city of High Rock
 #######################################
-# TODO
+rulership = {
+	penalty = 0.5
+	
+	bonus = {
+		# Something related to ruling well (enable governments?)
+	}
+	
+	historical_start_date = 3395.1.1 # 2E 475
+	historical_start_province = 642 # Daggerfall
+	
+	history = {
+		is_year = 3395
+		
+		OR = {
+			region = daggerfall_region
+			
+			AND = {
+				is_year = 3400
+				region = daggerfall_region
+				region = camlorn_region
+			}
+		
+			AND = {
+				is_year = 3410
+				superregion = high_rock_superregion
+				region = the_reach_region
+			}
+			
+			AND = {
+				is_year = 3425
+				superregion = skyrim_superregion
+			}
+			
+			AND = {
+				is_year = 3440
+				superregion = cyrodiil_superregion
+			}
+			
+			AND = {
+				is_year = 3480
+				superregion = morrowind_superregion
+			}
+			
+			AND = {
+				is_year = 3600
+				continent = tamriel
+			}
+		}
+	}
+
+	can_start = {
+		is_year = 3395
+		
+		superregion = high_rock_superregion
+		
+		OR = {
+			capital = yes
+			development = 20
+		}
+		
+		culture = breton
+	}
+	
+	start_chance = 15
+	
+	on_start = nirn_institutions.2
+	
+	can_embrace = {
+		owner = {
+			has_institution = individualism
+		}
+	}
+	
+	embracement_speed = {
+		modifier = {
+			factor = 0.6
+			scale = yes
+			custom_trigger_tooltip = {
+				tooltip = FRIENDLY_NEIGHBOR_OR_COAST_PROVINCE_HAS_EMBRACED
+				any_friendly_coast_border_province = {
+					rulership = 100
+				}
+			}
+		}
+		modifier = {
+			factor = 0.1
+			scale = yes
+			potential = {
+				NOT = {
+					any_friendly_coast_border_province = {
+						rulership = 100
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = NEIGHBOR_NOT_OWNED_HAS_RULERSHIP
+				any_neighbor_province = {
+					NOT = { owned_by = ROOT }
+					rulership = 100
+				}
+			}
+		}
+		modifier = {
+			factor = 1
+			scale = yes
+			potential = {
+				owner = {
+					NOT = { is_barbaric = yes }
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_civilized_nation
+				NOT = { is_barbaric = yes }
+			}
+		}
+		modifier = {
+			factor = 2
+			scale = yes
+			potential = {
+				owner = {
+					has_institution = rulership
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_rulership_embraced
+				owner = {
+					has_institution = rulership
+				}
+			}
+		}
+	}
+	
+	ai_will_do = { #Cost of embracing institution must be lower than this factor * last month's regular income, and higher if loans are needed. (Or it has a more than long term goal...)
+		factor = 24
+		
+		modifier = {
+			factor = 0.25
+			is_at_war = yes
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.1
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.2
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.3
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.4
+		}
+	}
+}
 
 #######################################
 # Barbarism (?)  
@@ -160,25 +320,31 @@ barbarism = {
 		OR = {
 			# From the very beginning is present in the Reach
 			region = the_reach_region
+			region = western_reach_region
 			
 			AND = {
-				# Spreads through Skyrim and High Rock
 				is_year = 3445
+				
+				# Skyrim
 				region = haafingar_region
 				region = hjaalmarch_region
 				region = whiterun_region
 				region = falkreath_region
+				
+				# High Rock
+				region = wrothgarian_mountains_region
+				region = evermore_region
 			}
 			
 			AND = {
 				is_year = 3450
-				OR = {
-					AND = {
-						# In all of Skyrim but Solstheim
-						superregion = skyrim_superregion
-						NOT = { region = solstheim_region }
-					}
+				AND = {
+					# In all of Skyrim but Solstheim
+					superregion = skyrim_superregion
+					NOT = { region = solstheim_region }
 				}
+				
+				superregion = high_rock_superregion
 			}
 			
 			AND = {
@@ -192,6 +358,16 @@ barbarism = {
 			}
 			
 			AND = {
+				is_year = 3500
+				superregion = cyrodiil_superregion
+			}
+			
+			AND = {
+				is_year = 3550
+				superregion = morrowind_superregion
+			}
+			
+			AND = {
 				is_year = 3600
 				continent = tamriel
 			}
@@ -200,7 +376,10 @@ barbarism = {
 	
 	can_start = {
 		is_year = 3435 # Can start slightly before it does historically
-		region = the_reach_region # Also need to include the Western Reach of High Rock
+		OR = {
+			region = western_reach_region
+			region = the_reach_region # Also need to include the Western Reach of High Rock
+		}
 		is_state = yes
 		
 		# Really wants to be Markarth
@@ -218,7 +397,7 @@ barbarism = {
 	on_start = nirn_institutions.3
 
 	can_embrace = {
-		owner = { has_institution = individualism }
+		owner = { has_institution = rulership }
 	}
 
 	embracement_speed = {

@@ -1,0 +1,17 @@
+# Daenia
+owner = R16
+controller = R16
+add_core = R16
+
+culture = breton
+religion = eight_divines_r
+
+base_tax = 4
+base_production = 7
+base_manpower = 6
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

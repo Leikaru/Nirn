@@ -1,0 +1,26 @@
+is_elven = {
+	OR = {
+		culture_group = velothi
+		culture_group = aldmeri
+	}
+}
+
+is_human = {
+	OR = {
+		culture_group = atmoran_group
+		culture_group = nedic_group
+		culture_group = yokudan_group
+		culture_group = akaviri_group
+	}
+}
+
+is_barbaric = {
+	OR = {
+		culture_group = orcish
+		culture_group = argonian
+		primary_culture = reachman
+		primary_culture = ashlander
+		primary_culture = ket_keptu
+		primary_culture = kothringi
+	}
+}

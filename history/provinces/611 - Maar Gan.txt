@@ -1,0 +1,17 @@
+# Maar Gan
+owner = M07
+controller = M07
+add_core = M07
+
+culture = ashlander
+religion = nerevarine_r
+
+base_tax = 2
+base_production = 2
+base_manpower = 1
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

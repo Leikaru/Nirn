@@ -1,0 +1,17 @@
+# Falasmaryon
+owner = M07
+controller = M07
+add_core = M07
+
+culture = ashlander
+religion = nerevarine_r
+
+base_tax = 3
+base_production = 3
+base_manpower = 2
+
+trade_goods = unknown
+is_city = yes
+
+discovered_by = western
+

@@ -1,7 +1,7 @@
 country_decisions = {
 
 	form_solitude = {
-		is_major = yes
+		major = yes
 		
 		potential = {
 			government = monarchy
@@ -54,7 +54,7 @@ country_decisions = {
 	}
 	
 	form_markarth = {
-		is_major = yes
+		major = yes
 		
 		potential = {
 			government = monarchy
@@ -107,7 +107,7 @@ country_decisions = {
 	}
 	
 	form_morthal = {
-		is_major = yes
+		major = yes
 		
 		potential = {
 			government = monarchy
@@ -160,7 +160,7 @@ country_decisions = {
 	}
 	
 	form_whiterun = {
-		is_major = yes
+		major = yes
 		
 		potential = {
 			government = monarchy
@@ -213,7 +213,7 @@ country_decisions = {
 	}
 	
 	form_falkreath = {
-		is_major = yes
+		major = yes
 		
 		potential = {
 			government = monarchy
@@ -266,7 +266,7 @@ country_decisions = {
 	}
 	
 	form_riften = {
-		is_major = yes
+		major = yes
 		
 		potential = {
 			government = monarchy
@@ -319,7 +319,7 @@ country_decisions = {
 	}
 	
 	form_windhelm = {
-		is_major = yes
+		major = yes
 		
 		potential = {
 			government = monarchy
@@ -372,7 +372,7 @@ country_decisions = {
 	}
 	
 	form_winterhold = {
-		is_major = yes
+		major = yes
 		
 		potential = {
 			government = monarchy
@@ -425,14 +425,14 @@ country_decisions = {
 	}
 	
 	form_dawnstar = {
-		is_major = yes
+		major = yes
 		
 		potential = {
 			government = monarchy
 			primary_culture = nordic
 			
 			capital_scope = {
-				region = haafingar_region
+				region = the_pale_region
 			}
 			
 			NOT = {
@@ -478,7 +478,7 @@ country_decisions = {
 	}
 	
 	unite_haafingar = {
-		is_major = yes
+		major = yes
 		
 		potential = {
 			tag = S01
@@ -517,7 +517,7 @@ country_decisions = {
 	}
 	
 	unite_the_reach = {
-		is_major = yes
+		major = yes
 		
 		potential = {
 			tag = S02
@@ -556,7 +556,7 @@ country_decisions = {
 	}
 	
 	unite_hjaalmarch = {
-		is_major = yes
+		major = yes
 		
 		potential = {
 			tag = S03
@@ -568,7 +568,7 @@ country_decisions = {
 		allow = {
 			is_subject = no
 			capital = 276 # Morthal
-			haafingar_region = {
+			hjaalmarch_region = {
 				type = all
 				owned_by = ROOT
 			}
@@ -594,8 +594,38 @@ country_decisions = {
 		}
 	}
 	
+	# Event for Whiterun and Skyrim to annex High Hrothgar seeing as you can't declare on it
+	annex_high_hrothgar = {
+		major = yes
+		
+		potential = {
+			OR = {
+				tag = S04
+				tag = SKY
+			}
+			exists = HRO
+		}
+		
+		allow = {
+			is_subject = no
+			num_of_cities = 10
+			HRO = {
+				owns_core_province = 295
+			}
+		}
+		
+		effect = {
+			HRO = {
+				every_owned_province = {
+					cede_province = ROOT
+					add_core = ROOT
+				}
+			}
+		}
+	}
+	
 	unite_whiterun = {
-		is_major = yes
+		major = yes
 		
 		potential = {
 			tag = S04
@@ -606,7 +636,7 @@ country_decisions = {
 		allow = {
 			is_subject = no
 			capital = 289 # Whiterun
-			haafingar_region = {
+			whiterun_region = {
 				type = all
 				owned_by = ROOT
 			}
@@ -632,7 +662,7 @@ country_decisions = {
 	}
 	
 	unite_falkreath = {
-		is_major = yes
+		major = yes
 		
 		potential = {
 			tag = S05
@@ -643,7 +673,7 @@ country_decisions = {
 		allow = {
 			is_subject = no
 			capital = 310 # Falkreath
-			haafingar_region = {
+			falkreath_region = {
 				type = all
 				owned_by = ROOT
 			}
@@ -669,7 +699,7 @@ country_decisions = {
 	}
 	
 	unite_the_rift = {
-		is_major = yes
+		major = yes
 		
 		potential = {
 			tag = S06
@@ -708,7 +738,7 @@ country_decisions = {
 	}
 	
 	unite_eastmarch = {
-		is_major = yes
+		major = yes
 		
 		potential = {
 			tag = S07
@@ -747,7 +777,7 @@ country_decisions = {
 	}
 	
 	unite_winterhold = {
-		is_major = yes
+		major = yes
 		
 		potential = {
 			tag = S08
@@ -784,7 +814,7 @@ country_decisions = {
 	}
 	
 	unite_the_pale = {
-		is_major = yes
+		major = yes
 		
 		potential = {
 			tag = S09
@@ -796,7 +826,7 @@ country_decisions = {
 		allow = {
 			is_subject = no
 			capital = 402 # Dawnstar
-			haafingar_region = {
+			the_pale_region = {
 				type = all
 				owned_by = ROOT
 			}

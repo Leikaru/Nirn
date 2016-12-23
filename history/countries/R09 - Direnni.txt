@@ -1,0 +1,7 @@
+government = aldmeri_monarchy
+government_rank = 3
+primary_culture = direnni
+religion = auri_el_r
+technology_group = western
+capital = 650
+

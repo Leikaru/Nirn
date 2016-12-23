@@ -1,0 +1,7 @@
+government = feudal_monarchy
+government_rank = 4
+primary_culture = orsimer
+religion = malacath_r
+technology_group = western
+capital = 646
+

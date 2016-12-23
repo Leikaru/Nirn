@@ -3,14 +3,5 @@ government_rank = 1
 primary_culture = reachman
 religion = the_old_gods_r
 technology_group = western
-capital = 1
+capital = 324
 
-3340.1.1 = {
-	monarch = {
-		name = "Ysgramor"
-		dynasty = "of Atmora"
-		adm = 6
-		dip = 6
-		mil = 6
-	}
-}
