@@ -2,9 +2,118 @@ royal_marriage = {
 	# CONDITIONS
 	# Humans can only marry humans and elves.
 	# Elves can only marry humans and elves.
-	# 	Maormer can only marry Maormer, however.
 	# Kha'Jiit can only marry Kha'Jiit.
 	# Argonians can only marry Argonians.
+	# Civilized nations cannot marry barbaric nations.
+	condition = {
+		tooltip = NIRN_BEAST_RACE_MARRIAGE
+		
+		potential = {
+			ROOT = {
+				OR = {
+					is_human = yes
+					is_elven = yes	
+				}
+			}
+		}
+		
+		allow = {
+			ROOT = {
+				OR = {
+					is_human = yes
+					is_elven = yes
+				}
+			}
+			
+			FROM = {
+				OR = {
+					is_human = yes
+					is_elven = yes
+				}
+			}
+		}
+	}
+	
+	condition = {
+		tooltip = NIRN_BOTH_KHAJIIT
+		
+		potential = {
+			ROOT = {
+				culture_group = khajiit
+			}
+		}
+		
+		allow = {
+			ROOT = {
+				culture_group = khajiit
+			}
+			
+			FROM = {
+				culture_group = khajiit
+			}
+		}
+	}
+	
+	condition = {
+		tooltip = NIRN_BOTH_ARGONIAN
+		
+		potential = {
+			ROOT = {
+				culture_group = argonian
+			}
+		}
+		
+		allow = {
+			ROOT = {
+				culture_group = argonian
+			}
+			
+			FROM = {
+				culture_group = argonian
+			}
+		}
+	}
+	
+	condition = {
+		tooltip = NIRN_CIVILIZED
+		
+		potential = {
+			ROOT = {
+				NOT = { is_barbaric = yes }
+			}
+		}
+		
+		allow = {
+			ROOT = {
+				NOT = { is_barbaric = yes }
+			}
+			
+			FROM = {
+				NOT = { is_barbaric = yes }
+			}
+		}
+	}
+	
+	condition = {
+		tooltip = NIRN_BARBARIC
+		
+		potential = {
+			ROOT = {
+				is_barbaric = yes
+			}
+		}
+		
+		allow = {
+			ROOT = {
+				is_barbaric = yes
+			}
+			
+			FROM = {
+				is_barbaric = yes
+			}
+		}
+	}
+	
 }
 
 declarewar = {
@@ -57,14 +166,23 @@ declarewar = {
 		potential = {
 			ROOT = {
 				tag = MRW
-				# government = tribunal_temple
+			}
+			
+			FROM = {
+				OR = {
+					capital_scope = {
+						NOT = { superregion = morrowind_superregion }
+					}
+					NOT = { religion = nerevarine_r }
+					NOT = { culture_group = velothi }
+				}
 			}
 		}
 		
 		allow = {
 			ROOT = {
-				NOT = { tag = MRW }
-				# NOT = { government = tribunal_temple }
+				tag = MRW
+				NOT = { government = tribunal_temple }
 			}
 		}
 	}
@@ -118,6 +236,7 @@ allianceaction = {
 	# CONDITIONS
 	# Civilized nations can only ally with other civilized nations, and same with barbarous nations.
 	# Human nations can only ally with human nations.
+	# Cannot ally with High Hrothgar.
 	condition = {
 		tooltip = NIRN_CIVILIZED
 		
@@ -197,6 +316,38 @@ allianceaction = {
 			}
 		}
 	}
+	
+	condition = {
+		tooltip = NIRN_HIGH_HROTHGAR_ALLY
+		
+		potential = {
+			ROOT = {
+				tag = HRO
+			}
+		}
+		
+		allow = {
+			ROOT = {
+				NOT = { tag = HRO }
+			}
+		}
+	}
+	
+	condition = {
+		tooltip = NIRN_HIGH_HROTHGAR_ALLY_OFFER
+		
+		potential = {
+			FROM = {
+				tag = HRO
+			}
+		}
+		
+		allow = {
+			FROM = {
+				NOT = { tag = HRO }
+			}
+		}
+	}
 }
 
 vassalaction = {
@@ -205,15 +356,216 @@ vassalaction = {
 	# Human nations can only vassalize Human nations.
 	# Kha'Jiit can only vassalize Kha'Jiit nations.
 	# Argonians can only vassalize Argonian nations.
+	condition = {
+		tooltip = NIRN_BOTH_ELVEN
+		
+		potential = {
+			ROOT = {
+				is_elven = yes
+			}
+		}
+		
+		allow = {
+			ROOT = {
+				is_elven = yes
+			}
+			
+			FROM = {
+				is_elven = yes
+			}
+		}
+	}
+	
+	condition = {
+		tooltip = NIRN_BOTH_HUMAN
+		
+		potential = {
+			ROOT = {
+				is_human = yes
+			}
+		}
+		
+		allow = {
+			ROOT = {
+				is_human = yes
+			}
+			
+			FROM = {
+				is_human = yes
+			}
+		}
+	}
+	
+	condition = {
+		tooltip = NIRN_BOTH_KHAJIIT
+		
+		potential = {
+			ROOT = {
+				culture_group = khajiit
+			}
+		}
+		
+		allow = {
+			ROOT = {
+				culture_group = khajiit
+			}
+			
+			FROM = {
+				culture_group = khajiit
+			}
+		}
+	}
+	
+	condition = {
+		tooltip = NIRN_BOTH_ARGONIAN
+		
+		potential = {
+			ROOT = {
+				culture_group = argonian
+			}
+		}
+		
+		allow = {
+			ROOT = {
+				culture_group = argonian
+			}
+			
+			FROM = {
+				culture_group = argonian
+			}
+		}
+	}
 }
 
 guaranteeaction = {
 	# CONDITIONS
 	# Civilized / Barbarian split again.
+	condition = {
+		tooltip = NIRN_CIVILIZED
+		
+		potential = {
+			ROOT = {
+				NOT = { is_barbaric = yes }
+			}
+		}
+		
+		allow = {
+			ROOT = {
+				NOT = { is_barbaric = yes }
+			}
+			
+			FROM = {
+				NOT = { is_barbaric = yes }
+			}
+		}
+	}
+	
+	condition = {
+		tooltip = NIRN_BARBARIC
+		
+		potential = {
+			ROOT = {
+				is_barbaric = yes
+			}
+		}
+		
+		allow = {
+			ROOT = {
+				is_barbaric = yes
+			}
+			
+			FROM = {
+				is_barbaric = yes
+			}
+		}
+	}
 }
 
 warningaction = {
 	# CONDITIONS
 	# Species has to be the same to do action, like usual.
 	# Barbarians can warn anybody, however.
+	condition = {
+		tooltip = NIRN_BOTH_ELVEN
+		
+		potential = {
+			ROOT = {
+				is_elven = yes
+				NOT = { is_barbaric = yes }
+			}
+		}
+		
+		allow = {
+			ROOT = {
+				is_elven = yes
+			}
+			
+			FROM = {
+				is_elven = yes
+			}
+		}
+	}
+	
+	condition = {
+		tooltip = NIRN_BOTH_HUMAN
+		
+		potential = {
+			ROOT = {
+				is_human = yes
+				NOT = { is_barbaric = yes }
+			}
+		}
+		
+		allow = {
+			ROOT = {
+				is_human = yes
+			}
+			
+			FROM = {
+				is_human = yes
+			}
+		}
+	}
+	
+	condition = {
+		tooltip = NIRN_BOTH_KHAJIIT
+		
+		potential = {
+			ROOT = {
+				culture_group = khajiit
+				NOT = { is_barbaric = yes }
+			}
+		}
+		
+		allow = {
+			ROOT = {
+				culture_group = khajiit
+			}
+			
+			FROM = {
+				culture_group = khajiit
+			}
+		}
+	}
+	
+	condition = {
+		tooltip = NIRN_BOTH_ARGONIAN
+		
+		potential = {
+			ROOT = {
+				culture_group = argonian
+				NOT = { is_barbaric = yes }
+			}
+		}
+		
+		allow = {
+			ROOT = {
+				culture_group = argonian
+			}
+			
+			FROM = {
+				culture_group = argonian
+			}
+		}
+	}
 }
