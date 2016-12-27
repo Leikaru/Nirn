@@ -541,6 +541,8 @@ reachman_chiefdom = {
 		factor = 0
 	}
 	
+	max_states = 5
+	
 	rank = {
 		1 = {
 			land_forcelimit_modifier = 0.1
@@ -573,4 +575,33 @@ reachman_chiefdom = {
 			global_manpower_modifier = 0.75
 		}
 	}
+}
+
+####################
+# UNIQUE GOVERNMENTS
+####################
+tribunal_temple = {
+	monarchy = yes
+	
+	unique_government = yes
+	
+	color = { 126 91 138 }
+	
+	valid_for_new_country = no
+	valid_for_nation_designer = no
+	
+	ai_will_do = {
+		factor = 0
+	}
+	
+	max_states = 5
+	
+	rank = {
+		5 = {
+			diplomats = 1
+			diplomatic_repution = 1
+			diplomatic_upkeep = 2
+		}
+	}
+	fixed_rank = 5
 }

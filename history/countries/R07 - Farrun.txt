@@ -1,4 +1,4 @@
-government = feudal_monarchy
+government = reachman_chiefdom
 government_rank = 3
 primary_culture = reachman
 religion = the_old_gods_r
