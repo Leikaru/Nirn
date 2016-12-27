@@ -16,7 +16,7 @@
   # War
   NIRN_WAR_HIGH_HROTHGAR_OFFENSIVE:0 "High Hrothgar cannot declare war on Nordic Nations"
   NIRN_WAR_HIGH_HROTHGAR_DEFENSIVE:0 "Nordic Nations cannot declare war on High Hrothgar"
-  NIRN_MORROWIND_TRIBUNAL_PACIFIST:0 "The Tribunal would greatly dissaprove of going to war, as they have a pacifist mentality."
+  NIRN_MORROWIND_TRIBUNAL_PACIFIST:0 "The Tribunal would greatly dissaprove of going to war, as they have a pacifist mentality, unless it involves uniting the Dunmer people."
   
   # Alliance Offers
   NIRN_HIGH_HROTHGAR_ALLY:0 "As High Hrothgar you cannot ally with any nations"

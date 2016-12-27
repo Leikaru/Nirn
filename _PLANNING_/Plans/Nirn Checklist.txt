@@ -14,13 +14,28 @@ Nations:
 Religions:
 	Add bonuses for all religions.
 	
-Cultures - DONE
+Cultures:
+	Add primary nations for each culture.
 
 Governments:
-	Add default, base governments
-	Add Imperial Republic government type
-	Add Reachman Chiefdom government type
-	Add Orcish Chiefdom government type
+	Add the following governments:
+	
+	MONARCHIES:
+		Reachman Kingdom
+		Tribunal Temple
+	
+	REPUBLICS:
+		Imperial Republic
+	
+	THEOCRACIES:
+		Greybeard Cult
+	
+	TRIBES (Barbarians):
+		Reachman Chiefdom
+		Orcish Chiefdom
+		Ashlander Tribe
+		Bosmeri Tribe
+		Argonian Tribe
 
 Estates:
 	Remove all vanilla estates.
@@ -31,7 +46,7 @@ Estates:
 		- The Mages Guild
 
 Technology:
-	Work on new technology map
+	Work on new technology tree
 	Add technology groups
 	Finish institutions
 	
@@ -67,6 +82,9 @@ Provinces
 	Add provinces for Hammerfell, Alinor, Valenwood, Elsewyr & Argonia
 	Work on Sea & Lake Provinces
 	Add buildings to provinces
+	
+	In Falkreath, make sure Falkreath has cores on all Colovian territories.
+	Add wasteland surrounding High Hrothgar so that you can only access it by going to Ivarstead.
 
 Trade
 	Add Trade Nodes
@@ -78,6 +96,9 @@ Terrain
 ##############
 # GRAPHICS
 ##############
+
+Map
+	Need to work on Colour Map for the map to make it look nice.
 
 Nation Flags
 	Add base nation flags for all nations
@@ -92,3 +113,4 @@ Misc
 # KNOWN BUGS
 ##############
 Textures for the terrain types 'Ashlands' and 'Urban' appear to short on the province view.
+For some bizarre reason Rank 2 still shows as 'Kingdom' in lots of tooltips rather than 'Minor Duchy'.

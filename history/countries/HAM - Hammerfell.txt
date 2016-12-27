@@ -1,4 +1,4 @@
-government = yokudan_monarchy
+government = redguard_monarchy
 government_rank = 5
 primary_culture = crown
 religion = alikr_r

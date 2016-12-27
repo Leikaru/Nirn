@@ -1,6 +1,6 @@
 civil_war = {
 	potential = {
-		num_of_cities = 5
+		government_rank = 4
 		any_owned_province = {
 			base_tax = 5
 			is_capital = no
