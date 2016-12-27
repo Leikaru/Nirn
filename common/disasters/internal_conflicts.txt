@@ -1,11 +1,10 @@
 internal_conflicts = {
 	potential = {
-		num_of_cities = 10
+		government_rank = 4	# At least a petty kingdom
 		uses_doom = no
 		NOT = {
 			has_country_flag = had_internal_conflicts
 		}
-		is_year = 1500
 	}
 
 
